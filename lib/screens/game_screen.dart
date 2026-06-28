@@ -3,6 +3,7 @@ import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../models/grammar_question.dart';
 import '../services/analytics_service.dart';
@@ -38,6 +39,13 @@ class BubblePosition {
 
 class _GameScreenState extends State<GameScreen>
     with SingleTickerProviderStateMixin {
+  static final Uri _privacyPolicyUrl = Uri.parse(
+    'https://nimatovraushan7-stack.github.io/bubble-grammar-privacy/',
+  );
+  static final Uri _termsOfUseUrl = Uri.parse(
+    'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
+  );
+
   String? selectedAnswer;
   bool selectedAnswerCorrect = false;
   bool timeRanOut = false;
@@ -86,6 +94,21 @@ class _GameScreenState extends State<GameScreen>
     super.dispose();
   }
 
+  Future<void> _openLegalUrl(Uri url) async {
+    final opened = await launchUrl(
+      url,
+      mode: LaunchMode.externalApplication,
+    );
+
+    if (!opened && mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Link openen mislukt'),
+        ),
+      );
+    }
+  }
+
   void startTimer() {
     timer?.cancel();
     setState(() => timeLeft = 10);
@@ -108,10 +131,10 @@ class _GameScreenState extends State<GameScreen>
   }
 
   Future<void> nextQuestion() async {
-  if (!await PremiumService.isPremium() && currentQuestion >= 9) {
-    showPremiumPopup();
-    return;
-  }
+    if (!await PremiumService.isPremium() && currentQuestion >= 9) {
+      showPremiumPopup();
+      return;
+    }
     if (currentQuestion < gameQuestions.length - 1) {
       setState(() {
         currentQuestion++;
@@ -241,6 +264,30 @@ class _GameScreenState extends State<GameScreen>
                   ),
                 ),
               ),
+            ),
+          );
+        }
+
+        Widget legalLink({
+          required String label,
+          required Uri url,
+        }) {
+          return TextButton(
+            onPressed: () => unawaited(_openLegalUrl(url)),
+            style: TextButton.styleFrom(
+              foregroundColor: neonBlue.withOpacity(0.88),
+              padding: EdgeInsets.zero,
+              minimumSize: const Size(0, 28),
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              textStyle: const TextStyle(
+                fontSize: 13.5,
+                fontWeight: FontWeight.w600,
+                decoration: TextDecoration.underline,
+              ),
+            ),
+            child: Text(
+              label,
+              textAlign: TextAlign.center,
             ),
           );
         }
@@ -383,36 +430,38 @@ class _GameScreenState extends State<GameScreen>
                           ),
                           const SizedBox(height: 24),
                           premiumButton(
-  label: 'KOOP PREMIUM',
-  primary: true,
-  onPressed: () async {
-    try {
-      final success = await PremiumService.activatePremium();
+                            label: 'KOOP PREMIUM',
+                            primary: true,
+                            onPressed: () async {
+                              try {
+                                final success =
+                                    await PremiumService.activatePremium();
 
-      if (!mounted || !dialogContext.mounted) return;
+                                if (!mounted || !dialogContext.mounted) return;
 
-      if (success) {
-        Navigator.pop(dialogContext);
+                                if (success) {
+                                  Navigator.pop(dialogContext);
 
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Premium succesvol geactiveerd!'),
-          ),
-        );
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    const SnackBar(
+                                      content: Text(
+                                          'Premium succesvol geactiveerd!'),
+                                    ),
+                                  );
 
-        await nextQuestion();
-      }
-    } catch (e) {
-      if (!mounted) return;
+                                  await nextQuestion();
+                                }
+                              } catch (e) {
+                                if (!mounted) return;
 
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('Aankoop mislukt: $e'),
-        ),
-      );
-    }
-  },
-),
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text('Aankoop mislukt: $e'),
+                                  ),
+                                );
+                              }
+                            },
+                          ),
                           const SizedBox(height: 12),
                           premiumButton(
                             label: 'CODE INVOEREN',
@@ -443,6 +492,20 @@ class _GameScreenState extends State<GameScreen>
                                 letterSpacing: 0.7,
                               ),
                             ),
+                          ),
+                          const SizedBox(height: 14),
+                          Column(
+                            children: [
+                              legalLink(
+                                label: 'Privacy Policy',
+                                url: _privacyPolicyUrl,
+                              ),
+                              const SizedBox(height: 12),
+                              legalLink(
+                                label: 'Terms of Use',
+                                url: _termsOfUseUrl,
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -585,7 +648,8 @@ class _GameScreenState extends State<GameScreen>
                               height: 54,
                               child: TextButton(
                                 style: TextButton.styleFrom(
-                                  backgroundColor: Colors.white.withOpacity(0.06),
+                                  backgroundColor:
+                                      Colors.white.withOpacity(0.06),
                                   foregroundColor: Colors.white,
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(18),
@@ -624,9 +688,12 @@ class _GameScreenState extends State<GameScreen>
                                 ),
                                 onPressed: () async {
                                   final code = controller.text.trim();
-                                  final isValidCode = await RemoteCodeService.isCodeValid(code);
+                                  final isValidCode =
+                                      await RemoteCodeService.isCodeValid(code);
 
-                                  if (!mounted || !dialogContext.mounted) return;
+                                  if (!mounted || !dialogContext.mounted) {
+                                    return;
+                                  }
 
                                   if (!isValidCode) {
                                     ScaffoldMessenger.of(context).showSnackBar(
@@ -641,7 +708,9 @@ class _GameScreenState extends State<GameScreen>
 
                                   await PremiumService.activatePremium();
 
-                                  if (!mounted || !dialogContext.mounted) return;
+                                  if (!mounted || !dialogContext.mounted) {
+                                    return;
+                                  }
 
                                   Navigator.pop(dialogContext);
 

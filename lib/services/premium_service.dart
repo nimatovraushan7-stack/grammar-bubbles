@@ -11,7 +11,7 @@ class PremiumService {
     final configuration = PurchasesConfiguration(
       Platform.isIOS
           ? 'appl_dXDIEgPZgFiVhhzuWGIebRiXOEV'
-          : 'GOOGLE_PUBLIC_SDK_KEY_HIER',
+          : 'goog_StgqJBGZrVRByrqnmvZraizrkLL',
     );
 
     await Purchases.configure(configuration);
