@@ -1,0 +1,1010 @@
+[
+  {
+    "word": "bakken",
+    "verledenTijd": "bakte",
+    "voltooidDeelwoord": "gebakken",
+    "tegenwoordigeTijd": "bakt",
+    "tegenwoordigDeelwoord": "bakkend"
+  },
+  {
+    "word": "bederven",
+    "verledenTijd": "bedierf",
+    "voltooidDeelwoord": "bedorven",
+    "tegenwoordigeTijd": "bederft",
+    "tegenwoordigDeelwoord": "bedervend"
+  },
+  {
+    "word": "bedriegen",
+    "verledenTijd": "bedroog",
+    "voltooidDeelwoord": "bedrogen",
+    "tegenwoordigeTijd": "bedriegt",
+    "tegenwoordigDeelwoord": "bedriegend"
+  },
+  {
+    "word": "beginnen",
+    "verledenTijd": "begon",
+    "voltooidDeelwoord": "begonnen",
+    "tegenwoordigeTijd": "begint",
+    "tegenwoordigDeelwoord": "beginnend"
+  },
+  {
+    "word": "begrijpen",
+    "verledenTijd": "begreep",
+    "voltooidDeelwoord": "begrepen",
+    "tegenwoordigeTijd": "begrijpt",
+    "tegenwoordigDeelwoord": "begrijpend"
+  },
+  {
+    "word": "bevallen",
+    "verledenTijd": "beviel",
+    "voltooidDeelwoord": "bevallen",
+    "tegenwoordigeTijd": "bevalt",
+    "tegenwoordigDeelwoord": "bevallend"
+  },
+  {
+    "word": "bewegen",
+    "verledenTijd": "bewoog",
+    "voltooidDeelwoord": "bewogen",
+    "tegenwoordigeTijd": "beweegt",
+    "tegenwoordigDeelwoord": "bewegend"
+  },
+  {
+    "word": "bezoeken",
+    "verledenTijd": "bezocht",
+    "voltooidDeelwoord": "bezocht",
+    "tegenwoordigeTijd": "bezoekt",
+    "tegenwoordigDeelwoord": "bezoekend"
+  },
+  {
+    "word": "bidden",
+    "verledenTijd": "bad",
+    "voltooidDeelwoord": "gebeden",
+    "tegenwoordigeTijd": "bidt",
+    "tegenwoordigDeelwoord": "biddend"
+  },
+  {
+    "word": "bieden",
+    "verledenTijd": "bood",
+    "voltooidDeelwoord": "geboden",
+    "tegenwoordigeTijd": "biedt",
+    "tegenwoordigDeelwoord": "biedend"
+  },
+  {
+    "word": "bijten",
+    "verledenTijd": "beet",
+    "voltooidDeelwoord": "gebeten",
+    "tegenwoordigeTijd": "bijt",
+    "tegenwoordigDeelwoord": "bijtend"
+  },
+  {
+    "word": "binden",
+    "verledenTijd": "bond",
+    "voltooidDeelwoord": "gebonden",
+    "tegenwoordigeTijd": "bindt",
+    "tegenwoordigDeelwoord": "bindend"
+  },
+  {
+    "word": "blazen",
+    "verledenTijd": "blies",
+    "voltooidDeelwoord": "geblazen",
+    "tegenwoordigeTijd": "blaast",
+    "tegenwoordigDeelwoord": "blazend"
+  },
+  {
+    "word": "blijken",
+    "verledenTijd": "bleek",
+    "voltooidDeelwoord": "gebleken",
+    "tegenwoordigeTijd": "blijkt",
+    "tegenwoordigDeelwoord": "blijkend"
+  },
+  {
+    "word": "blijven",
+    "verledenTijd": "bleef",
+    "voltooidDeelwoord": "gebleven",
+    "tegenwoordigeTijd": "blijft",
+    "tegenwoordigDeelwoord": "blijvend"
+  },
+  {
+    "word": "braden",
+    "verledenTijd": "braadde",
+    "voltooidDeelwoord": "gebraden",
+    "tegenwoordigeTijd": "braadt",
+    "tegenwoordigDeelwoord": "bradend"
+  },
+  {
+    "word": "breken",
+    "verledenTijd": "brak",
+    "voltooidDeelwoord": "gebroken",
+    "tegenwoordigeTijd": "breekt",
+    "tegenwoordigDeelwoord": "brekend"
+  },
+  {
+    "word": "brengen",
+    "verledenTijd": "bracht",
+    "voltooidDeelwoord": "gebracht",
+    "tegenwoordigeTijd": "brengt",
+    "tegenwoordigDeelwoord": "brengend"
+  },
+  {
+    "word": "buigen",
+    "verledenTijd": "boog",
+    "voltooidDeelwoord": "gebogen",
+    "tegenwoordigeTijd": "buigt",
+    "tegenwoordigDeelwoord": "buigend"
+  },
+  {
+    "word": "denken",
+    "verledenTijd": "dacht",
+    "voltooidDeelwoord": "gedacht",
+    "tegenwoordigeTijd": "denkt",
+    "tegenwoordigDeelwoord": "denkend"
+  },
+  {
+    "word": "doen",
+    "verledenTijd": "deed",
+    "voltooidDeelwoord": "gedaan",
+    "tegenwoordigeTijd": "doet",
+    "tegenwoordigDeelwoord": "doend"
+  },
+  {
+    "word": "dragen",
+    "verledenTijd": "droeg",
+    "voltooidDeelwoord": "gedragen",
+    "tegenwoordigeTijd": "draagt",
+    "tegenwoordigDeelwoord": "dragend"
+  },
+  {
+    "word": "drijven",
+    "verledenTijd": "dreef",
+    "voltooidDeelwoord": "gedreven",
+    "tegenwoordigeTijd": "drijft",
+    "tegenwoordigDeelwoord": "drijvend"
+  },
+  {
+    "word": "drinken",
+    "verledenTijd": "dronk",
+    "voltooidDeelwoord": "gedronken",
+    "tegenwoordigeTijd": "drinkt",
+    "tegenwoordigDeelwoord": "drinkend"
+  },
+  {
+    "word": "duiken",
+    "verledenTijd": "dook",
+    "voltooidDeelwoord": "gedoken",
+    "tegenwoordigeTijd": "duikt",
+    "tegenwoordigDeelwoord": "duikend"
+  },
+  {
+    "word": "dwingen",
+    "verledenTijd": "dwong",
+    "voltooidDeelwoord": "gedwongen",
+    "tegenwoordigeTijd": "dwingt",
+    "tegenwoordigDeelwoord": "dwingend"
+  },
+  {
+    "word": "ervaren",
+    "verledenTijd": "ervoer",
+    "voltooidDeelwoord": "ervaren",
+    "tegenwoordigeTijd": "ervaart",
+    "tegenwoordigDeelwoord": "ervarend"
+  },
+  {
+    "word": "eten",
+    "verledenTijd": "at",
+    "voltooidDeelwoord": "gegeten",
+    "tegenwoordigeTijd": "eet",
+    "tegenwoordigDeelwoord": "etend"
+  },
+  {
+    "word": "fluiten",
+    "verledenTijd": "floot",
+    "voltooidDeelwoord": "gefloten",
+    "tegenwoordigeTijd": "fluit",
+    "tegenwoordigDeelwoord": "fluitend"
+  },
+  {
+    "word": "gaan",
+    "verledenTijd": "ging",
+    "voltooidDeelwoord": "gegaan",
+    "tegenwoordigeTijd": "gaat",
+    "tegenwoordigDeelwoord": "gaand"
+  },
+  {
+    "word": "genezen",
+    "verledenTijd": "genas",
+    "voltooidDeelwoord": "genezen",
+    "tegenwoordigeTijd": "geneest",
+    "tegenwoordigDeelwoord": "genezend"
+  },
+  {
+    "word": "genieten",
+    "verledenTijd": "genoot",
+    "voltooidDeelwoord": "genoten",
+    "tegenwoordigeTijd": "geniet",
+    "tegenwoordigDeelwoord": "genietend"
+  },
+  {
+    "word": "geven",
+    "verledenTijd": "gaf",
+    "voltooidDeelwoord": "gegeven",
+    "tegenwoordigeTijd": "geeft",
+    "tegenwoordigDeelwoord": "gevend"
+  },
+  {
+    "word": "gieten",
+    "verledenTijd": "goot",
+    "voltooidDeelwoord": "gegoten",
+    "tegenwoordigeTijd": "giet",
+    "tegenwoordigDeelwoord": "gietend"
+  },
+  {
+    "word": "glijden",
+    "verledenTijd": "gleed",
+    "voltooidDeelwoord": "gegleden",
+    "tegenwoordigeTijd": "glijdt",
+    "tegenwoordigDeelwoord": "glijdend"
+  },
+  {
+    "word": "glimmen",
+    "verledenTijd": "glom",
+    "voltooidDeelwoord": "geglommen",
+    "tegenwoordigeTijd": "glimt",
+    "tegenwoordigDeelwoord": "glimmend"
+  },
+  {
+    "word": "graven",
+    "verledenTijd": "groef",
+    "voltooidDeelwoord": "gegraven",
+    "tegenwoordigeTijd": "graaft",
+    "tegenwoordigDeelwoord": "gravend"
+  },
+  {
+    "word": "hangen",
+    "verledenTijd": "hing",
+    "voltooidDeelwoord": "gehangen",
+    "tegenwoordigeTijd": "hangt",
+    "tegenwoordigDeelwoord": "hangend"
+  },
+  {
+    "word": "hebben",
+    "verledenTijd": "had",
+    "voltooidDeelwoord": "gehad",
+    "tegenwoordigeTijd": "heeft",
+    "tegenwoordigDeelwoord": "hebbend"
+  },
+  {
+    "word": "helpen",
+    "verledenTijd": "hielp",
+    "voltooidDeelwoord": "geholpen",
+    "tegenwoordigeTijd": "helpt",
+    "tegenwoordigDeelwoord": "helpend"
+  },
+  {
+    "word": "heten",
+    "verledenTijd": "heette",
+    "voltooidDeelwoord": "geheten",
+    "tegenwoordigeTijd": "heet",
+    "tegenwoordigDeelwoord": "hetend"
+  },
+  {
+    "word": "houden",
+    "verledenTijd": "hield",
+    "voltooidDeelwoord": "gehouden",
+    "tegenwoordigeTijd": "houdt",
+    "tegenwoordigDeelwoord": "houdend"
+  },
+  {
+    "word": "kiezen",
+    "verledenTijd": "koos",
+    "voltooidDeelwoord": "gekozen",
+    "tegenwoordigeTijd": "kiest",
+    "tegenwoordigDeelwoord": "kiezend"
+  },
+  {
+    "word": "kijken",
+    "verledenTijd": "keek",
+    "voltooidDeelwoord": "gekeken",
+    "tegenwoordigeTijd": "kijkt",
+    "tegenwoordigDeelwoord": "kijkend"
+  },
+  {
+    "word": "klimmen",
+    "verledenTijd": "klom",
+    "voltooidDeelwoord": "geklommen",
+    "tegenwoordigeTijd": "klimt",
+    "tegenwoordigDeelwoord": "klimmend"
+  },
+  {
+    "word": "klinken",
+    "verledenTijd": "klonk",
+    "voltooidDeelwoord": "geklonken",
+    "tegenwoordigeTijd": "klinkt",
+    "tegenwoordigDeelwoord": "klinkend"
+  },
+  {
+    "word": "knijpen",
+    "verledenTijd": "kneep",
+    "voltooidDeelwoord": "geknepen",
+    "tegenwoordigeTijd": "knijpt",
+    "tegenwoordigDeelwoord": "knijpend"
+  },
+  {
+    "word": "komen",
+    "verledenTijd": "kwam",
+    "voltooidDeelwoord": "gekomen",
+    "tegenwoordigeTijd": "komt",
+    "tegenwoordigDeelwoord": "komend"
+  },
+  {
+    "word": "kopen",
+    "verledenTijd": "kocht",
+    "voltooidDeelwoord": "gekocht",
+    "tegenwoordigeTijd": "koopt",
+    "tegenwoordigDeelwoord": "kopend"
+  },
+  {
+    "word": "krijgen",
+    "verledenTijd": "kreeg",
+    "voltooidDeelwoord": "gekregen",
+    "tegenwoordigeTijd": "krijgt",
+    "tegenwoordigDeelwoord": "krijgend"
+  },
+  {
+    "word": "krimpen",
+    "verledenTijd": "kromp",
+    "voltooidDeelwoord": "gekrompen",
+    "tegenwoordigeTijd": "krimpt",
+    "tegenwoordigDeelwoord": "krimpend"
+  },
+  {
+    "word": "kruipen",
+    "verledenTijd": "kroop",
+    "voltooidDeelwoord": "gekropen",
+    "tegenwoordigeTijd": "kruipt",
+    "tegenwoordigDeelwoord": "kruipend"
+  },
+  {
+    "word": "kunnen",
+    "verledenTijd": "kon",
+    "voltooidDeelwoord": "gekund",
+    "tegenwoordigeTijd": "kan",
+    "tegenwoordigDeelwoord": "kunnend"
+  },
+  {
+    "word": "lachen",
+    "verledenTijd": "lachte",
+    "voltooidDeelwoord": "gelachen",
+    "tegenwoordigeTijd": "lacht",
+    "tegenwoordigDeelwoord": "lachend"
+  },
+  {
+    "word": "laden",
+    "verledenTijd": "laadde",
+    "voltooidDeelwoord": "geladen",
+    "tegenwoordigeTijd": "laadt",
+    "tegenwoordigDeelwoord": "ladend"
+  },
+  {
+    "word": "laten",
+    "verledenTijd": "liet",
+    "voltooidDeelwoord": "gelaten",
+    "tegenwoordigeTijd": "laat",
+    "tegenwoordigDeelwoord": "latend"
+  },
+  {
+    "word": "lezen",
+    "verledenTijd": "las",
+    "voltooidDeelwoord": "gelezen",
+    "tegenwoordigeTijd": "leest",
+    "tegenwoordigDeelwoord": "lezend"
+  },
+  {
+    "word": "liegen",
+    "verledenTijd": "loog",
+    "voltooidDeelwoord": "gelogen",
+    "tegenwoordigeTijd": "liegt",
+    "tegenwoordigDeelwoord": "liegend"
+  },
+  {
+    "word": "liggen",
+    "verledenTijd": "lag",
+    "voltooidDeelwoord": "gelegen",
+    "tegenwoordigeTijd": "ligt",
+    "tegenwoordigDeelwoord": "liggend"
+  },
+  {
+    "word": "lijden",
+    "verledenTijd": "leed",
+    "voltooidDeelwoord": "geleden",
+    "tegenwoordigeTijd": "lijdt",
+    "tegenwoordigDeelwoord": "lijdend"
+  },
+  {
+    "word": "lijken",
+    "verledenTijd": "leek",
+    "voltooidDeelwoord": "geleken",
+    "tegenwoordigeTijd": "lijkt",
+    "tegenwoordigDeelwoord": "lijkend"
+  },
+  {
+    "word": "lopen",
+    "verledenTijd": "liep",
+    "voltooidDeelwoord": "gelopen",
+    "tegenwoordigeTijd": "loopt",
+    "tegenwoordigDeelwoord": "lopend"
+  },
+  {
+    "word": "meten",
+    "verledenTijd": "mat",
+    "voltooidDeelwoord": "gemeten",
+    "tegenwoordigeTijd": "meet",
+    "tegenwoordigDeelwoord": "metend"
+  },
+  {
+    "word": "moeten",
+    "verledenTijd": "moest",
+    "voltooidDeelwoord": "gemoeten",
+    "tegenwoordigeTijd": "moet",
+    "tegenwoordigDeelwoord": "moetend"
+  },
+  {
+    "word": "mogen",
+    "verledenTijd": "mocht",
+    "voltooidDeelwoord": "gemogen",
+    "tegenwoordigeTijd": "mag",
+    "tegenwoordigDeelwoord": "mogend"
+  },
+  {
+    "word": "nemen",
+    "verledenTijd": "nam",
+    "voltooidDeelwoord": "genomen",
+    "tegenwoordigeTijd": "neemt",
+    "tegenwoordigDeelwoord": "nemend"
+  },
+  {
+    "word": "ontbijten",
+    "verledenTijd": "ontbeet",
+    "voltooidDeelwoord": "ontbeten",
+    "tegenwoordigeTijd": "ontbijt",
+    "tegenwoordigDeelwoord": "ontbijtend"
+  },
+  {
+    "word": "ontwerpen",
+    "verledenTijd": "ontwierp",
+    "voltooidDeelwoord": "ontworpen",
+    "tegenwoordigeTijd": "ontwerpt",
+    "tegenwoordigDeelwoord": "ontwerpend"
+  },
+  {
+    "word": "overlijden",
+    "verledenTijd": "overleed",
+    "voltooidDeelwoord": "overleden",
+    "tegenwoordigeTijd": "overlijdt",
+    "tegenwoordigDeelwoord": "overlijdend"
+  },
+  {
+    "word": "raden",
+    "verledenTijd": "ried",
+    "voltooidDeelwoord": "geraden",
+    "tegenwoordigeTijd": "raadt",
+    "tegenwoordigDeelwoord": "radend"
+  },
+  {
+    "word": "rijden",
+    "verledenTijd": "reed",
+    "voltooidDeelwoord": "gereden",
+    "tegenwoordigeTijd": "rijdt",
+    "tegenwoordigDeelwoord": "rijdend"
+  },
+  {
+    "word": "roepen",
+    "verledenTijd": "riep",
+    "voltooidDeelwoord": "geroepen",
+    "tegenwoordigeTijd": "roept",
+    "tegenwoordigDeelwoord": "roepend"
+  },
+  {
+    "word": "ruiken",
+    "verledenTijd": "rook",
+    "voltooidDeelwoord": "geroken",
+    "tegenwoordigeTijd": "ruikt",
+    "tegenwoordigDeelwoord": "ruikend"
+  },
+  {
+    "word": "scheiden",
+    "verledenTijd": "scheidde",
+    "voltooidDeelwoord": "gescheiden",
+    "tegenwoordigeTijd": "scheidt",
+    "tegenwoordigDeelwoord": "scheidend"
+  },
+  {
+    "word": "schelden",
+    "verledenTijd": "schold",
+    "voltooidDeelwoord": "gescholden",
+    "tegenwoordigeTijd": "scheldt",
+    "tegenwoordigDeelwoord": "scheldend"
+  },
+  {
+    "word": "schenken",
+    "verledenTijd": "schonk",
+    "voltooidDeelwoord": "geschonken",
+    "tegenwoordigeTijd": "schenkt",
+    "tegenwoordigDeelwoord": "schenkend"
+  },
+  {
+    "word": "scheren",
+    "verledenTijd": "schoor",
+    "voltooidDeelwoord": "geschoren",
+    "tegenwoordigeTijd": "scheert",
+    "tegenwoordigDeelwoord": "scherend"
+  },
+  {
+    "word": "schieten",
+    "verledenTijd": "schoot",
+    "voltooidDeelwoord": "geschoten",
+    "tegenwoordigeTijd": "schiet",
+    "tegenwoordigDeelwoord": "schietend"
+  },
+  {
+    "word": "schijnen",
+    "verledenTijd": "scheen",
+    "voltooidDeelwoord": "geschenen",
+    "tegenwoordigeTijd": "schijnt",
+    "tegenwoordigDeelwoord": "schijnend"
+  },
+  {
+    "word": "schrijven",
+    "verledenTijd": "schreef",
+    "voltooidDeelwoord": "geschreven",
+    "tegenwoordigeTijd": "schrijft",
+    "tegenwoordigDeelwoord": "schrijvend"
+  },
+  {
+    "word": "schrikken",
+    "verledenTijd": "schrok",
+    "voltooidDeelwoord": "geschrokken",
+    "tegenwoordigeTijd": "schrikt",
+    "tegenwoordigDeelwoord": "schrikkend"
+  },
+  {
+    "word": "schuiven",
+    "verledenTijd": "schoof",
+    "voltooidDeelwoord": "geschoven",
+    "tegenwoordigeTijd": "schuift",
+    "tegenwoordigDeelwoord": "schuivend"
+  },
+  {
+    "word": "slaan",
+    "verledenTijd": "sloeg",
+    "voltooidDeelwoord": "geslagen",
+    "tegenwoordigeTijd": "slaat",
+    "tegenwoordigDeelwoord": "slaand"
+  },
+  {
+    "word": "slapen",
+    "verledenTijd": "sliep",
+    "voltooidDeelwoord": "geslapen",
+    "tegenwoordigeTijd": "slaapt",
+    "tegenwoordigDeelwoord": "slapend"
+  },
+  {
+    "word": "slijpen",
+    "verledenTijd": "sleep",
+    "voltooidDeelwoord": "geslepen",
+    "tegenwoordigeTijd": "slijpt",
+    "tegenwoordigDeelwoord": "slijpend"
+  },
+  {
+    "word": "sluipen",
+    "verledenTijd": "sloop",
+    "voltooidDeelwoord": "geslopen",
+    "tegenwoordigeTijd": "sluipt",
+    "tegenwoordigDeelwoord": "sluipend"
+  },
+  {
+    "word": "sluiten",
+    "verledenTijd": "sloot",
+    "voltooidDeelwoord": "gesloten",
+    "tegenwoordigeTijd": "sluit",
+    "tegenwoordigDeelwoord": "sluitend"
+  },
+  {
+    "word": "smelten",
+    "verledenTijd": "smolt",
+    "voltooidDeelwoord": "gesmolten",
+    "tegenwoordigeTijd": "smelt",
+    "tegenwoordigDeelwoord": "smeltend"
+  },
+  {
+    "word": "snijden",
+    "verledenTijd": "sneed",
+    "voltooidDeelwoord": "gesneden",
+    "tegenwoordigeTijd": "snijdt",
+    "tegenwoordigDeelwoord": "snijdend"
+  },
+  {
+    "word": "snuiten",
+    "verledenTijd": "snoot",
+    "voltooidDeelwoord": "gesnoten",
+    "tegenwoordigeTijd": "snuit",
+    "tegenwoordigDeelwoord": "snuitend"
+  },
+  {
+    "word": "snuiven",
+    "verledenTijd": "snoof",
+    "voltooidDeelwoord": "gesnoven",
+    "tegenwoordigeTijd": "snuift",
+    "tegenwoordigDeelwoord": "snuivend"
+  },
+  {
+    "word": "spijten",
+    "verledenTijd": "speet",
+    "voltooidDeelwoord": "gespeten",
+    "tegenwoordigeTijd": "spijt",
+    "tegenwoordigDeelwoord": "spijtend"
+  },
+  {
+    "word": "spreken",
+    "verledenTijd": "sprak",
+    "voltooidDeelwoord": "gesproken",
+    "tegenwoordigeTijd": "spreekt",
+    "tegenwoordigDeelwoord": "sprekend"
+  },
+  {
+    "word": "springen",
+    "verledenTijd": "sprong",
+    "voltooidDeelwoord": "gesprongen",
+    "tegenwoordigeTijd": "springt",
+    "tegenwoordigDeelwoord": "springend"
+  },
+  {
+    "word": "spuiten",
+    "verledenTijd": "spoot",
+    "voltooidDeelwoord": "gespoten",
+    "tegenwoordigeTijd": "spuit",
+    "tegenwoordigDeelwoord": "spuitend"
+  },
+  {
+    "word": "staan",
+    "verledenTijd": "stond",
+    "voltooidDeelwoord": "gestaan",
+    "tegenwoordigeTijd": "staat",
+    "tegenwoordigDeelwoord": "staand"
+  },
+  {
+    "word": "steken",
+    "verledenTijd": "stak",
+    "voltooidDeelwoord": "gestoken",
+    "tegenwoordigeTijd": "steekt",
+    "tegenwoordigDeelwoord": "stekend"
+  },
+  {
+    "word": "stelen",
+    "verledenTijd": "stal",
+    "voltooidDeelwoord": "gestolen",
+    "tegenwoordigeTijd": "steelt",
+    "tegenwoordigDeelwoord": "stelend"
+  },
+  {
+    "word": "sterven",
+    "verledenTijd": "stierf",
+    "voltooidDeelwoord": "gestorven",
+    "tegenwoordigeTijd": "sterft",
+    "tegenwoordigDeelwoord": "stervend"
+  },
+  {
+    "word": "stijgen",
+    "verledenTijd": "steeg",
+    "voltooidDeelwoord": "gestegen",
+    "tegenwoordigeTijd": "stijgt",
+    "tegenwoordigDeelwoord": "stijgend"
+  },
+  {
+    "word": "stinken",
+    "verledenTijd": "stonk",
+    "voltooidDeelwoord": "gestonken",
+    "tegenwoordigeTijd": "stinkt",
+    "tegenwoordigDeelwoord": "stinkend"
+  },
+  {
+    "word": "strijden",
+    "verledenTijd": "streed",
+    "voltooidDeelwoord": "gestreden",
+    "tegenwoordigeTijd": "strijdt",
+    "tegenwoordigDeelwoord": "strijdend"
+  },
+  {
+    "word": "strijken",
+    "verledenTijd": "streek",
+    "voltooidDeelwoord": "gestreken",
+    "tegenwoordigeTijd": "strijkt",
+    "tegenwoordigDeelwoord": "strijkend"
+  },
+  {
+    "word": "trekken",
+    "verledenTijd": "trok",
+    "voltooidDeelwoord": "getrokken",
+    "tegenwoordigeTijd": "trekt",
+    "tegenwoordigDeelwoord": "trekkend"
+  },
+  {
+    "word": "vallen",
+    "verledenTijd": "viel",
+    "voltooidDeelwoord": "gevallen",
+    "tegenwoordigeTijd": "valt",
+    "tegenwoordigDeelwoord": "vallend"
+  },
+  {
+    "word": "vangen",
+    "verledenTijd": "ving",
+    "voltooidDeelwoord": "gevangen",
+    "tegenwoordigeTijd": "vangt",
+    "tegenwoordigDeelwoord": "vangend"
+  },
+  {
+    "word": "varen",
+    "verledenTijd": "voer",
+    "voltooidDeelwoord": "gevaren",
+    "tegenwoordigeTijd": "vaart",
+    "tegenwoordigDeelwoord": "varend"
+  },
+  {
+    "word": "vechten",
+    "verledenTijd": "vocht",
+    "voltooidDeelwoord": "gevochten",
+    "tegenwoordigeTijd": "vecht",
+    "tegenwoordigDeelwoord": "vechtend"
+  },
+  {
+    "word": "verbieden",
+    "verledenTijd": "verbood",
+    "voltooidDeelwoord": "verboden",
+    "tegenwoordigeTijd": "verbiedt",
+    "tegenwoordigDeelwoord": "verbiedend"
+  },
+  {
+    "word": "verdwijnen",
+    "verledenTijd": "verdween",
+    "voltooidDeelwoord": "verdwenen",
+    "tegenwoordigeTijd": "verdwijnt",
+    "tegenwoordigDeelwoord": "verdwijnend"
+  },
+  {
+    "word": "vergelijken",
+    "verledenTijd": "vergeleek",
+    "voltooidDeelwoord": "vergeleken",
+    "tegenwoordigeTijd": "vergelijkt",
+    "tegenwoordigDeelwoord": "vergelijkend"
+  },
+  {
+    "word": "vergeten",
+    "verledenTijd": "vergat",
+    "voltooidDeelwoord": "vergeten",
+    "tegenwoordigeTijd": "vergeet",
+    "tegenwoordigDeelwoord": "vergetend"
+  },
+  {
+    "word": "verliezen",
+    "verledenTijd": "verloor",
+    "voltooidDeelwoord": "verloren",
+    "tegenwoordigeTijd": "verliest",
+    "tegenwoordigDeelwoord": "verliezend"
+  },
+  {
+    "word": "vermijden",
+    "verledenTijd": "vermeed",
+    "voltooidDeelwoord": "vermeden",
+    "tegenwoordigeTijd": "vermijdt",
+    "tegenwoordigDeelwoord": "vermijdend"
+  },
+  {
+    "word": "verraden",
+    "verledenTijd": "verried",
+    "voltooidDeelwoord": "verraden",
+    "tegenwoordigeTijd": "verraadt",
+    "tegenwoordigDeelwoord": "verradend"
+  },
+  {
+    "word": "vertrekken",
+    "verledenTijd": "vertrok",
+    "voltooidDeelwoord": "vertrokken",
+    "tegenwoordigeTijd": "vertrekt",
+    "tegenwoordigDeelwoord": "vertrekkend"
+  },
+  {
+    "word": "verwijten",
+    "verledenTijd": "verweet",
+    "voltooidDeelwoord": "verweten",
+    "tegenwoordigeTijd": "verwijt",
+    "tegenwoordigDeelwoord": "verwijtend"
+  },
+  {
+    "word": "verzinnen",
+    "verledenTijd": "verzon",
+    "voltooidDeelwoord": "verzonnen",
+    "tegenwoordigeTijd": "verzint",
+    "tegenwoordigDeelwoord": "verzinnend"
+  },
+  {
+    "word": "vinden",
+    "verledenTijd": "vond",
+    "voltooidDeelwoord": "gevonden",
+    "tegenwoordigeTijd": "vindt",
+    "tegenwoordigDeelwoord": "vindend"
+  },
+  {
+    "word": "vliegen",
+    "verledenTijd": "vloog",
+    "voltooidDeelwoord": "gevlogen",
+    "tegenwoordigeTijd": "vliegt",
+    "tegenwoordigDeelwoord": "vliegend"
+  },
+  {
+    "word": "vouwen",
+    "verledenTijd": "vouwde",
+    "voltooidDeelwoord": "gevouwen",
+    "tegenwoordigeTijd": "vouwt",
+    "tegenwoordigDeelwoord": "vouwend"
+  },
+  {
+    "word": "vragen",
+    "verledenTijd": "vroeg",
+    "voltooidDeelwoord": "gevraagd",
+    "tegenwoordigeTijd": "vraagt",
+    "tegenwoordigDeelwoord": "vragend"
+  },
+  {
+    "word": "vriezen",
+    "verledenTijd": "vroor",
+    "voltooidDeelwoord": "gevroren",
+    "tegenwoordigeTijd": "vriest",
+    "tegenwoordigDeelwoord": "vriezend"
+  },
+  {
+    "word": "wassen",
+    "verledenTijd": "waste",
+    "voltooidDeelwoord": "gewassen",
+    "tegenwoordigeTijd": "wast",
+    "tegenwoordigDeelwoord": "wassend"
+  },
+  {
+    "word": "wegen",
+    "verledenTijd": "woog",
+    "voltooidDeelwoord": "gewogen",
+    "tegenwoordigeTijd": "weegt",
+    "tegenwoordigDeelwoord": "wegend"
+  },
+  {
+    "word": "werpen",
+    "verledenTijd": "wierp",
+    "voltooidDeelwoord": "geworpen",
+    "tegenwoordigeTijd": "werpt",
+    "tegenwoordigDeelwoord": "werpend"
+  },
+  {
+    "word": "weten",
+    "verledenTijd": "wist",
+    "voltooidDeelwoord": "geweten",
+    "tegenwoordigeTijd": "weet",
+    "tegenwoordigDeelwoord": "wetend"
+  },
+  {
+    "word": "wijzen",
+    "verledenTijd": "wees",
+    "voltooidDeelwoord": "gewezen",
+    "tegenwoordigeTijd": "wijst",
+    "tegenwoordigDeelwoord": "wijzend"
+  },
+  {
+    "word": "willen",
+    "verledenTijd": "wilde",
+    "voltooidDeelwoord": "gewild",
+    "tegenwoordigeTijd": "wil",
+    "tegenwoordigDeelwoord": "willend"
+  },
+  {
+    "word": "winnen",
+    "verledenTijd": "won",
+    "voltooidDeelwoord": "gewonnen",
+    "tegenwoordigeTijd": "wint",
+    "tegenwoordigDeelwoord": "winnend"
+  },
+  {
+    "word": "worden",
+    "verledenTijd": "werd",
+    "voltooidDeelwoord": "geworden",
+    "tegenwoordigeTijd": "wordt",
+    "tegenwoordigDeelwoord": "wordend"
+  },
+  {
+    "word": "wrijven",
+    "verledenTijd": "wreef",
+    "voltooidDeelwoord": "gewreven",
+    "tegenwoordigeTijd": "wrijft",
+    "tegenwoordigDeelwoord": "wrijvend"
+  },
+  {
+    "word": "zeggen",
+    "verledenTijd": "zei",
+    "voltooidDeelwoord": "gezegd",
+    "tegenwoordigeTijd": "zegt",
+    "tegenwoordigDeelwoord": "zeggend"
+  },
+  {
+    "word": "zenden",
+    "verledenTijd": "zond",
+    "voltooidDeelwoord": "gezonden",
+    "tegenwoordigeTijd": "zendt",
+    "tegenwoordigDeelwoord": "zendend"
+  },
+  {
+    "word": "zien",
+    "verledenTijd": "zag",
+    "voltooidDeelwoord": "gezien",
+    "tegenwoordigeTijd": "ziet",
+    "tegenwoordigDeelwoord": "ziend"
+  },
+  {
+    "word": "zijn",
+    "verledenTijd": "was",
+    "voltooidDeelwoord": "geweest",
+    "tegenwoordigeTijd": "is",
+    "tegenwoordigDeelwoord": "zijnd"
+  },
+  {
+    "word": "zingen",
+    "verledenTijd": "zong",
+    "voltooidDeelwoord": "gezongen",
+    "tegenwoordigeTijd": "zingt",
+    "tegenwoordigDeelwoord": "zingend"
+  },
+  {
+    "word": "zinken",
+    "verledenTijd": "zonk",
+    "voltooidDeelwoord": "gezonken",
+    "tegenwoordigeTijd": "zinkt",
+    "tegenwoordigDeelwoord": "zinkend"
+  },
+  {
+    "word": "zitten",
+    "verledenTijd": "zat",
+    "voltooidDeelwoord": "gezeten",
+    "tegenwoordigeTijd": "zit",
+    "tegenwoordigDeelwoord": "zittend"
+  },
+  {
+    "word": "zoeken",
+    "verledenTijd": "zocht",
+    "voltooidDeelwoord": "gezocht",
+    "tegenwoordigeTijd": "zoekt",
+    "tegenwoordigDeelwoord": "zoekend"
+  },
+  {
+    "word": "zuigen",
+    "verledenTijd": "zoog",
+    "voltooidDeelwoord": "gezogen",
+    "tegenwoordigeTijd": "zuigt",
+    "tegenwoordigDeelwoord": "zuigend"
+  },
+  {
+    "word": "zullen",
+    "verledenTijd": "zou",
+    "voltooidDeelwoord": "gezuld",
+    "tegenwoordigeTijd": "zal",
+    "tegenwoordigDeelwoord": "zullend"
+  },
+  {
+    "word": "zwemmen",
+    "verledenTijd": "zwom",
+    "voltooidDeelwoord": "gezwommen",
+    "tegenwoordigeTijd": "zwemt",
+    "tegenwoordigDeelwoord": "zwemmend"
+  },
+  {
+    "word": "zwijgen",
+    "verledenTijd": "zweeg",
+    "voltooidDeelwoord": "gezwegen",
+    "tegenwoordigeTijd": "zwijgt",
+    "tegenwoordigDeelwoord": "zwijgend"
+  }
+]

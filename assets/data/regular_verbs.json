@@ -1,0 +1,919 @@
+[
+  {
+    "word": "werken",
+    "verledenTijd": "werkte",
+    "voltooidDeelwoord": "gewerkt",
+    "tegenwoordigeTijd": "werkt",
+    "tegenwoordigDeelwoord": "werkend"
+  },
+  {
+    "word": "leren",
+    "verledenTijd": "leerde",
+    "voltooidDeelwoord": "geleerd",
+    "tegenwoordigeTijd": "leert",
+    "tegenwoordigDeelwoord": "lerend"
+  },
+  {
+    "word": "spelen",
+    "verledenTijd": "speelde",
+    "voltooidDeelwoord": "gespeeld",
+    "tegenwoordigeTijd": "speelt",
+    "tegenwoordigDeelwoord": "spelend"
+  },
+  {
+    "word": "wonen",
+    "verledenTijd": "woonde",
+    "voltooidDeelwoord": "gewoond",
+    "tegenwoordigeTijd": "woont",
+    "tegenwoordigDeelwoord": "wonend"
+  },
+  {
+    "word": "wandelen",
+    "verledenTijd": "wandelde",
+    "voltooidDeelwoord": "gewandeld",
+    "tegenwoordigeTijd": "wandelt",
+    "tegenwoordigDeelwoord": "wandelend"
+  },
+  {
+    "word": "fietsen",
+    "verledenTijd": "fietste",
+    "voltooidDeelwoord": "gefietst",
+    "tegenwoordigeTijd": "fietst",
+    "tegenwoordigDeelwoord": "fietsend"
+  },
+  {
+    "word": "koken",
+    "verledenTijd": "kookte",
+    "voltooidDeelwoord": "gekookt",
+    "tegenwoordigeTijd": "kookt",
+    "tegenwoordigDeelwoord": "kokend"
+  },
+  {
+    "word": "maken",
+    "verledenTijd": "maakte",
+    "voltooidDeelwoord": "gemaakt",
+    "tegenwoordigeTijd": "maakt",
+    "tegenwoordigDeelwoord": "makend"
+  },
+  {
+    "word": "poetsen",
+    "verledenTijd": "poetste",
+    "voltooidDeelwoord": "gepoetst",
+    "tegenwoordigeTijd": "poetst",
+    "tegenwoordigDeelwoord": "poetsend"
+  },
+  {
+    "word": "tekenen",
+    "verledenTijd": "tekende",
+    "voltooidDeelwoord": "getekend",
+    "tegenwoordigeTijd": "tekent",
+    "tegenwoordigDeelwoord": "tekenend"
+  },
+  {
+    "word": "kleuren",
+    "verledenTijd": "kleurde",
+    "voltooidDeelwoord": "gekleurd",
+    "tegenwoordigeTijd": "kleurt",
+    "tegenwoordigDeelwoord": "kleurend"
+  },
+  {
+    "word": "rekenen",
+    "verledenTijd": "rekende",
+    "voltooidDeelwoord": "gerekend",
+    "tegenwoordigeTijd": "rekent",
+    "tegenwoordigDeelwoord": "rekenend"
+  },
+  {
+    "word": "luisteren",
+    "verledenTijd": "luisterde",
+    "voltooidDeelwoord": "geluisterd",
+    "tegenwoordigeTijd": "luistert",
+    "tegenwoordigDeelwoord": "luisterend"
+  },
+  {
+    "word": "praten",
+    "verledenTijd": "praatte",
+    "voltooidDeelwoord": "gepraat",
+    "tegenwoordigeTijd": "praat",
+    "tegenwoordigDeelwoord": "pratend"
+  },
+  {
+    "word": "bellen",
+    "verledenTijd": "belde",
+    "voltooidDeelwoord": "gebeld",
+    "tegenwoordigeTijd": "belt",
+    "tegenwoordigDeelwoord": "bellend"
+  },
+  {
+    "word": "mailen",
+    "verledenTijd": "mailde",
+    "voltooidDeelwoord": "gemaild",
+    "tegenwoordigeTijd": "mailt",
+    "tegenwoordigDeelwoord": "mailend"
+  },
+  {
+    "word": "studeren",
+    "verledenTijd": "studeerde",
+    "voltooidDeelwoord": "gestudeerd",
+    "tegenwoordigeTijd": "studeert",
+    "tegenwoordigDeelwoord": "studerend"
+  },
+  {
+    "word": "parkeren",
+    "verledenTijd": "parkeerde",
+    "voltooidDeelwoord": "geparkeerd",
+    "tegenwoordigeTijd": "parkeert",
+    "tegenwoordigDeelwoord": "parkerend"
+  },
+  {
+    "word": "rennen",
+    "verledenTijd": "rende",
+    "voltooidDeelwoord": "gerend",
+    "tegenwoordigeTijd": "rent",
+    "tegenwoordigDeelwoord": "rennend"
+  },
+  {
+    "word": "dansen",
+    "verledenTijd": "danste",
+    "voltooidDeelwoord": "gedanst",
+    "tegenwoordigeTijd": "danst",
+    "tegenwoordigDeelwoord": "dansend"
+  },
+  {
+    "word": "wachten",
+    "verledenTijd": "wachtte",
+    "voltooidDeelwoord": "gewacht",
+    "tegenwoordigeTijd": "wacht",
+    "tegenwoordigDeelwoord": "wachtend"
+  },
+  {
+    "word": "antwoorden",
+    "verledenTijd": "antwoordde",
+    "voltooidDeelwoord": "geantwoord",
+    "tegenwoordigeTijd": "antwoordt",
+    "tegenwoordigDeelwoord": "antwoordend"
+  },
+  {
+    "word": "betalen",
+    "verledenTijd": "betaalde",
+    "voltooidDeelwoord": "betaald",
+    "tegenwoordigeTijd": "betaalt",
+    "tegenwoordigDeelwoord": "betalend"
+  },
+  {
+    "word": "bewaren",
+    "verledenTijd": "bewaarde",
+    "voltooidDeelwoord": "bewaard",
+    "tegenwoordigeTijd": "bewaart",
+    "tegenwoordigDeelwoord": "bewarend"
+  },
+  {
+    "word": "bouwen",
+    "verledenTijd": "bouwde",
+    "voltooidDeelwoord": "gebouwd",
+    "tegenwoordigeTijd": "bouwt",
+    "tegenwoordigDeelwoord": "bouwend"
+  },
+  {
+    "word": "bestellen",
+    "verledenTijd": "bestelde",
+    "voltooidDeelwoord": "besteld",
+    "tegenwoordigeTijd": "bestelt",
+    "tegenwoordigDeelwoord": "bestellend"
+  },
+  {
+    "word": "controleren",
+    "verledenTijd": "controleerde",
+    "voltooidDeelwoord": "gecontroleerd",
+    "tegenwoordigeTijd": "controleert",
+    "tegenwoordigDeelwoord": "controlerend"
+  },
+  {
+    "word": "delen",
+    "verledenTijd": "deelde",
+    "voltooidDeelwoord": "gedeeld",
+    "tegenwoordigeTijd": "deelt",
+    "tegenwoordigDeelwoord": "delend"
+  },
+  {
+    "word": "douchen",
+    "verledenTijd": "douchte",
+    "voltooidDeelwoord": "gedoucht",
+    "tegenwoordigeTijd": "doucht",
+    "tegenwoordigDeelwoord": "douchend"
+  },
+  {
+    "word": "drogen",
+    "verledenTijd": "droogde",
+    "voltooidDeelwoord": "gedroogd",
+    "tegenwoordigeTijd": "droogt",
+    "tegenwoordigDeelwoord": "drogend"
+  },
+  {
+    "word": "eten",
+    "verledenTijd": "at",
+    "voltooidDeelwoord": "gegeten",
+    "tegenwoordigeTijd": "eet",
+    "tegenwoordigDeelwoord": "etend"
+  },
+  {
+    "word": "filmen",
+    "verledenTijd": "filmde",
+    "voltooidDeelwoord": "gefilmd",
+    "tegenwoordigeTijd": "filmt",
+    "tegenwoordigDeelwoord": "filmend"
+  },
+  {
+    "word": "gebruiken",
+    "verledenTijd": "gebruikte",
+    "voltooidDeelwoord": "gebruikt",
+    "tegenwoordigeTijd": "gebruikt",
+    "tegenwoordigDeelwoord": "gebruikend"
+  },
+  {
+    "word": "groeten",
+    "verledenTijd": "groette",
+    "voltooidDeelwoord": "gegroet",
+    "tegenwoordigeTijd": "groet",
+    "tegenwoordigDeelwoord": "groetend"
+  },
+  {
+    "word": "halen",
+    "verledenTijd": "haalde",
+    "voltooidDeelwoord": "gehaald",
+    "tegenwoordigeTijd": "haalt",
+    "tegenwoordigDeelwoord": "halend"
+  },
+  {
+    "word": "herhalen",
+    "verledenTijd": "herhaalde",
+    "voltooidDeelwoord": "herhaald",
+    "tegenwoordigeTijd": "herhaalt",
+    "tegenwoordigDeelwoord": "herhalend"
+  },
+  {
+    "word": "herkennen",
+    "verledenTijd": "herkende",
+    "voltooidDeelwoord": "herkend",
+    "tegenwoordigeTijd": "herkent",
+    "tegenwoordigDeelwoord": "herkennend"
+  },
+  {
+    "word": "huren",
+    "verledenTijd": "huurde",
+    "voltooidDeelwoord": "gehuurd",
+    "tegenwoordigeTijd": "huurt",
+    "tegenwoordigDeelwoord": "hurend"
+  },
+  {
+    "word": "kammen",
+    "verledenTijd": "kamde",
+    "voltooidDeelwoord": "gekamd",
+    "tegenwoordigeTijd": "kamt",
+    "tegenwoordigDeelwoord": "kammend"
+  },
+  {
+    "word": "leven",
+    "verledenTijd": "leefde",
+    "voltooidDeelwoord": "geleefd",
+    "tegenwoordigeTijd": "leeft",
+    "tegenwoordigDeelwoord": "levend"
+  },
+  {
+    "word": "missen",
+    "verledenTijd": "miste",
+    "voltooidDeelwoord": "gemist",
+    "tegenwoordigeTijd": "mist",
+    "tegenwoordigDeelwoord": "missend"
+  },
+  {
+    "word": "nodigen",
+    "verledenTijd": "nodigde",
+    "voltooidDeelwoord": "genodigd",
+    "tegenwoordigeTijd": "nodigt",
+    "tegenwoordigDeelwoord": "nodigend"
+  },
+  {
+    "word": "openen",
+    "verledenTijd": "opende",
+    "voltooidDeelwoord": "geopend",
+    "tegenwoordigeTijd": "opent",
+    "tegenwoordigDeelwoord": "openend"
+  },
+  {
+    "word": "pakken",
+    "verledenTijd": "pakte",
+    "voltooidDeelwoord": "gepakt",
+    "tegenwoordigeTijd": "pakt",
+    "tegenwoordigDeelwoord": "pakkend"
+  },
+  {
+    "word": "passen",
+    "verledenTijd": "paste",
+    "voltooidDeelwoord": "gepast",
+    "tegenwoordigeTijd": "past",
+    "tegenwoordigDeelwoord": "passend"
+  },
+  {
+    "word": "plakken",
+    "verledenTijd": "plakte",
+    "voltooidDeelwoord": "geplakt",
+    "tegenwoordigeTijd": "plakt",
+    "tegenwoordigDeelwoord": "plakkend"
+  },
+  {
+    "word": "planten",
+    "verledenTijd": "plantte",
+    "voltooidDeelwoord": "geplant",
+    "tegenwoordigeTijd": "plant",
+    "tegenwoordigDeelwoord": "plantend"
+  },
+  {
+    "word": "proberen",
+    "verledenTijd": "probeerde",
+    "voltooidDeelwoord": "geprobeerd",
+    "tegenwoordigeTijd": "probeert",
+    "tegenwoordigDeelwoord": "proberend"
+  },
+  {
+    "word": "reizen",
+    "verledenTijd": "reisde",
+    "voltooidDeelwoord": "gereisd",
+    "tegenwoordigeTijd": "reist",
+    "tegenwoordigDeelwoord": "reizend"
+  },
+  {
+    "word": "ruimen",
+    "verledenTijd": "ruimde",
+    "voltooidDeelwoord": "geruimd",
+    "tegenwoordigeTijd": "ruimt",
+    "tegenwoordigDeelwoord": "ruimend"
+  },
+  {
+    "word": "sparen",
+    "verledenTijd": "spaarde",
+    "voltooidDeelwoord": "gespaard",
+    "tegenwoordigeTijd": "spaart",
+    "tegenwoordigDeelwoord": "sparend"
+  },
+  {
+    "word": "stoppen",
+    "verledenTijd": "stopte",
+    "voltooidDeelwoord": "gestopt",
+    "tegenwoordigeTijd": "stopt",
+    "tegenwoordigDeelwoord": "stoppend"
+  },
+  {
+    "word": "trakteren",
+    "verledenTijd": "trakteerde",
+    "voltooidDeelwoord": "getrakteerd",
+    "tegenwoordigeTijd": "trakteert",
+    "tegenwoordigDeelwoord": "trakterend"
+  },
+  {
+    "word": "verhuizen",
+    "verledenTijd": "verhuisde",
+    "voltooidDeelwoord": "verhuisd",
+    "tegenwoordigeTijd": "verhuist",
+    "tegenwoordigDeelwoord": "verhuizend"
+  },
+  {
+    "word": "verjaarden",
+    "verledenTijd": "verjaarde",
+    "voltooidDeelwoord": "verjaard",
+    "tegenwoordigeTijd": "verjaart",
+    "tegenwoordigDeelwoord": "verjarend"
+  },
+  {
+    "word": "accepteren",
+    "verledenTijd": "accepteerde",
+    "voltooidDeelwoord": "geaccepteerd",
+    "tegenwoordigeTijd": "accepteert",
+    "tegenwoordigDeelwoord": "accepterend"
+  },
+  {
+    "word": "adviseren",
+    "verledenTijd": "adviseerde",
+    "voltooidDeelwoord": "geadviseerd",
+    "tegenwoordigeTijd": "adviseert",
+    "tegenwoordigDeelwoord": "adviserend"
+  },
+  {
+    "word": "bedanken",
+    "verledenTijd": "bedankte",
+    "voltooidDeelwoord": "bedankt",
+    "tegenwoordigeTijd": "bedankt",
+    "tegenwoordigDeelwoord": "bedankend"
+  },
+  {
+    "word": "bedienen",
+    "verledenTijd": "bediende",
+    "voltooidDeelwoord": "bediend",
+    "tegenwoordigeTijd": "bedient",
+    "tegenwoordigDeelwoord": "bedienend"
+  },
+  {
+    "word": "behandelen",
+    "verledenTijd": "behandelde",
+    "voltooidDeelwoord": "behandeld",
+    "tegenwoordigeTijd": "behandelt",
+    "tegenwoordigDeelwoord": "behandelend"
+  },
+  {
+    "word": "beïnvloeden",
+    "verledenTijd": "beïnvloedde",
+    "voltooidDeelwoord": "beïnvloed",
+    "tegenwoordigeTijd": "beïnvloedt",
+    "tegenwoordigDeelwoord": "beïnvloedend"
+  },
+  {
+    "word": "beoordelen",
+    "verledenTijd": "beoordeelde",
+    "voltooidDeelwoord": "beoordeeld",
+    "tegenwoordigeTijd": "beoordeelt",
+    "tegenwoordigDeelwoord": "beoordelend"
+  },
+  {
+    "word": "beschermen",
+    "verledenTijd": "beschermde",
+    "voltooidDeelwoord": "beschermd",
+    "tegenwoordigeTijd": "beschermt",
+    "tegenwoordigDeelwoord": "beschermend"
+  },
+  {
+    "word": "bevestigen",
+    "verledenTijd": "bevestigde",
+    "voltooidDeelwoord": "bevestigd",
+    "tegenwoordigeTijd": "bevestigt",
+    "tegenwoordigDeelwoord": "bevestigend"
+  },
+  {
+    "word": "bewonderen",
+    "verledenTijd": "bewonderde",
+    "voltooidDeelwoord": "bewonderd",
+    "tegenwoordigeTijd": "bewondert",
+    "tegenwoordigDeelwoord": "bewonderend"
+  },
+  {
+    "word": "combineren",
+    "verledenTijd": "combineerde",
+    "voltooidDeelwoord": "gecombineerd",
+    "tegenwoordigeTijd": "combineert",
+    "tegenwoordigDeelwoord": "combinerend"
+  },
+  {
+    "word": "decoreren",
+    "verledenTijd": "decoreerde",
+    "voltooidDeelwoord": "gedecoreerd",
+    "tegenwoordigeTijd": "decoreert",
+    "tegenwoordigDeelwoord": "decorerend"
+  },
+  {
+    "word": "discussiëren",
+    "verledenTijd": "discussieerde",
+    "voltooidDeelwoord": "gediscussieerd",
+    "tegenwoordigeTijd": "discussieert",
+    "tegenwoordigDeelwoord": "discussiërend"
+  },
+  {
+    "word": "documenteren",
+    "verledenTijd": "documenteerde",
+    "voltooidDeelwoord": "gedocumenteerd",
+    "tegenwoordigeTijd": "documenteert",
+    "tegenwoordigDeelwoord": "documenterend"
+  },
+  {
+    "word": "downloaden",
+    "verledenTijd": "downloadde",
+    "voltooidDeelwoord": "gedownload",
+    "tegenwoordigeTijd": "downloadt",
+    "tegenwoordigDeelwoord": "downloadend"
+  },
+  {
+    "word": "fantaseren",
+    "verledenTijd": "fantaseerde",
+    "voltooidDeelwoord": "gefantaseerd",
+    "tegenwoordigeTijd": "fantaseert",
+    "tegenwoordigDeelwoord": "fantaserend"
+  },
+  {
+    "word": "fotograferen",
+    "verledenTijd": "fotografeerde",
+    "voltooidDeelwoord": "gefotografeerd",
+    "tegenwoordigeTijd": "fotografeert",
+    "tegenwoordigDeelwoord": "fotograferend"
+  },
+  {
+    "word": "garanderen",
+    "verledenTijd": "garandeerde",
+    "voltooidDeelwoord": "gegarandeerd",
+    "tegenwoordigeTijd": "garandeert",
+    "tegenwoordigDeelwoord": "garanderend"
+  },
+  {
+    "word": "geloven",
+    "verledenTijd": "geloofde",
+    "voltooidDeelwoord": "geloofd",
+    "tegenwoordigeTijd": "gelooft",
+    "tegenwoordigDeelwoord": "gelovend"
+  },
+  {
+    "word": "herinneren",
+    "verledenTijd": "herinnerde",
+    "voltooidDeelwoord": "herinnerd",
+    "tegenwoordigeTijd": "herinnert",
+    "tegenwoordigDeelwoord": "herinnerend"
+  },
+  {
+    "word": "informeren",
+    "verledenTijd": "informeerde",
+    "voltooidDeelwoord": "geïnformeerd",
+    "tegenwoordigeTijd": "informeert",
+    "tegenwoordigDeelwoord": "informerend"
+  },
+  {
+    "word": "introduceren",
+    "verledenTijd": "introduceerde",
+    "voltooidDeelwoord": "geïntroduceerd",
+    "tegenwoordigeTijd": "introduceert",
+    "tegenwoordigDeelwoord": "introducerend"
+  },
+  {
+    "word": "organiseren",
+    "verledenTijd": "organiseerde",
+    "voltooidDeelwoord": "georganiseerd",
+    "tegenwoordigeTijd": "organiseert",
+    "tegenwoordigDeelwoord": "organiserend"
+  },
+  {
+    "word": "oefenen",
+    "verledenTijd": "oefende",
+    "voltooidDeelwoord": "geoefend",
+    "tegenwoordigeTijd": "oefent",
+    "tegenwoordigDeelwoord": "oefenend"
+  },
+  {
+    "word": "overnachten",
+    "verledenTijd": "overnachtte",
+    "voltooidDeelwoord": "overnacht",
+    "tegenwoordigeTijd": "overnacht",
+    "tegenwoordigDeelwoord": "overnachtend"
+  },
+  {
+    "word": "ontdekken",
+    "verledenTijd": "ontdekte",
+    "voltooidDeelwoord": "ontdekt",
+    "tegenwoordigeTijd": "ontdekt",
+    "tegenwoordigDeelwoord": "ontdekkend"
+  },
+  {
+    "word": "ontwikkelen",
+    "verledenTijd": "ontwikkelde",
+    "voltooidDeelwoord": "ontwikkeld",
+    "tegenwoordigeTijd": "ontwikkelt",
+    "tegenwoordigDeelwoord": "ontwikkelend"
+  },
+  {
+    "word": "plannen",
+    "verledenTijd": "plande",
+    "voltooidDeelwoord": "gepland",
+    "tegenwoordigeTijd": "plant",
+    "tegenwoordigDeelwoord": "plannend"
+  },
+  {
+    "word": "produceren",
+    "verledenTijd": "produceerde",
+    "voltooidDeelwoord": "geproduceerd",
+    "tegenwoordigeTijd": "produceert",
+    "tegenwoordigDeelwoord": "producerend"
+  },
+  {
+    "word": "profiteren",
+    "verledenTijd": "profiteerde",
+    "voltooidDeelwoord": "geprofiteerd",
+    "tegenwoordigeTijd": "profiteert",
+    "tegenwoordigDeelwoord": "profiterend"
+  },
+  {
+    "word": "publiceren",
+    "verledenTijd": "publiceerde",
+    "voltooidDeelwoord": "gepubliceerd",
+    "tegenwoordigeTijd": "publiceert",
+    "tegenwoordigDeelwoord": "publicerend"
+  },
+  {
+    "word": "reageren",
+    "verledenTijd": "reageerde",
+    "voltooidDeelwoord": "gereageerd",
+    "tegenwoordigeTijd": "reageert",
+    "tegenwoordigDeelwoord": "reagerend"
+  },
+  {
+    "word": "registreren",
+    "verledenTijd": "registreerde",
+    "voltooidDeelwoord": "geregistreerd",
+    "tegenwoordigeTijd": "registreert",
+    "tegenwoordigDeelwoord": "registrerend"
+  },
+  {
+    "word": "repareren",
+    "verledenTijd": "repareerde",
+    "voltooidDeelwoord": "gerepareerd",
+    "tegenwoordigeTijd": "repareert",
+    "tegenwoordigDeelwoord": "reparerend"
+  },
+  {
+    "word": "reserveren",
+    "verledenTijd": "reserveerde",
+    "voltooidDeelwoord": "gereserveerd",
+    "tegenwoordigeTijd": "reserveert",
+    "tegenwoordigDeelwoord": "reserverend"
+  },
+  {
+    "word": "respecteren",
+    "verledenTijd": "respecteerde",
+    "voltooidDeelwoord": "gerespecteerd",
+    "tegenwoordigeTijd": "respecteert",
+    "tegenwoordigDeelwoord": "respecterend"
+  },
+  {
+    "word": "serveren",
+    "verledenTijd": "serveerde",
+    "voltooidDeelwoord": "geserveerd",
+    "tegenwoordigeTijd": "serveert",
+    "tegenwoordigDeelwoord": "serverend"
+  },
+  {
+    "word": "signaleren",
+    "verledenTijd": "signaleerde",
+    "voltooidDeelwoord": "gesignaleerd",
+    "tegenwoordigeTijd": "signaleert",
+    "tegenwoordigDeelwoord": "signalerend"
+  },
+  {
+    "word": "solliciteren",
+    "verledenTijd": "solliciteerde",
+    "voltooidDeelwoord": "gesolliciteerd",
+    "tegenwoordigeTijd": "solliciteert",
+    "tegenwoordigDeelwoord": "solliciterend"
+  },
+  {
+    "word": "sorteren",
+    "verledenTijd": "sorteerde",
+    "voltooidDeelwoord": "gesorteerd",
+    "tegenwoordigeTijd": "sorteert",
+    "tegenwoordigDeelwoord": "sorterend"
+  },
+  {
+    "word": "telefoneren",
+    "verledenTijd": "telefoneerde",
+    "voltooidDeelwoord": "getelefoneerd",
+    "tegenwoordigeTijd": "telefoneert",
+    "tegenwoordigDeelwoord": "telefonerend"
+  },
+  {
+    "word": "trainen",
+    "verledenTijd": "trainde",
+    "voltooidDeelwoord": "getraind",
+    "tegenwoordigeTijd": "traint",
+    "tegenwoordigDeelwoord": "trainend"
+  },
+  {
+    "word": "transporteren",
+    "verledenTijd": "transporteerde",
+    "voltooidDeelwoord": "getransporteerd",
+    "tegenwoordigeTijd": "transporteert",
+    "tegenwoordigDeelwoord": "transporterend"
+  },
+  {
+    "word": "veranderen",
+    "verledenTijd": "veranderde",
+    "voltooidDeelwoord": "veranderd",
+    "tegenwoordigeTijd": "verandert",
+    "tegenwoordigDeelwoord": "veranderend"
+  },
+  {
+    "word": "verbeteren",
+    "verledenTijd": "verbeterde",
+    "voltooidDeelwoord": "verbeterd",
+    "tegenwoordigeTijd": "verbetert",
+    "tegenwoordigDeelwoord": "verbeterend"
+  },
+  {
+    "word": "verklaren",
+    "verledenTijd": "verklaarde",
+    "voltooidDeelwoord": "verklaard",
+    "tegenwoordigeTijd": "verklaart",
+    "tegenwoordigDeelwoord": "verklarend"
+  },
+  {
+    "word": "verplaatsen",
+    "verledenTijd": "verplaatste",
+    "voltooidDeelwoord": "verplaatst",
+    "tegenwoordigeTijd": "verplaatst",
+    "tegenwoordigDeelwoord": "verplaatsend"
+  },
+  {
+    "word": "vertalen",
+    "verledenTijd": "vertaalde",
+    "voltooidDeelwoord": "vertaald",
+    "tegenwoordigeTijd": "vertaalt",
+    "tegenwoordigDeelwoord": "vertalend"
+  },
+  {
+    "word": "verwelkomen",
+    "verledenTijd": "verwelkomde",
+    "voltooidDeelwoord": "verwelkomd",
+    "tegenwoordigeTijd": "verwelkomt",
+    "tegenwoordigDeelwoord": "verwelkomend"
+  },
+  {
+    "word": "winkelen",
+    "verledenTijd": "winkelde",
+    "voltooidDeelwoord": "gewinkeld",
+    "tegenwoordigeTijd": "winkelt",
+    "tegenwoordigDeelwoord": "winkelend"
+  },
+  {
+    "word": "zweten",
+    "verledenTijd": "zweette",
+    "voltooidDeelwoord": "gezweet",
+    "tegenwoordigeTijd": "zweet",
+    "tegenwoordigDeelwoord": "zwetend"
+  },
+  {
+    "word": "analyseren",
+    "verledenTijd": "analyseerde",
+    "voltooidDeelwoord": "geanalyseerd",
+    "tegenwoordigeTijd": "analyseert",
+    "tegenwoordigDeelwoord": "analyserend"
+  },
+  {
+    "word": "assisteren",
+    "verledenTijd": "assisteerde",
+    "voltooidDeelwoord": "geassisteerd",
+    "tegenwoordigeTijd": "assisteert",
+    "tegenwoordigDeelwoord": "assisterend"
+  },
+  {
+    "word": "calculeren",
+    "verledenTijd": "calculeerde",
+    "voltooidDeelwoord": "gecalculeerd",
+    "tegenwoordigeTijd": "calculeert",
+    "tegenwoordigDeelwoord": "calculerend"
+  },
+  {
+    "word": "communiceren",
+    "verledenTijd": "communiceerde",
+    "voltooidDeelwoord": "gecommuniceerd",
+    "tegenwoordigeTijd": "communiceert",
+    "tegenwoordigDeelwoord": "communicerend"
+  },
+  {
+    "word": "concentreren",
+    "verledenTijd": "concentreerde",
+    "voltooidDeelwoord": "geconcentreerd",
+    "tegenwoordigeTijd": "concentreert",
+    "tegenwoordigDeelwoord": "concentrerend"
+  },
+  {
+    "word": "concluderen",
+    "verledenTijd": "concludeerde",
+    "voltooidDeelwoord": "geconcludeerd",
+    "tegenwoordigeTijd": "concludeert",
+    "tegenwoordigDeelwoord": "concluderend"
+  },
+  {
+    "word": "configureren",
+    "verledenTijd": "configureerde",
+    "voltooidDeelwoord": "geconfigureerd",
+    "tegenwoordigeTijd": "configureert",
+    "tegenwoordigDeelwoord": "configurerend"
+  },
+  {
+    "word": "consulteren",
+    "verledenTijd": "consulteerde",
+    "voltooidDeelwoord": "geconsulteerd",
+    "tegenwoordigeTijd": "consulteert",
+    "tegenwoordigDeelwoord": "consulterend"
+  },
+  {
+    "word": "corrigeren",
+    "verledenTijd": "corrigeerde",
+    "voltooidDeelwoord": "gecorrigeerd",
+    "tegenwoordigeTijd": "corrigeert",
+    "tegenwoordigDeelwoord": "corrigerend"
+  },
+  {
+    "word": "creëren",
+    "verledenTijd": "creëerde",
+    "voltooidDeelwoord": "gecreëerd",
+    "tegenwoordigeTijd": "creëert",
+    "tegenwoordigDeelwoord": "creërend"
+  },
+  {
+    "word": "definiëren",
+    "verledenTijd": "definieerde",
+    "voltooidDeelwoord": "gedefinieerd",
+    "tegenwoordigeTijd": "definieert",
+    "tegenwoordigDeelwoord": "definiërend"
+  },
+  {
+    "word": "demonstreren",
+    "verledenTijd": "demonstreerde",
+    "voltooidDeelwoord": "gedemonstreerd",
+    "tegenwoordigeTijd": "demonstreert",
+    "tegenwoordigDeelwoord": "demonstrerend"
+  },
+  {
+    "word": "distribueren",
+    "verledenTijd": "distribueerde",
+    "voltooidDeelwoord": "gedistribueerd",
+    "tegenwoordigeTijd": "distribueert",
+    "tegenwoordigDeelwoord": "distribuerend"
+  },
+  {
+    "word": "evalueren",
+    "verledenTijd": "evalueerde",
+    "voltooidDeelwoord": "geëvalueerd",
+    "tegenwoordigeTijd": "evalueert",
+    "tegenwoordigDeelwoord": "evaluerend"
+  },
+  {
+    "word": "experimenteren",
+    "verledenTijd": "experimenteerde",
+    "voltooidDeelwoord": "geëxperimenteerd",
+    "tegenwoordigeTijd": "experimenteert",
+    "tegenwoordigDeelwoord": "experimenterend"
+  },
+  {
+    "word": "functioneren",
+    "verledenTijd": "functioneerde",
+    "voltooidDeelwoord": "gefunctioneerd",
+    "tegenwoordigeTijd": "functioneert",
+    "tegenwoordigDeelwoord": "functionerend"
+  },
+  {
+    "word": "identificeren",
+    "verledenTijd": "identificeerde",
+    "voltooidDeelwoord": "geïdentificeerd",
+    "tegenwoordigeTijd": "identificeert",
+    "tegenwoordigDeelwoord": "identificerend"
+  },
+  {
+    "word": "implementeren",
+    "verledenTijd": "implementeerde",
+    "voltooidDeelwoord": "geïmplementeerd",
+    "tegenwoordigeTijd": "implementeert",
+    "tegenwoordigDeelwoord": "implementerend"
+  },
+  {
+    "word": "improviseren",
+    "verledenTijd": "improviseerde",
+    "voltooidDeelwoord": "geïmproviseerd",
+    "tegenwoordigeTijd": "improviseert",
+    "tegenwoordigDeelwoord": "improviserend"
+  },
+  {
+    "word": "installeren",
+    "verledenTijd": "installeerde",
+    "voltooidDeelwoord": "geïnstalleerd",
+    "tegenwoordigeTijd": "installeert",
+    "tegenwoordigDeelwoord": "installerend"
+  },
+  {
+    "word": "integreren",
+    "verledenTijd": "integreerde",
+    "voltooidDeelwoord": "geïntegreerd",
+    "tegenwoordigeTijd": "integreert",
+    "tegenwoordigDeelwoord": "integrerend"
+  },
+  {
+    "word": "investeren",
+    "verledenTijd": "investeerde",
+    "voltooidDeelwoord": "geïnvesteerd",
+    "tegenwoordigeTijd": "investeert",
+    "tegenwoordigDeelwoord": "investerend"
+  },
+  {
+    "word": "motiveren",
+    "verledenTijd": "motiveerde",
+    "voltooidDeelwoord": "gemotiveerd",
+    "tegenwoordigeTijd": "motiveert",
+    "tegenwoordigDeelwoord": "motiverend"
+  },
+  {
+    "word": "observeren",
+    "verledenTijd": "observeerde",
+    "voltooidDeelwoord": "geobserveerd",
+    "tegenwoordigeTijd": "observeert",
+    "tegenwoordigDeelwoord": "observerend"
+  },
+  {
+    "word": "optimaliseren",
+    "verledenTijd": "optimaliseerde",
+    "voltooidDeelwoord": "geoptimaliseerd",
+    "tegenwoordigeTijd": "optimaliseert",
+    "tegenwoordigDeelwoord": "optimaliserend"
+  }
+]

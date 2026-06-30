@@ -131,7 +131,11 @@ class _GameScreenState extends State<GameScreen>
   }
 
   Future<void> nextQuestion() async {
-    if (!await PremiumService.isPremium() && currentQuestion >= 9) {
+    final hasPremium = await PremiumService.isPremium();
+
+    if (!mounted) return;
+
+    if (!hasPremium && currentQuestion >= 9) {
       showPremiumPopup();
       return;
     }
@@ -435,7 +439,7 @@ class _GameScreenState extends State<GameScreen>
                             onPressed: () async {
                               try {
                                 final success =
-                                    await PremiumService.activatePremium();
+                                    await PremiumService.purchasePremium();
 
                                 if (!mounted || !dialogContext.mounted) return;
 
@@ -706,7 +710,7 @@ class _GameScreenState extends State<GameScreen>
                                     return;
                                   }
 
-                                  await PremiumService.activatePremium();
+                                  await PremiumService.activateCodePremium();
 
                                   if (!mounted || !dialogContext.mounted) {
                                     return;

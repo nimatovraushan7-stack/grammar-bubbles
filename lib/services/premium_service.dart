@@ -1,8 +1,10 @@
 import 'dart:io';
 
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
 
 class PremiumService {
+  static const String boxName = 'premiumBox';
   static const String entitlement = 'Bubble Grammar Pro';
 
   static Future<void> initialize() async {
@@ -17,7 +19,7 @@ class PremiumService {
     await Purchases.configure(configuration);
   }
 
-  static Future<bool> activatePremium() async {
+  static Future<bool> purchasePremium() async {
     try {
       final offerings = await Purchases.getOfferings();
 
@@ -33,13 +35,21 @@ class PremiumService {
         throw Exception('6 month package not found.');
       }
 
-      final customerInfo =
-          await Purchases.purchasePackage(package);
+      final customerInfo = await Purchases.purchasePackage(package);
 
       return customerInfo.entitlements.active.containsKey(entitlement);
     } catch (e) {
-  rethrow;
-}
+      rethrow;
+    }
+  }
+
+  static Future<void> activateCodePremium() async {
+    final box = Hive.box(boxName);
+
+    await box.put(
+      'codePremium',
+      true,
+    );
   }
 
   static Future<bool> restorePurchases() async {
@@ -49,21 +59,26 @@ class PremiumService {
   }
 
   static Future<bool> isPremium() async {
+    final box = Hive.box(boxName);
+
+    if (box.get('codePremium') == true) {
+      return true;
+    }
+
     final customerInfo = await Purchases.getCustomerInfo();
 
     return customerInfo.entitlements.active.containsKey(entitlement);
   }
 
   static Future<DateTime?> getExpiryDate() async {
-  final customerInfo = await Purchases.getCustomerInfo();
+    final customerInfo = await Purchases.getCustomerInfo();
 
-  final entitlementInfo =
-      customerInfo.entitlements.active[entitlement];
+    final entitlementInfo = customerInfo.entitlements.active[entitlement];
 
-  if (entitlementInfo?.expirationDate == null) {
-    return null;
+    if (entitlementInfo?.expirationDate == null) {
+      return null;
+    }
+
+    return DateTime.parse(entitlementInfo!.expirationDate!);
   }
-
-  return DateTime.parse(entitlementInfo!.expirationDate!);
-}
 }

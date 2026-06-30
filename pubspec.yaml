@@ -76,7 +76,8 @@ flutter:
     - assets/images/bubble.png
     - assets/images/bubble_correct.png
     - assets/images/bubble_wrong.png
-    - assets/data/verbs.json
+    - assets/data/regular_verbs.json
+    - assets/data/irregular_verbs.json
     - assets/sounds/
     
 
