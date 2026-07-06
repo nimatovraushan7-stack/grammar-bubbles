@@ -3,7 +3,9 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import '../models/grammar_question.dart';
 import '../services/analytics_service.dart';
+import '../services/localization_service.dart';
 import '../services/sound_service.dart';
+import '../widgets/responsive_text.dart';
 import 'game_screen.dart';
 
 class GrammarModeConfig {
@@ -19,18 +21,20 @@ class GrammarModeConfig {
 }
 
 class GrammarModeCategoryScreen extends StatelessWidget {
-  final String title;
-  final String instruction;
+  final String titleKey;
+  final String instructionKey;
   final GrammarModeConfig irregularMode;
   final GrammarModeConfig regularMode;
+  final GrammarModeConfig separableMode;
   final GrammarModeConfig mixedMode;
 
   const GrammarModeCategoryScreen({
     super.key,
-    required this.title,
-    required this.instruction,
+    required this.titleKey,
+    required this.instructionKey,
     required this.irregularMode,
     required this.regularMode,
+    required this.separableMode,
     required this.mixedMode,
   });
 
@@ -38,6 +42,8 @@ class GrammarModeCategoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l = LocalizationService.t;
+
     return Scaffold(
       backgroundColor: Colors.transparent,
       body: Container(
@@ -79,7 +85,9 @@ class GrammarModeCategoryScreen extends StatelessWidget {
                             ],
                           ),
                           const SizedBox(height: 26),
-                          _CategoryHeader(title: title),
+                          _CategoryHeader(
+                            title: l(titleKey),
+                          ),
                           const SizedBox(height: 36),
                           ValueListenableBuilder(
                             valueListenable:
@@ -91,6 +99,9 @@ class GrammarModeCategoryScreen extends StatelessWidget {
                               final regularBest = _bestScoreForCategories(
                                 regularMode.bestScoreCategories,
                               );
+                              final separableBest = _bestScoreForCategories(
+                                separableMode.bestScoreCategories,
+                              );
                               final mixedBest = _bestScoreForCategories(
                                 mixedMode.bestScoreCategories,
                               );
@@ -98,23 +109,11 @@ class GrammarModeCategoryScreen extends StatelessWidget {
                               return Column(
                                 children: [
                                   _PracticeModeCard(
-                                    title: 'Onregelmatige Werkwoorden',
-                                    bestScore: irregularBest,
-                                    total: 15,
-                                    icon: Icons.bolt_rounded,
-                                    glowColor: _glowColor,
-                                    onTap: () => _startMode(
-                                      context,
-                                      mode: irregularMode,
-                                    ),
-                                  ),
-                                  const SizedBox(height: 20),
-                                  _PracticeModeCard(
-                                    title: 'Regelmatige Werkwoorden',
+                                    title: l('regularVerbs'),
                                     bestScore: regularBest,
                                     total: 15,
                                     icon: Icons.check_circle_rounded,
-                                    glowColor: const Color(0xFF4CFF6B),
+                                    glowColor: _glowColor,
                                     onTap: () => _startMode(
                                       context,
                                       mode: regularMode,
@@ -122,7 +121,31 @@ class GrammarModeCategoryScreen extends StatelessWidget {
                                   ),
                                   const SizedBox(height: 20),
                                   _PracticeModeCard(
-                                    title: 'Gemengd',
+                                    title: l('irregularVerbs'),
+                                    bestScore: irregularBest,
+                                    total: 15,
+                                    icon: Icons.bolt_rounded,
+                                    glowColor: const Color(0xFF4CFF6B),
+                                    onTap: () => _startMode(
+                                      context,
+                                      mode: irregularMode,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 20),
+                                  _PracticeModeCard(
+                                    title: l('separableVerbs'),
+                                    bestScore: separableBest,
+                                    total: 15,
+                                    icon: Icons.call_split_rounded,
+                                    glowColor: const Color(0xFFFFD25B),
+                                    onTap: () => _startMode(
+                                      context,
+                                      mode: separableMode,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 20),
+                                  _PracticeModeCard(
+                                    title: l('mixed'),
                                     bestScore: mixedBest,
                                     total: 15,
                                     icon: Icons.shuffle_rounded,
@@ -172,7 +195,7 @@ class GrammarModeCategoryScreen extends StatelessWidget {
       MaterialPageRoute(
         builder: (_) => GameScreen(
           title: mode.gameTitle,
-          instruction: instruction,
+          instruction: instructionKey,
           questions: questions,
         ),
       ),
@@ -247,9 +270,11 @@ class _CategoryHeader extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Text(
+        ResponsiveText(
           title,
           textAlign: TextAlign.center,
+          maxLines: 2,
+          minFontSize: 22,
           style: const TextStyle(
             color: Colors.white,
             fontSize: 34,
@@ -265,10 +290,12 @@ class _CategoryHeader extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 12),
-        const Text(
-          'Choose a practice mode',
+        ResponsiveText(
+          LocalizationService.t('choosePracticeMode'),
           textAlign: TextAlign.center,
-          style: TextStyle(
+          maxLines: 2,
+          minFontSize: 12,
+          style: const TextStyle(
             color: Colors.white70,
             fontSize: 16,
             fontWeight: FontWeight.w500,
@@ -376,8 +403,10 @@ class _PracticeModeCardState extends State<_PracticeModeCard> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text(
+                      ResponsiveText(
                         widget.title,
+                        maxLines: 2,
+                        minFontSize: 13,
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 18,
@@ -386,7 +415,7 @@ class _PracticeModeCardState extends State<_PracticeModeCard> {
                       ),
                       const SizedBox(height: 4),
                       Row(
-                        mainAxisSize: MainAxisSize.min,
+                        mainAxisSize: MainAxisSize.max,
                         children: [
                           _StarRating(
                             score: widget.bestScore,
@@ -394,12 +423,19 @@ class _PracticeModeCardState extends State<_PracticeModeCard> {
                             size: 20,
                           ),
                           const SizedBox(width: 8),
-                          Text(
-                            'Beste score: ${widget.bestScore}/${widget.total}',
-                            style: const TextStyle(
-                              color: Colors.white60,
-                              fontSize: 13,
-                              fontWeight: FontWeight.w500,
+                          Flexible(
+                            child: ResponsiveText(
+                              LocalizationService.bestScore(
+                                widget.bestScore,
+                                widget.total,
+                              ),
+                              maxLines: 2,
+                              minFontSize: 10,
+                              style: const TextStyle(
+                                color: Colors.white60,
+                                fontSize: 13,
+                                fontWeight: FontWeight.w500,
+                              ),
                             ),
                           ),
                         ],

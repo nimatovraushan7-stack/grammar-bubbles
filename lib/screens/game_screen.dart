@@ -7,10 +7,15 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../models/grammar_question.dart';
 import '../services/analytics_service.dart';
+import '../services/learning_level_service.dart';
+import '../services/localization_service.dart';
 import '../services/premium_service.dart';
 import '../services/remote_code_service.dart';
+import '../services/settings_service.dart';
 import '../services/sound_service.dart';
+import '../services/translation_service.dart';
 import '../widgets/answer_bubble.dart';
+import '../widgets/responsive_text.dart';
 import 'dashboard_screen.dart';
 import 'result_screen.dart';
 
@@ -52,8 +57,9 @@ class _GameScreenState extends State<GameScreen>
   int currentQuestion = 0;
   int score = 0;
   List<GrammarQuestion> gameQuestions = [];
-  final int maxTime = 10;
-  int timeLeft = 10;
+  int maxTime = SettingsService.defaultQuestionTime;
+  int timeLeft = SettingsService.defaultQuestionTime;
+  String translationLanguageCode = SettingsService.defaultLanguageCode;
   Timer? timer;
   Timer? feedbackTimer;
   late final AnimationController feedbackController;
@@ -62,6 +68,8 @@ class _GameScreenState extends State<GameScreen>
   bool showFeedback = false;
   bool answerWasCorrect = false;
   String correctAnswer = '';
+  bool showTranslation = false;
+  String? translationText;
 
   @override
   void initState() {
@@ -81,6 +89,9 @@ class _GameScreenState extends State<GameScreen>
     if (gameQuestions.length > 15) {
       gameQuestions = gameQuestions.take(15).toList();
     }
+    maxTime = SettingsService.getQuestionTime();
+    timeLeft = maxTime;
+    translationLanguageCode = SettingsService.getLanguage();
     SoundService.startBackground();
     generateBubblePositions();
     startTimer();
@@ -100,18 +111,40 @@ class _GameScreenState extends State<GameScreen>
       mode: LaunchMode.externalApplication,
     );
 
-    if (!opened && mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Link openen mislukt'),
-        ),
-      );
+    if (!opened) return;
+  }
+
+  Future<void> toggleTranslation(String word) async {
+    final shouldShowTranslation = !showTranslation;
+
+    setState(() {
+      showTranslation = shouldShowTranslation;
+      if (shouldShowTranslation) {
+        translationText = null;
+      }
+    });
+
+    if (!shouldShowTranslation) return;
+
+    final translation = await TranslationService.getTranslation(
+      word,
+      languageCode: translationLanguageCode,
+    );
+
+    if (!mounted ||
+        !showTranslation ||
+        gameQuestions[currentQuestion].word != word) {
+      return;
     }
+
+    setState(() {
+      translationText = translation;
+    });
   }
 
   void startTimer() {
     timer?.cancel();
-    setState(() => timeLeft = 10);
+    setState(() => timeLeft = maxTime);
     timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (timeLeft > 0) {
         setState(() => timeLeft--);
@@ -144,11 +177,20 @@ class _GameScreenState extends State<GameScreen>
         currentQuestion++;
         selectedAnswer = null;
         selectedAnswerCorrect = false;
+        showTranslation = false;
+        translationText = null;
         generateBubblePositions();
       });
       startTimer();
     } else {
       timer?.cancel();
+      await LearningLevelService.recordSession(
+        exerciseId: widget.title,
+        score: score,
+        total: gameQuestions.length,
+      );
+      if (!mounted) return;
+
       AnalyticsService.saveQuizResult(
         category: widget.title,
         score: score,
@@ -169,11 +211,12 @@ class _GameScreenState extends State<GameScreen>
 
   void showPremiumPopup() {
     const neonBlue = Color(0xFF2FD4FF);
+    final l = LocalizationService.t;
 
     showGeneralDialog(
       context: context,
       barrierDismissible: false,
-      barrierLabel: 'Premium toegang',
+      barrierLabel: l('premiumAccess'),
       barrierColor: Colors.black.withOpacity(0.55),
       transitionDuration: const Duration(milliseconds: 260),
       pageBuilder: (dialogContext, animation, secondaryAnimation) {
@@ -200,8 +243,10 @@ class _GameScreenState extends State<GameScreen>
                 ),
                 const SizedBox(width: 12),
                 Expanded(
-                  child: Text(
+                  child: ResponsiveText(
                     text,
+                    maxLines: 2,
+                    minFontSize: 13,
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 17,
@@ -256,8 +301,11 @@ class _GameScreenState extends State<GameScreen>
                   borderRadius: BorderRadius.circular(18),
                   onTap: onPressed,
                   child: Center(
-                    child: Text(
+                    child: ResponsiveText(
                       label,
+                      textAlign: TextAlign.center,
+                      maxLines: 2,
+                      minFontSize: 11,
                       style: TextStyle(
                         color: primary ? const Color(0xFF05212A) : Colors.white,
                         fontSize: 15,
@@ -289,9 +337,11 @@ class _GameScreenState extends State<GameScreen>
                 decoration: TextDecoration.underline,
               ),
             ),
-            child: Text(
+            child: ResponsiveText(
               label,
               textAlign: TextAlign.center,
+              maxLines: 2,
+              minFontSize: 11,
             ),
           );
         }
@@ -379,10 +429,12 @@ class _GameScreenState extends State<GameScreen>
                             ),
                           ),
                           const SizedBox(height: 24),
-                          const Text(
-                            'PREMIUM TOEGANG',
+                          ResponsiveText(
+                            l('premiumAccess').toUpperCase(),
                             textAlign: TextAlign.center,
-                            style: TextStyle(
+                            maxLines: 2,
+                            minFontSize: 22,
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 30,
                               fontWeight: FontWeight.w900,
@@ -390,9 +442,11 @@ class _GameScreenState extends State<GameScreen>
                             ),
                           ),
                           const SizedBox(height: 10),
-                          Text(
-                            '6 maanden onbeperkt toegang',
+                          ResponsiveText(
+                            l('premiumSubtitle'),
                             textAlign: TextAlign.center,
+                            maxLines: 2,
+                            minFontSize: 13,
                             style: TextStyle(
                               color: Colors.white.withOpacity(0.76),
                               fontSize: 17,
@@ -415,10 +469,10 @@ class _GameScreenState extends State<GameScreen>
                             ),
                             child: Column(
                               children: [
-                                benefit('Onbeperkt oefenen'),
-                                benefit('Analytics'),
-                                benefit('Nieuwe grammatica categorieën'),
-                                benefit('Toekomstige updates'),
+                                benefit(l('unlimitedPractice')),
+                                benefit(l('analytics')),
+                                benefit(l('newGrammarCategories')),
+                                benefit(l('futureUpdates')),
                               ],
                             ),
                           ),
@@ -434,7 +488,7 @@ class _GameScreenState extends State<GameScreen>
                           ),
                           const SizedBox(height: 24),
                           premiumButton(
-                            label: 'KOOP PREMIUM',
+                            label: l('buyPremium').toUpperCase(),
                             primary: true,
                             onPressed: () async {
                               try {
@@ -446,29 +500,16 @@ class _GameScreenState extends State<GameScreen>
                                 if (success) {
                                   Navigator.pop(dialogContext);
 
-                                  ScaffoldMessenger.of(context).showSnackBar(
-                                    const SnackBar(
-                                      content: Text(
-                                          'Premium succesvol geactiveerd!'),
-                                    ),
-                                  );
-
                                   await nextQuestion();
                                 }
-                              } catch (e) {
-                                if (!mounted) return;
-
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(
-                                    content: Text('Aankoop mislukt: $e'),
-                                  ),
-                                );
+                              } catch (_) {
+                                return;
                               }
                             },
                           ),
                           const SizedBox(height: 12),
                           premiumButton(
-                            label: 'CODE INVOEREN',
+                            label: l('enterCode').toUpperCase(),
                             onPressed: () {
                               Navigator.of(dialogContext).pop();
                               showCodeDialog();
@@ -487,8 +528,11 @@ class _GameScreenState extends State<GameScreen>
                               );
                               unawaited(SoundService.playClick());
                             },
-                            child: Text(
-                              'MISSCHIEN LATER',
+                            child: ResponsiveText(
+                              l('maybeLater').toUpperCase(),
+                              textAlign: TextAlign.center,
+                              maxLines: 2,
+                              minFontSize: 11,
                               style: TextStyle(
                                 color: Colors.white.withOpacity(0.68),
                                 fontSize: 14,
@@ -501,12 +545,12 @@ class _GameScreenState extends State<GameScreen>
                           Column(
                             children: [
                               legalLink(
-                                label: 'Privacy Policy',
+                                label: l('privacyPolicy'),
                                 url: _privacyPolicyUrl,
                               ),
                               const SizedBox(height: 12),
                               legalLink(
-                                label: 'Terms of Use',
+                                label: l('termsOfUse'),
                                 url: _termsOfUseUrl,
                               ),
                             ],
@@ -541,11 +585,12 @@ class _GameScreenState extends State<GameScreen>
   void showCodeDialog() {
     final controller = TextEditingController();
     const neonBlue = Color(0xFF2FD4FF);
+    final l = LocalizationService.t;
 
     showGeneralDialog(
       context: context,
       barrierDismissible: false,
-      barrierLabel: 'Code invoeren',
+      barrierLabel: l('enterCode'),
       barrierColor: Colors.black.withOpacity(0.55),
       transitionDuration: const Duration(milliseconds: 260),
       pageBuilder: (dialogContext, animation, secondaryAnimation) {
@@ -597,17 +642,21 @@ class _GameScreenState extends State<GameScreen>
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text(
-                        'Code invoeren',
-                        style: TextStyle(
+                      ResponsiveText(
+                        l('enterCode'),
+                        maxLines: 2,
+                        minFontSize: 20,
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 28,
                           fontWeight: FontWeight.w900,
                         ),
                       ),
                       const SizedBox(height: 14),
-                      Text(
-                        'Voer je activatiecode in om premium te ontgrendelen.',
+                      ResponsiveText(
+                        l('enterActivationCode'),
+                        maxLines: 3,
+                        minFontSize: 12,
                         style: TextStyle(
                           color: Colors.white.withOpacity(0.78),
                           fontSize: 15,
@@ -634,9 +683,10 @@ class _GameScreenState extends State<GameScreen>
                             color: Colors.white,
                             fontSize: 16,
                           ),
-                          decoration: const InputDecoration(
-                            hintText: 'Voer code in',
-                            hintStyle: TextStyle(
+                          decoration: InputDecoration(
+                            hintText: l('codeHint'),
+                            hintMaxLines: 2,
+                            hintStyle: const TextStyle(
                               color: Colors.white54,
                             ),
                             border: InputBorder.none,
@@ -667,9 +717,12 @@ class _GameScreenState extends State<GameScreen>
                                   if (!mounted) return;
                                   showPremiumPopup();
                                 },
-                                child: const Text(
-                                  'Annuleren',
-                                  style: TextStyle(
+                                child: ResponsiveText(
+                                  l('cancel'),
+                                  textAlign: TextAlign.center,
+                                  maxLines: 1,
+                                  minFontSize: 11,
+                                  style: const TextStyle(
                                     fontSize: 15,
                                     fontWeight: FontWeight.w900,
                                     letterSpacing: 0.7,
@@ -701,9 +754,9 @@ class _GameScreenState extends State<GameScreen>
 
                                   if (!isValidCode) {
                                     ScaffoldMessenger.of(context).showSnackBar(
-                                      const SnackBar(
+                                      SnackBar(
                                         content: Text(
-                                          'Ongeldige of verlopen code',
+                                          l('invalidCode'),
                                         ),
                                       ),
                                     );
@@ -719,9 +772,9 @@ class _GameScreenState extends State<GameScreen>
                                   Navigator.pop(dialogContext);
 
                                   ScaffoldMessenger.of(context).showSnackBar(
-                                    const SnackBar(
+                                    SnackBar(
                                       content: Text(
-                                        'Premium geactiveerd!',
+                                        l('premiumActivated'),
                                       ),
                                     ),
                                   );
@@ -732,9 +785,12 @@ class _GameScreenState extends State<GameScreen>
 
                                   await nextQuestion();
                                 },
-                                child: const Text(
-                                  'Activeren',
-                                  style: TextStyle(
+                                child: ResponsiveText(
+                                  l('activate'),
+                                  textAlign: TextAlign.center,
+                                  maxLines: 1,
+                                  minFontSize: 11,
+                                  style: const TextStyle(
                                     color: Color(0xFF05212A),
                                     fontSize: 15,
                                     fontWeight: FontWeight.w900,
@@ -828,6 +884,7 @@ class _GameScreenState extends State<GameScreen>
   @override
   Widget build(BuildContext context) {
     final question = gameQuestions[currentQuestion];
+    final l = LocalizationService.t;
 
     return Scaffold(
       body: Stack(
@@ -867,8 +924,13 @@ class _GameScreenState extends State<GameScreen>
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text(
-                                    'Vraag ${currentQuestion + 1}/${gameQuestions.length}',
+                                  ResponsiveText(
+                                    LocalizationService.questionCount(
+                                      currentQuestion + 1,
+                                      gameQuestions.length,
+                                    ),
+                                    maxLines: 1,
+                                    minFontSize: 11,
                                     style: const TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.w600,
@@ -947,24 +1009,87 @@ class _GameScreenState extends State<GameScreen>
                       ),
                     ),
                     const SizedBox(height: 30),
-                    Text(
-                      widget.instruction,
+                    ResponsiveText(
+                      LocalizationService.instruction(
+                        question.instructionKey ?? widget.instruction,
+                      ),
+                      textAlign: TextAlign.center,
+                      maxLines: 2,
+                      minFontSize: 13,
                       style: const TextStyle(
                         color: Colors.white70,
                         fontSize: 18,
                       ),
                     ),
                     const SizedBox(height: 10),
-                    Text(
-                      question.word.toUpperCase(),
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 42,
-                        fontWeight: FontWeight.w700,
-                        letterSpacing: 1.5,
+                    GestureDetector(
+                      behavior: HitTestBehavior.opaque,
+                      onTap: () => toggleTranslation(question.word),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          AnimatedSwitcher(
+                            duration: const Duration(milliseconds: 220),
+                            switchInCurve: Curves.easeOut,
+                            switchOutCurve: Curves.easeOut,
+                            transitionBuilder: (child, animation) {
+                              final scaleAnimation = Tween<double>(
+                                begin: 0.96,
+                                end: 1,
+                              ).animate(animation);
+
+                              return FadeTransition(
+                                opacity: animation,
+                                child: ScaleTransition(
+                                  scale: scaleAnimation,
+                                  child: child,
+                                ),
+                              );
+                            },
+                            child: ResponsiveText(
+                              showTranslation && translationText != null
+                                  ? translationText!.toUpperCase()
+                                  : question.word.toUpperCase(),
+                              key: ValueKey(
+                                showTranslation && translationText != null
+                                    ? 'translation-${question.word}-$translationText'
+                                    : 'word-${question.word}',
+                              ),
+                              textAlign: TextAlign.center,
+                              maxLines: 2,
+                              minFontSize: 26,
+                              style: TextStyle(
+                                color:
+                                    showTranslation && translationText != null
+                                        ? const Color(0xFF45D7FF)
+                                        : Colors.white,
+                                fontSize: 42,
+                                fontWeight: FontWeight.w700,
+                                letterSpacing: 1.5,
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 4),
+                          SizedBox(
+                            height: 24,
+                            child: Center(
+                              child: ResponsiveText(
+                                l('tapToTranslate'),
+                                textAlign: TextAlign.center,
+                                maxLines: 1,
+                                minFontSize: 10,
+                                style: TextStyle(
+                                  color: Colors.white.withValues(alpha: 0.55),
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 10),
                     Expanded(
                       child: Stack(
                         children: [
@@ -1095,12 +1220,15 @@ class _GameScreenState extends State<GameScreen>
                                 ),
                               ),
                               const SizedBox(height: 24),
-                              Text(
+                              ResponsiveText(
                                 timeRanOut
-                                    ? 'TIJD OP'
+                                    ? l('timesUp').toUpperCase()
                                     : answerWasCorrect
-                                        ? 'CORRECT'
-                                        : 'INCORRECT',
+                                        ? l('correct').toUpperCase()
+                                        : l('incorrect').toUpperCase(),
+                                textAlign: TextAlign.center,
+                                maxLines: 2,
+                                minFontSize: 22,
                                 style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 34,
@@ -1109,13 +1237,15 @@ class _GameScreenState extends State<GameScreen>
                                 ),
                               ),
                               const SizedBox(height: 18),
-                              Text(
+                              ResponsiveText(
                                 timeRanOut
-                                    ? 'Het juiste antwoord was:'
+                                    ? l('correctAnswerWas')
                                     : answerWasCorrect
-                                        ? 'Goed gedaan!'
-                                        : 'Het juiste antwoord was:',
+                                        ? l('wellDone')
+                                        : l('correctAnswerWas'),
                                 textAlign: TextAlign.center,
+                                maxLines: 2,
+                                minFontSize: 13,
                                 style: TextStyle(
                                   color: Colors.white70.withOpacity(0.95),
                                   fontSize: 18,
@@ -1145,10 +1275,12 @@ class _GameScreenState extends State<GameScreen>
                                   ),
                                 ),
                                 const SizedBox(height: 18),
-                                const Text(
-                                  'Tik ergens om verder te gaan',
+                                ResponsiveText(
+                                  l('tapAnywhereToContinue'),
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  maxLines: 2,
+                                  minFontSize: 11,
+                                  style: const TextStyle(
                                     color: Colors.white54,
                                     fontSize: 15,
                                   ),

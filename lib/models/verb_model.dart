@@ -4,6 +4,7 @@ class VerbModel {
   final String voltooidDeelwoord;
   final String tegenwoordigeTijd;
   final String tegenwoordigDeelwoord;
+  final String level;
 
   const VerbModel({
     required this.word,
@@ -11,6 +12,7 @@ class VerbModel {
     required this.voltooidDeelwoord,
     required this.tegenwoordigeTijd,
     required this.tegenwoordigDeelwoord,
+    this.level = 'A1',
   });
 
   factory VerbModel.fromJson(Map<String, dynamic> json) {
@@ -20,6 +22,7 @@ class VerbModel {
       voltooidDeelwoord: _readString(json, 'voltooidDeelwoord'),
       tegenwoordigeTijd: _readString(json, 'tegenwoordigeTijd'),
       tegenwoordigDeelwoord: _readString(json, 'tegenwoordigDeelwoord'),
+      level: _readOptionalString(json, 'level') ?? 'A1',
     );
   }
 
@@ -27,6 +30,15 @@ class VerbModel {
     final value = json[key];
     if (value is! String || value.trim().isEmpty) {
       throw FormatException('Ongeldige of ontbrekende waarde voor "$key".');
+    }
+    return value;
+  }
+
+  static String? _readOptionalString(Map<String, dynamic> json, String key) {
+    final value = json[key];
+    if (value == null) return null;
+    if (value is! String || value.trim().isEmpty) {
+      throw FormatException('Ongeldige waarde voor "$key".');
     }
     return value;
   }

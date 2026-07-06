@@ -9,8 +9,8 @@ class VoltooidDeelwoordCategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const GrammarModeCategoryScreen(
-      title: 'Voltooid Deelwoord',
-      instruction: 'Zoek het voltooid deelwoord van:',
+      titleKey: 'pastParticiple',
+      instructionKey: 'instructionPastParticiple',
       irregularMode: GrammarModeConfig(
         gameTitle: 'Voltooid Deelwoord - Onregelmatig',
         bestScoreCategories: [
@@ -26,6 +26,14 @@ class VoltooidDeelwoordCategoryScreen extends StatelessWidget {
         ],
         questionsLoader:
             QuestionGenerator.generateRegelmatigeVoltooidDeelwoordQuestions,
+      ),
+      separableMode: GrammarModeConfig(
+        gameTitle: 'Voltooid Deelwoord - Scheidbaar',
+        bestScoreCategories: [
+          'Voltooid Deelwoord - Scheidbaar',
+        ],
+        questionsLoader:
+            QuestionGenerator.generateScheidbareVoltooidDeelwoordQuestions,
       ),
       mixedMode: GrammarModeConfig(
         gameTitle: 'Voltooid Deelwoord - Gemengd',

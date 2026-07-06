@@ -4,1007 +4,1151 @@
     "verledenTijd": "bakte",
     "voltooidDeelwoord": "gebakken",
     "tegenwoordigeTijd": "bakt",
-    "tegenwoordigDeelwoord": "bakkend"
+    "tegenwoordigDeelwoord": "bakkend",
+    "level": "A2"
   },
   {
     "word": "bederven",
     "verledenTijd": "bedierf",
     "voltooidDeelwoord": "bedorven",
     "tegenwoordigeTijd": "bederft",
-    "tegenwoordigDeelwoord": "bedervend"
+    "tegenwoordigDeelwoord": "bedervend",
+    "level": "B1"
   },
   {
     "word": "bedriegen",
     "verledenTijd": "bedroog",
     "voltooidDeelwoord": "bedrogen",
     "tegenwoordigeTijd": "bedriegt",
-    "tegenwoordigDeelwoord": "bedriegend"
+    "tegenwoordigDeelwoord": "bedriegend",
+    "level": "B1"
   },
   {
     "word": "beginnen",
     "verledenTijd": "begon",
     "voltooidDeelwoord": "begonnen",
     "tegenwoordigeTijd": "begint",
-    "tegenwoordigDeelwoord": "beginnend"
+    "tegenwoordigDeelwoord": "beginnend",
+    "level": "A2"
   },
   {
     "word": "begrijpen",
     "verledenTijd": "begreep",
     "voltooidDeelwoord": "begrepen",
     "tegenwoordigeTijd": "begrijpt",
-    "tegenwoordigDeelwoord": "begrijpend"
+    "tegenwoordigDeelwoord": "begrijpend",
+    "level": "A2"
   },
   {
     "word": "bevallen",
     "verledenTijd": "beviel",
     "voltooidDeelwoord": "bevallen",
     "tegenwoordigeTijd": "bevalt",
-    "tegenwoordigDeelwoord": "bevallend"
+    "tegenwoordigDeelwoord": "bevallend",
+    "level": "B1"
   },
   {
     "word": "bewegen",
     "verledenTijd": "bewoog",
     "voltooidDeelwoord": "bewogen",
     "tegenwoordigeTijd": "beweegt",
-    "tegenwoordigDeelwoord": "bewegend"
+    "tegenwoordigDeelwoord": "bewegend",
+    "level": "B1"
   },
   {
     "word": "bezoeken",
     "verledenTijd": "bezocht",
     "voltooidDeelwoord": "bezocht",
     "tegenwoordigeTijd": "bezoekt",
-    "tegenwoordigDeelwoord": "bezoekend"
+    "tegenwoordigDeelwoord": "bezoekend",
+    "level": "A2"
   },
   {
     "word": "bidden",
     "verledenTijd": "bad",
     "voltooidDeelwoord": "gebeden",
     "tegenwoordigeTijd": "bidt",
-    "tegenwoordigDeelwoord": "biddend"
+    "tegenwoordigDeelwoord": "biddend",
+    "level": "A2"
   },
   {
     "word": "bieden",
     "verledenTijd": "bood",
     "voltooidDeelwoord": "geboden",
     "tegenwoordigeTijd": "biedt",
-    "tegenwoordigDeelwoord": "biedend"
+    "tegenwoordigDeelwoord": "biedend",
+    "level": "A2"
   },
   {
     "word": "bijten",
     "verledenTijd": "beet",
     "voltooidDeelwoord": "gebeten",
     "tegenwoordigeTijd": "bijt",
-    "tegenwoordigDeelwoord": "bijtend"
+    "tegenwoordigDeelwoord": "bijtend",
+    "level": "A2"
   },
   {
     "word": "binden",
     "verledenTijd": "bond",
     "voltooidDeelwoord": "gebonden",
     "tegenwoordigeTijd": "bindt",
-    "tegenwoordigDeelwoord": "bindend"
+    "tegenwoordigDeelwoord": "bindend",
+    "level": "A2"
   },
   {
     "word": "blazen",
     "verledenTijd": "blies",
     "voltooidDeelwoord": "geblazen",
     "tegenwoordigeTijd": "blaast",
-    "tegenwoordigDeelwoord": "blazend"
+    "tegenwoordigDeelwoord": "blazend",
+    "level": "A2"
   },
   {
     "word": "blijken",
     "verledenTijd": "bleek",
     "voltooidDeelwoord": "gebleken",
     "tegenwoordigeTijd": "blijkt",
-    "tegenwoordigDeelwoord": "blijkend"
+    "tegenwoordigDeelwoord": "blijkend",
+    "level": "B1"
   },
   {
     "word": "blijven",
     "verledenTijd": "bleef",
     "voltooidDeelwoord": "gebleven",
     "tegenwoordigeTijd": "blijft",
-    "tegenwoordigDeelwoord": "blijvend"
+    "tegenwoordigDeelwoord": "blijvend",
+    "level": "A1"
   },
   {
     "word": "braden",
     "verledenTijd": "braadde",
     "voltooidDeelwoord": "gebraden",
     "tegenwoordigeTijd": "braadt",
-    "tegenwoordigDeelwoord": "bradend"
+    "tegenwoordigDeelwoord": "bradend",
+    "level": "B1"
   },
   {
     "word": "breken",
     "verledenTijd": "brak",
     "voltooidDeelwoord": "gebroken",
     "tegenwoordigeTijd": "breekt",
-    "tegenwoordigDeelwoord": "brekend"
+    "tegenwoordigDeelwoord": "brekend",
+    "level": "A2"
   },
   {
     "word": "brengen",
     "verledenTijd": "bracht",
     "voltooidDeelwoord": "gebracht",
     "tegenwoordigeTijd": "brengt",
-    "tegenwoordigDeelwoord": "brengend"
+    "tegenwoordigDeelwoord": "brengend",
+    "level": "A1"
   },
   {
     "word": "buigen",
     "verledenTijd": "boog",
     "voltooidDeelwoord": "gebogen",
     "tegenwoordigeTijd": "buigt",
-    "tegenwoordigDeelwoord": "buigend"
+    "tegenwoordigDeelwoord": "buigend",
+    "level": "A2"
   },
   {
     "word": "denken",
     "verledenTijd": "dacht",
     "voltooidDeelwoord": "gedacht",
     "tegenwoordigeTijd": "denkt",
-    "tegenwoordigDeelwoord": "denkend"
+    "tegenwoordigDeelwoord": "denkend",
+    "level": "A1"
   },
   {
     "word": "doen",
     "verledenTijd": "deed",
     "voltooidDeelwoord": "gedaan",
     "tegenwoordigeTijd": "doet",
-    "tegenwoordigDeelwoord": "doend"
+    "tegenwoordigDeelwoord": "doend",
+    "level": "A1"
   },
   {
     "word": "dragen",
     "verledenTijd": "droeg",
     "voltooidDeelwoord": "gedragen",
     "tegenwoordigeTijd": "draagt",
-    "tegenwoordigDeelwoord": "dragend"
+    "tegenwoordigDeelwoord": "dragend",
+    "level": "A1"
   },
   {
     "word": "drijven",
     "verledenTijd": "dreef",
     "voltooidDeelwoord": "gedreven",
     "tegenwoordigeTijd": "drijft",
-    "tegenwoordigDeelwoord": "drijvend"
+    "tegenwoordigDeelwoord": "drijvend",
+    "level": "B1"
   },
   {
     "word": "drinken",
     "verledenTijd": "dronk",
     "voltooidDeelwoord": "gedronken",
     "tegenwoordigeTijd": "drinkt",
-    "tegenwoordigDeelwoord": "drinkend"
+    "tegenwoordigDeelwoord": "drinkend",
+    "level": "A1"
   },
   {
     "word": "duiken",
     "verledenTijd": "dook",
     "voltooidDeelwoord": "gedoken",
     "tegenwoordigeTijd": "duikt",
-    "tegenwoordigDeelwoord": "duikend"
+    "tegenwoordigDeelwoord": "duikend",
+    "level": "A2"
   },
   {
     "word": "dwingen",
     "verledenTijd": "dwong",
     "voltooidDeelwoord": "gedwongen",
     "tegenwoordigeTijd": "dwingt",
-    "tegenwoordigDeelwoord": "dwingend"
+    "tegenwoordigDeelwoord": "dwingend",
+    "level": "B1"
   },
   {
     "word": "ervaren",
     "verledenTijd": "ervoer",
     "voltooidDeelwoord": "ervaren",
     "tegenwoordigeTijd": "ervaart",
-    "tegenwoordigDeelwoord": "ervarend"
+    "tegenwoordigDeelwoord": "ervarend",
+    "level": "B1"
   },
   {
     "word": "eten",
     "verledenTijd": "at",
     "voltooidDeelwoord": "gegeten",
     "tegenwoordigeTijd": "eet",
-    "tegenwoordigDeelwoord": "etend"
+    "tegenwoordigDeelwoord": "etend",
+    "level": "A1"
   },
   {
     "word": "fluiten",
     "verledenTijd": "floot",
     "voltooidDeelwoord": "gefloten",
     "tegenwoordigeTijd": "fluit",
-    "tegenwoordigDeelwoord": "fluitend"
+    "tegenwoordigDeelwoord": "fluitend",
+    "level": "A2"
   },
   {
     "word": "gaan",
     "verledenTijd": "ging",
     "voltooidDeelwoord": "gegaan",
     "tegenwoordigeTijd": "gaat",
-    "tegenwoordigDeelwoord": "gaand"
+    "tegenwoordigDeelwoord": "gaand",
+    "level": "A1"
   },
   {
     "word": "genezen",
     "verledenTijd": "genas",
     "voltooidDeelwoord": "genezen",
     "tegenwoordigeTijd": "geneest",
-    "tegenwoordigDeelwoord": "genezend"
+    "tegenwoordigDeelwoord": "genezend",
+    "level": "B1"
   },
   {
     "word": "genieten",
     "verledenTijd": "genoot",
     "voltooidDeelwoord": "genoten",
     "tegenwoordigeTijd": "geniet",
-    "tegenwoordigDeelwoord": "genietend"
+    "tegenwoordigDeelwoord": "genietend",
+    "level": "A2"
   },
   {
     "word": "geven",
     "verledenTijd": "gaf",
     "voltooidDeelwoord": "gegeven",
     "tegenwoordigeTijd": "geeft",
-    "tegenwoordigDeelwoord": "gevend"
+    "tegenwoordigDeelwoord": "gevend",
+    "level": "A1"
   },
   {
     "word": "gieten",
     "verledenTijd": "goot",
     "voltooidDeelwoord": "gegoten",
     "tegenwoordigeTijd": "giet",
-    "tegenwoordigDeelwoord": "gietend"
+    "tegenwoordigDeelwoord": "gietend",
+    "level": "B1"
   },
   {
     "word": "glijden",
     "verledenTijd": "gleed",
     "voltooidDeelwoord": "gegleden",
     "tegenwoordigeTijd": "glijdt",
-    "tegenwoordigDeelwoord": "glijdend"
+    "tegenwoordigDeelwoord": "glijdend",
+    "level": "A2"
   },
   {
     "word": "glimmen",
     "verledenTijd": "glom",
     "voltooidDeelwoord": "geglommen",
     "tegenwoordigeTijd": "glimt",
-    "tegenwoordigDeelwoord": "glimmend"
+    "tegenwoordigDeelwoord": "glimmend",
+    "level": "B1"
   },
   {
     "word": "graven",
     "verledenTijd": "groef",
     "voltooidDeelwoord": "gegraven",
     "tegenwoordigeTijd": "graaft",
-    "tegenwoordigDeelwoord": "gravend"
+    "tegenwoordigDeelwoord": "gravend",
+    "level": "A2"
   },
   {
     "word": "hangen",
     "verledenTijd": "hing",
     "voltooidDeelwoord": "gehangen",
     "tegenwoordigeTijd": "hangt",
-    "tegenwoordigDeelwoord": "hangend"
+    "tegenwoordigDeelwoord": "hangend",
+    "level": "A2"
   },
   {
     "word": "hebben",
     "verledenTijd": "had",
     "voltooidDeelwoord": "gehad",
     "tegenwoordigeTijd": "heeft",
-    "tegenwoordigDeelwoord": "hebbend"
+    "tegenwoordigDeelwoord": "hebbend",
+    "level": "A1"
   },
   {
     "word": "helpen",
     "verledenTijd": "hielp",
     "voltooidDeelwoord": "geholpen",
     "tegenwoordigeTijd": "helpt",
-    "tegenwoordigDeelwoord": "helpend"
+    "tegenwoordigDeelwoord": "helpend",
+    "level": "A1"
   },
   {
     "word": "heten",
     "verledenTijd": "heette",
     "voltooidDeelwoord": "geheten",
     "tegenwoordigeTijd": "heet",
-    "tegenwoordigDeelwoord": "hetend"
+    "tegenwoordigDeelwoord": "hetend",
+    "level": "A2"
   },
   {
     "word": "houden",
     "verledenTijd": "hield",
     "voltooidDeelwoord": "gehouden",
     "tegenwoordigeTijd": "houdt",
-    "tegenwoordigDeelwoord": "houdend"
+    "tegenwoordigDeelwoord": "houdend",
+    "level": "A1"
   },
   {
     "word": "kiezen",
     "verledenTijd": "koos",
     "voltooidDeelwoord": "gekozen",
     "tegenwoordigeTijd": "kiest",
-    "tegenwoordigDeelwoord": "kiezend"
+    "tegenwoordigDeelwoord": "kiezend",
+    "level": "A1"
   },
   {
     "word": "kijken",
     "verledenTijd": "keek",
     "voltooidDeelwoord": "gekeken",
     "tegenwoordigeTijd": "kijkt",
-    "tegenwoordigDeelwoord": "kijkend"
+    "tegenwoordigDeelwoord": "kijkend",
+    "level": "A1"
   },
   {
     "word": "klimmen",
     "verledenTijd": "klom",
     "voltooidDeelwoord": "geklommen",
     "tegenwoordigeTijd": "klimt",
-    "tegenwoordigDeelwoord": "klimmend"
+    "tegenwoordigDeelwoord": "klimmend",
+    "level": "A2"
   },
   {
     "word": "klinken",
     "verledenTijd": "klonk",
     "voltooidDeelwoord": "geklonken",
     "tegenwoordigeTijd": "klinkt",
-    "tegenwoordigDeelwoord": "klinkend"
+    "tegenwoordigDeelwoord": "klinkend",
+    "level": "A2"
   },
   {
     "word": "knijpen",
     "verledenTijd": "kneep",
     "voltooidDeelwoord": "geknepen",
     "tegenwoordigeTijd": "knijpt",
-    "tegenwoordigDeelwoord": "knijpend"
+    "tegenwoordigDeelwoord": "knijpend",
+    "level": "A2"
   },
   {
     "word": "komen",
     "verledenTijd": "kwam",
     "voltooidDeelwoord": "gekomen",
     "tegenwoordigeTijd": "komt",
-    "tegenwoordigDeelwoord": "komend"
+    "tegenwoordigDeelwoord": "komend",
+    "level": "A1"
   },
   {
     "word": "kopen",
     "verledenTijd": "kocht",
     "voltooidDeelwoord": "gekocht",
     "tegenwoordigeTijd": "koopt",
-    "tegenwoordigDeelwoord": "kopend"
+    "tegenwoordigDeelwoord": "kopend",
+    "level": "A1"
   },
   {
     "word": "krijgen",
     "verledenTijd": "kreeg",
     "voltooidDeelwoord": "gekregen",
     "tegenwoordigeTijd": "krijgt",
-    "tegenwoordigDeelwoord": "krijgend"
+    "tegenwoordigDeelwoord": "krijgend",
+    "level": "A1"
   },
   {
     "word": "krimpen",
     "verledenTijd": "kromp",
     "voltooidDeelwoord": "gekrompen",
     "tegenwoordigeTijd": "krimpt",
-    "tegenwoordigDeelwoord": "krimpend"
+    "tegenwoordigDeelwoord": "krimpend",
+    "level": "B1"
   },
   {
     "word": "kruipen",
     "verledenTijd": "kroop",
     "voltooidDeelwoord": "gekropen",
     "tegenwoordigeTijd": "kruipt",
-    "tegenwoordigDeelwoord": "kruipend"
+    "tegenwoordigDeelwoord": "kruipend",
+    "level": "A2"
   },
   {
     "word": "kunnen",
     "verledenTijd": "kon",
     "voltooidDeelwoord": "gekund",
     "tegenwoordigeTijd": "kan",
-    "tegenwoordigDeelwoord": "kunnend"
+    "tegenwoordigDeelwoord": "kunnend",
+    "level": "A1"
   },
   {
     "word": "lachen",
     "verledenTijd": "lachte",
     "voltooidDeelwoord": "gelachen",
     "tegenwoordigeTijd": "lacht",
-    "tegenwoordigDeelwoord": "lachend"
+    "tegenwoordigDeelwoord": "lachend",
+    "level": "A1"
   },
   {
     "word": "laden",
     "verledenTijd": "laadde",
     "voltooidDeelwoord": "geladen",
     "tegenwoordigeTijd": "laadt",
-    "tegenwoordigDeelwoord": "ladend"
+    "tegenwoordigDeelwoord": "ladend",
+    "level": "A2"
   },
   {
     "word": "laten",
     "verledenTijd": "liet",
     "voltooidDeelwoord": "gelaten",
     "tegenwoordigeTijd": "laat",
-    "tegenwoordigDeelwoord": "latend"
+    "tegenwoordigDeelwoord": "latend",
+    "level": "A1"
   },
   {
     "word": "lezen",
     "verledenTijd": "las",
     "voltooidDeelwoord": "gelezen",
     "tegenwoordigeTijd": "leest",
-    "tegenwoordigDeelwoord": "lezend"
+    "tegenwoordigDeelwoord": "lezend",
+    "level": "A1"
   },
   {
     "word": "liegen",
     "verledenTijd": "loog",
     "voltooidDeelwoord": "gelogen",
     "tegenwoordigeTijd": "liegt",
-    "tegenwoordigDeelwoord": "liegend"
+    "tegenwoordigDeelwoord": "liegend",
+    "level": "A2"
   },
   {
     "word": "liggen",
     "verledenTijd": "lag",
     "voltooidDeelwoord": "gelegen",
     "tegenwoordigeTijd": "ligt",
-    "tegenwoordigDeelwoord": "liggend"
+    "tegenwoordigDeelwoord": "liggend",
+    "level": "A1"
   },
   {
     "word": "lijden",
     "verledenTijd": "leed",
     "voltooidDeelwoord": "geleden",
     "tegenwoordigeTijd": "lijdt",
-    "tegenwoordigDeelwoord": "lijdend"
+    "tegenwoordigDeelwoord": "lijdend",
+    "level": "B1"
   },
   {
     "word": "lijken",
     "verledenTijd": "leek",
     "voltooidDeelwoord": "geleken",
     "tegenwoordigeTijd": "lijkt",
-    "tegenwoordigDeelwoord": "lijkend"
+    "tegenwoordigDeelwoord": "lijkend",
+    "level": "B1"
   },
   {
     "word": "lopen",
     "verledenTijd": "liep",
     "voltooidDeelwoord": "gelopen",
     "tegenwoordigeTijd": "loopt",
-    "tegenwoordigDeelwoord": "lopend"
+    "tegenwoordigDeelwoord": "lopend",
+    "level": "A1"
   },
   {
     "word": "meten",
     "verledenTijd": "mat",
     "voltooidDeelwoord": "gemeten",
     "tegenwoordigeTijd": "meet",
-    "tegenwoordigDeelwoord": "metend"
+    "tegenwoordigDeelwoord": "metend",
+    "level": "A2"
   },
   {
     "word": "moeten",
     "verledenTijd": "moest",
     "voltooidDeelwoord": "gemoeten",
     "tegenwoordigeTijd": "moet",
-    "tegenwoordigDeelwoord": "moetend"
+    "tegenwoordigDeelwoord": "moetend",
+    "level": "A1"
   },
   {
     "word": "mogen",
     "verledenTijd": "mocht",
     "voltooidDeelwoord": "gemogen",
     "tegenwoordigeTijd": "mag",
-    "tegenwoordigDeelwoord": "mogend"
+    "tegenwoordigDeelwoord": "mogend",
+    "level": "A1"
   },
   {
     "word": "nemen",
     "verledenTijd": "nam",
     "voltooidDeelwoord": "genomen",
     "tegenwoordigeTijd": "neemt",
-    "tegenwoordigDeelwoord": "nemend"
+    "tegenwoordigDeelwoord": "nemend",
+    "level": "A1"
   },
   {
     "word": "ontbijten",
     "verledenTijd": "ontbeet",
     "voltooidDeelwoord": "ontbeten",
     "tegenwoordigeTijd": "ontbijt",
-    "tegenwoordigDeelwoord": "ontbijtend"
+    "tegenwoordigDeelwoord": "ontbijtend",
+    "level": "A2"
   },
   {
     "word": "ontwerpen",
     "verledenTijd": "ontwierp",
     "voltooidDeelwoord": "ontworpen",
     "tegenwoordigeTijd": "ontwerpt",
-    "tegenwoordigDeelwoord": "ontwerpend"
+    "tegenwoordigDeelwoord": "ontwerpend",
+    "level": "B1"
   },
   {
     "word": "overlijden",
     "verledenTijd": "overleed",
     "voltooidDeelwoord": "overleden",
     "tegenwoordigeTijd": "overlijdt",
-    "tegenwoordigDeelwoord": "overlijdend"
+    "tegenwoordigDeelwoord": "overlijdend",
+    "level": "B1"
   },
   {
     "word": "raden",
     "verledenTijd": "ried",
     "voltooidDeelwoord": "geraden",
     "tegenwoordigeTijd": "raadt",
-    "tegenwoordigDeelwoord": "radend"
+    "tegenwoordigDeelwoord": "radend",
+    "level": "A2"
   },
   {
     "word": "rijden",
     "verledenTijd": "reed",
     "voltooidDeelwoord": "gereden",
     "tegenwoordigeTijd": "rijdt",
-    "tegenwoordigDeelwoord": "rijdend"
+    "tegenwoordigDeelwoord": "rijdend",
+    "level": "A1"
   },
   {
     "word": "roepen",
     "verledenTijd": "riep",
     "voltooidDeelwoord": "geroepen",
     "tegenwoordigeTijd": "roept",
-    "tegenwoordigDeelwoord": "roepend"
+    "tegenwoordigDeelwoord": "roepend",
+    "level": "A1"
   },
   {
     "word": "ruiken",
     "verledenTijd": "rook",
     "voltooidDeelwoord": "geroken",
     "tegenwoordigeTijd": "ruikt",
-    "tegenwoordigDeelwoord": "ruikend"
+    "tegenwoordigDeelwoord": "ruikend",
+    "level": "A2"
   },
   {
     "word": "scheiden",
     "verledenTijd": "scheidde",
     "voltooidDeelwoord": "gescheiden",
     "tegenwoordigeTijd": "scheidt",
-    "tegenwoordigDeelwoord": "scheidend"
+    "tegenwoordigDeelwoord": "scheidend",
+    "level": "B1"
   },
   {
     "word": "schelden",
     "verledenTijd": "schold",
     "voltooidDeelwoord": "gescholden",
     "tegenwoordigeTijd": "scheldt",
-    "tegenwoordigDeelwoord": "scheldend"
+    "tegenwoordigDeelwoord": "scheldend",
+    "level": "B1"
   },
   {
     "word": "schenken",
     "verledenTijd": "schonk",
     "voltooidDeelwoord": "geschonken",
     "tegenwoordigeTijd": "schenkt",
-    "tegenwoordigDeelwoord": "schenkend"
+    "tegenwoordigDeelwoord": "schenkend",
+    "level": "B1"
   },
   {
     "word": "scheren",
     "verledenTijd": "schoor",
     "voltooidDeelwoord": "geschoren",
     "tegenwoordigeTijd": "scheert",
-    "tegenwoordigDeelwoord": "scherend"
+    "tegenwoordigDeelwoord": "scherend",
+    "level": "A2"
   },
   {
     "word": "schieten",
     "verledenTijd": "schoot",
     "voltooidDeelwoord": "geschoten",
     "tegenwoordigeTijd": "schiet",
-    "tegenwoordigDeelwoord": "schietend"
+    "tegenwoordigDeelwoord": "schietend",
+    "level": "A2"
   },
   {
     "word": "schijnen",
     "verledenTijd": "scheen",
     "voltooidDeelwoord": "geschenen",
     "tegenwoordigeTijd": "schijnt",
-    "tegenwoordigDeelwoord": "schijnend"
+    "tegenwoordigDeelwoord": "schijnend",
+    "level": "A2"
   },
   {
     "word": "schrijven",
     "verledenTijd": "schreef",
     "voltooidDeelwoord": "geschreven",
     "tegenwoordigeTijd": "schrijft",
-    "tegenwoordigDeelwoord": "schrijvend"
+    "tegenwoordigDeelwoord": "schrijvend",
+    "level": "A1"
   },
   {
     "word": "schrikken",
     "verledenTijd": "schrok",
     "voltooidDeelwoord": "geschrokken",
     "tegenwoordigeTijd": "schrikt",
-    "tegenwoordigDeelwoord": "schrikkend"
+    "tegenwoordigDeelwoord": "schrikkend",
+    "level": "A2"
   },
   {
     "word": "schuiven",
     "verledenTijd": "schoof",
     "voltooidDeelwoord": "geschoven",
     "tegenwoordigeTijd": "schuift",
-    "tegenwoordigDeelwoord": "schuivend"
+    "tegenwoordigDeelwoord": "schuivend",
+    "level": "A2"
   },
   {
     "word": "slaan",
     "verledenTijd": "sloeg",
     "voltooidDeelwoord": "geslagen",
     "tegenwoordigeTijd": "slaat",
-    "tegenwoordigDeelwoord": "slaand"
+    "tegenwoordigDeelwoord": "slaand",
+    "level": "A2"
   },
   {
     "word": "slapen",
     "verledenTijd": "sliep",
     "voltooidDeelwoord": "geslapen",
     "tegenwoordigeTijd": "slaapt",
-    "tegenwoordigDeelwoord": "slapend"
+    "tegenwoordigDeelwoord": "slapend",
+    "level": "A1"
   },
   {
     "word": "slijpen",
     "verledenTijd": "sleep",
     "voltooidDeelwoord": "geslepen",
     "tegenwoordigeTijd": "slijpt",
-    "tegenwoordigDeelwoord": "slijpend"
+    "tegenwoordigDeelwoord": "slijpend",
+    "level": "B1"
   },
   {
     "word": "sluipen",
     "verledenTijd": "sloop",
     "voltooidDeelwoord": "geslopen",
     "tegenwoordigeTijd": "sluipt",
-    "tegenwoordigDeelwoord": "sluipend"
+    "tegenwoordigDeelwoord": "sluipend",
+    "level": "B1"
   },
   {
     "word": "sluiten",
     "verledenTijd": "sloot",
     "voltooidDeelwoord": "gesloten",
     "tegenwoordigeTijd": "sluit",
-    "tegenwoordigDeelwoord": "sluitend"
+    "tegenwoordigDeelwoord": "sluitend",
+    "level": "A2"
   },
   {
     "word": "smelten",
     "verledenTijd": "smolt",
     "voltooidDeelwoord": "gesmolten",
     "tegenwoordigeTijd": "smelt",
-    "tegenwoordigDeelwoord": "smeltend"
+    "tegenwoordigDeelwoord": "smeltend",
+    "level": "A2"
   },
   {
     "word": "snijden",
     "verledenTijd": "sneed",
     "voltooidDeelwoord": "gesneden",
     "tegenwoordigeTijd": "snijdt",
-    "tegenwoordigDeelwoord": "snijdend"
+    "tegenwoordigDeelwoord": "snijdend",
+    "level": "A2"
   },
   {
     "word": "snuiten",
     "verledenTijd": "snoot",
     "voltooidDeelwoord": "gesnoten",
     "tegenwoordigeTijd": "snuit",
-    "tegenwoordigDeelwoord": "snuitend"
+    "tegenwoordigDeelwoord": "snuitend",
+    "level": "A2"
   },
   {
     "word": "snuiven",
     "verledenTijd": "snoof",
     "voltooidDeelwoord": "gesnoven",
     "tegenwoordigeTijd": "snuift",
-    "tegenwoordigDeelwoord": "snuivend"
+    "tegenwoordigDeelwoord": "snuivend",
+    "level": "B1"
   },
   {
     "word": "spijten",
     "verledenTijd": "speet",
     "voltooidDeelwoord": "gespeten",
     "tegenwoordigeTijd": "spijt",
-    "tegenwoordigDeelwoord": "spijtend"
+    "tegenwoordigDeelwoord": "spijtend",
+    "level": "B1"
   },
   {
     "word": "spreken",
     "verledenTijd": "sprak",
     "voltooidDeelwoord": "gesproken",
     "tegenwoordigeTijd": "spreekt",
-    "tegenwoordigDeelwoord": "sprekend"
+    "tegenwoordigDeelwoord": "sprekend",
+    "level": "A1"
   },
   {
     "word": "springen",
     "verledenTijd": "sprong",
     "voltooidDeelwoord": "gesprongen",
     "tegenwoordigeTijd": "springt",
-    "tegenwoordigDeelwoord": "springend"
+    "tegenwoordigDeelwoord": "springend",
+    "level": "A2"
   },
   {
     "word": "spuiten",
     "verledenTijd": "spoot",
     "voltooidDeelwoord": "gespoten",
     "tegenwoordigeTijd": "spuit",
-    "tegenwoordigDeelwoord": "spuitend"
+    "tegenwoordigDeelwoord": "spuitend",
+    "level": "A2"
   },
   {
     "word": "staan",
     "verledenTijd": "stond",
     "voltooidDeelwoord": "gestaan",
     "tegenwoordigeTijd": "staat",
-    "tegenwoordigDeelwoord": "staand"
+    "tegenwoordigDeelwoord": "staand",
+    "level": "A1"
   },
   {
     "word": "steken",
     "verledenTijd": "stak",
     "voltooidDeelwoord": "gestoken",
     "tegenwoordigeTijd": "steekt",
-    "tegenwoordigDeelwoord": "stekend"
+    "tegenwoordigDeelwoord": "stekend",
+    "level": "A2"
   },
   {
     "word": "stelen",
     "verledenTijd": "stal",
     "voltooidDeelwoord": "gestolen",
     "tegenwoordigeTijd": "steelt",
-    "tegenwoordigDeelwoord": "stelend"
+    "tegenwoordigDeelwoord": "stelend",
+    "level": "A2"
   },
   {
     "word": "sterven",
     "verledenTijd": "stierf",
     "voltooidDeelwoord": "gestorven",
     "tegenwoordigeTijd": "sterft",
-    "tegenwoordigDeelwoord": "stervend"
+    "tegenwoordigDeelwoord": "stervend",
+    "level": "B1"
   },
   {
     "word": "stijgen",
     "verledenTijd": "steeg",
     "voltooidDeelwoord": "gestegen",
     "tegenwoordigeTijd": "stijgt",
-    "tegenwoordigDeelwoord": "stijgend"
+    "tegenwoordigDeelwoord": "stijgend",
+    "level": "A2"
   },
   {
     "word": "stinken",
     "verledenTijd": "stonk",
     "voltooidDeelwoord": "gestonken",
     "tegenwoordigeTijd": "stinkt",
-    "tegenwoordigDeelwoord": "stinkend"
+    "tegenwoordigDeelwoord": "stinkend",
+    "level": "A2"
   },
   {
     "word": "strijden",
     "verledenTijd": "streed",
     "voltooidDeelwoord": "gestreden",
     "tegenwoordigeTijd": "strijdt",
-    "tegenwoordigDeelwoord": "strijdend"
+    "tegenwoordigDeelwoord": "strijdend",
+    "level": "B2"
   },
   {
     "word": "strijken",
     "verledenTijd": "streek",
     "voltooidDeelwoord": "gestreken",
     "tegenwoordigeTijd": "strijkt",
-    "tegenwoordigDeelwoord": "strijkend"
+    "tegenwoordigDeelwoord": "strijkend",
+    "level": "A2"
   },
   {
     "word": "trekken",
     "verledenTijd": "trok",
     "voltooidDeelwoord": "getrokken",
     "tegenwoordigeTijd": "trekt",
-    "tegenwoordigDeelwoord": "trekkend"
+    "tegenwoordigDeelwoord": "trekkend",
+    "level": "A2"
   },
   {
     "word": "vallen",
     "verledenTijd": "viel",
     "voltooidDeelwoord": "gevallen",
     "tegenwoordigeTijd": "valt",
-    "tegenwoordigDeelwoord": "vallend"
+    "tegenwoordigDeelwoord": "vallend",
+    "level": "A1"
   },
   {
     "word": "vangen",
     "verledenTijd": "ving",
     "voltooidDeelwoord": "gevangen",
     "tegenwoordigeTijd": "vangt",
-    "tegenwoordigDeelwoord": "vangend"
+    "tegenwoordigDeelwoord": "vangend",
+    "level": "A2"
   },
   {
     "word": "varen",
     "verledenTijd": "voer",
     "voltooidDeelwoord": "gevaren",
     "tegenwoordigeTijd": "vaart",
-    "tegenwoordigDeelwoord": "varend"
+    "tegenwoordigDeelwoord": "varend",
+    "level": "A2"
   },
   {
     "word": "vechten",
     "verledenTijd": "vocht",
     "voltooidDeelwoord": "gevochten",
     "tegenwoordigeTijd": "vecht",
-    "tegenwoordigDeelwoord": "vechtend"
+    "tegenwoordigDeelwoord": "vechtend",
+    "level": "A2"
   },
   {
     "word": "verbieden",
     "verledenTijd": "verbood",
     "voltooidDeelwoord": "verboden",
     "tegenwoordigeTijd": "verbiedt",
-    "tegenwoordigDeelwoord": "verbiedend"
+    "tegenwoordigDeelwoord": "verbiedend",
+    "level": "B1"
   },
   {
     "word": "verdwijnen",
     "verledenTijd": "verdween",
     "voltooidDeelwoord": "verdwenen",
     "tegenwoordigeTijd": "verdwijnt",
-    "tegenwoordigDeelwoord": "verdwijnend"
+    "tegenwoordigDeelwoord": "verdwijnend",
+    "level": "B1"
   },
   {
     "word": "vergelijken",
     "verledenTijd": "vergeleek",
     "voltooidDeelwoord": "vergeleken",
     "tegenwoordigeTijd": "vergelijkt",
-    "tegenwoordigDeelwoord": "vergelijkend"
+    "tegenwoordigDeelwoord": "vergelijkend",
+    "level": "B1"
   },
   {
     "word": "vergeten",
     "verledenTijd": "vergat",
     "voltooidDeelwoord": "vergeten",
     "tegenwoordigeTijd": "vergeet",
-    "tegenwoordigDeelwoord": "vergetend"
+    "tegenwoordigDeelwoord": "vergetend",
+    "level": "B1"
   },
   {
     "word": "verliezen",
     "verledenTijd": "verloor",
     "voltooidDeelwoord": "verloren",
     "tegenwoordigeTijd": "verliest",
-    "tegenwoordigDeelwoord": "verliezend"
+    "tegenwoordigDeelwoord": "verliezend",
+    "level": "A2"
   },
   {
     "word": "vermijden",
     "verledenTijd": "vermeed",
     "voltooidDeelwoord": "vermeden",
     "tegenwoordigeTijd": "vermijdt",
-    "tegenwoordigDeelwoord": "vermijdend"
+    "tegenwoordigDeelwoord": "vermijdend",
+    "level": "B1"
   },
   {
     "word": "verraden",
     "verledenTijd": "verried",
     "voltooidDeelwoord": "verraden",
     "tegenwoordigeTijd": "verraadt",
-    "tegenwoordigDeelwoord": "verradend"
+    "tegenwoordigDeelwoord": "verradend",
+    "level": "B1"
   },
   {
     "word": "vertrekken",
     "verledenTijd": "vertrok",
     "voltooidDeelwoord": "vertrokken",
     "tegenwoordigeTijd": "vertrekt",
-    "tegenwoordigDeelwoord": "vertrekkend"
+    "tegenwoordigDeelwoord": "vertrekkend",
+    "level": "B1"
   },
   {
     "word": "verwijten",
     "verledenTijd": "verweet",
     "voltooidDeelwoord": "verweten",
     "tegenwoordigeTijd": "verwijt",
-    "tegenwoordigDeelwoord": "verwijtend"
+    "tegenwoordigDeelwoord": "verwijtend",
+    "level": "B2"
   },
   {
     "word": "verzinnen",
     "verledenTijd": "verzon",
     "voltooidDeelwoord": "verzonnen",
     "tegenwoordigeTijd": "verzint",
-    "tegenwoordigDeelwoord": "verzinnend"
+    "tegenwoordigDeelwoord": "verzinnend",
+    "level": "B1"
   },
   {
     "word": "vinden",
     "verledenTijd": "vond",
     "voltooidDeelwoord": "gevonden",
     "tegenwoordigeTijd": "vindt",
-    "tegenwoordigDeelwoord": "vindend"
+    "tegenwoordigDeelwoord": "vindend",
+    "level": "A1"
   },
   {
     "word": "vliegen",
     "verledenTijd": "vloog",
     "voltooidDeelwoord": "gevlogen",
     "tegenwoordigeTijd": "vliegt",
-    "tegenwoordigDeelwoord": "vliegend"
+    "tegenwoordigDeelwoord": "vliegend",
+    "level": "A2"
   },
   {
     "word": "vouwen",
     "verledenTijd": "vouwde",
     "voltooidDeelwoord": "gevouwen",
     "tegenwoordigeTijd": "vouwt",
-    "tegenwoordigDeelwoord": "vouwend"
+    "tegenwoordigDeelwoord": "vouwend",
+    "level": "A2"
   },
   {
     "word": "vragen",
     "verledenTijd": "vroeg",
     "voltooidDeelwoord": "gevraagd",
     "tegenwoordigeTijd": "vraagt",
-    "tegenwoordigDeelwoord": "vragend"
+    "tegenwoordigDeelwoord": "vragend",
+    "level": "A1"
   },
   {
     "word": "vriezen",
     "verledenTijd": "vroor",
     "voltooidDeelwoord": "gevroren",
     "tegenwoordigeTijd": "vriest",
-    "tegenwoordigDeelwoord": "vriezend"
+    "tegenwoordigDeelwoord": "vriezend",
+    "level": "A2"
   },
   {
     "word": "wassen",
     "verledenTijd": "waste",
     "voltooidDeelwoord": "gewassen",
     "tegenwoordigeTijd": "wast",
-    "tegenwoordigDeelwoord": "wassend"
+    "tegenwoordigDeelwoord": "wassend",
+    "level": "A1"
   },
   {
     "word": "wegen",
     "verledenTijd": "woog",
     "voltooidDeelwoord": "gewogen",
     "tegenwoordigeTijd": "weegt",
-    "tegenwoordigDeelwoord": "wegend"
+    "tegenwoordigDeelwoord": "wegend",
+    "level": "A2"
   },
   {
     "word": "werpen",
     "verledenTijd": "wierp",
     "voltooidDeelwoord": "geworpen",
     "tegenwoordigeTijd": "werpt",
-    "tegenwoordigDeelwoord": "werpend"
+    "tegenwoordigDeelwoord": "werpend",
+    "level": "B1"
   },
   {
     "word": "weten",
     "verledenTijd": "wist",
     "voltooidDeelwoord": "geweten",
     "tegenwoordigeTijd": "weet",
-    "tegenwoordigDeelwoord": "wetend"
+    "tegenwoordigDeelwoord": "wetend",
+    "level": "A1"
   },
   {
     "word": "wijzen",
     "verledenTijd": "wees",
     "voltooidDeelwoord": "gewezen",
     "tegenwoordigeTijd": "wijst",
-    "tegenwoordigDeelwoord": "wijzend"
+    "tegenwoordigDeelwoord": "wijzend",
+    "level": "A2"
   },
   {
     "word": "willen",
     "verledenTijd": "wilde",
     "voltooidDeelwoord": "gewild",
     "tegenwoordigeTijd": "wil",
-    "tegenwoordigDeelwoord": "willend"
+    "tegenwoordigDeelwoord": "willend",
+    "level": "A1"
   },
   {
     "word": "winnen",
     "verledenTijd": "won",
     "voltooidDeelwoord": "gewonnen",
     "tegenwoordigeTijd": "wint",
-    "tegenwoordigDeelwoord": "winnend"
+    "tegenwoordigDeelwoord": "winnend",
+    "level": "A2"
   },
   {
     "word": "worden",
     "verledenTijd": "werd",
     "voltooidDeelwoord": "geworden",
     "tegenwoordigeTijd": "wordt",
-    "tegenwoordigDeelwoord": "wordend"
+    "tegenwoordigDeelwoord": "wordend",
+    "level": "A1"
   },
   {
     "word": "wrijven",
     "verledenTijd": "wreef",
     "voltooidDeelwoord": "gewreven",
     "tegenwoordigeTijd": "wrijft",
-    "tegenwoordigDeelwoord": "wrijvend"
+    "tegenwoordigDeelwoord": "wrijvend",
+    "level": "B1"
   },
   {
     "word": "zeggen",
     "verledenTijd": "zei",
     "voltooidDeelwoord": "gezegd",
     "tegenwoordigeTijd": "zegt",
-    "tegenwoordigDeelwoord": "zeggend"
+    "tegenwoordigDeelwoord": "zeggend",
+    "level": "A1"
   },
   {
     "word": "zenden",
     "verledenTijd": "zond",
     "voltooidDeelwoord": "gezonden",
     "tegenwoordigeTijd": "zendt",
-    "tegenwoordigDeelwoord": "zendend"
+    "tegenwoordigDeelwoord": "zendend",
+    "level": "B1"
   },
   {
     "word": "zien",
     "verledenTijd": "zag",
     "voltooidDeelwoord": "gezien",
     "tegenwoordigeTijd": "ziet",
-    "tegenwoordigDeelwoord": "ziend"
+    "tegenwoordigDeelwoord": "ziend",
+    "level": "A1"
   },
   {
     "word": "zijn",
     "verledenTijd": "was",
     "voltooidDeelwoord": "geweest",
     "tegenwoordigeTijd": "is",
-    "tegenwoordigDeelwoord": "zijnd"
+    "tegenwoordigDeelwoord": "zijnd",
+    "level": "A1"
   },
   {
     "word": "zingen",
     "verledenTijd": "zong",
     "voltooidDeelwoord": "gezongen",
     "tegenwoordigeTijd": "zingt",
-    "tegenwoordigDeelwoord": "zingend"
+    "tegenwoordigDeelwoord": "zingend",
+    "level": "A2"
   },
   {
     "word": "zinken",
     "verledenTijd": "zonk",
     "voltooidDeelwoord": "gezonken",
     "tegenwoordigeTijd": "zinkt",
-    "tegenwoordigDeelwoord": "zinkend"
+    "tegenwoordigDeelwoord": "zinkend",
+    "level": "A2"
   },
   {
     "word": "zitten",
     "verledenTijd": "zat",
     "voltooidDeelwoord": "gezeten",
     "tegenwoordigeTijd": "zit",
-    "tegenwoordigDeelwoord": "zittend"
+    "tegenwoordigDeelwoord": "zittend",
+    "level": "A1"
   },
   {
     "word": "zoeken",
     "verledenTijd": "zocht",
     "voltooidDeelwoord": "gezocht",
     "tegenwoordigeTijd": "zoekt",
-    "tegenwoordigDeelwoord": "zoekend"
+    "tegenwoordigDeelwoord": "zoekend",
+    "level": "A1"
   },
   {
     "word": "zuigen",
     "verledenTijd": "zoog",
     "voltooidDeelwoord": "gezogen",
     "tegenwoordigeTijd": "zuigt",
-    "tegenwoordigDeelwoord": "zuigend"
+    "tegenwoordigDeelwoord": "zuigend",
+    "level": "A2"
   },
   {
     "word": "zullen",
     "verledenTijd": "zou",
     "voltooidDeelwoord": "gezuld",
     "tegenwoordigeTijd": "zal",
-    "tegenwoordigDeelwoord": "zullend"
+    "tegenwoordigDeelwoord": "zullend",
+    "level": "A2"
   },
   {
     "word": "zwemmen",
     "verledenTijd": "zwom",
     "voltooidDeelwoord": "gezwommen",
     "tegenwoordigeTijd": "zwemt",
-    "tegenwoordigDeelwoord": "zwemmend"
+    "tegenwoordigDeelwoord": "zwemmend",
+    "level": "A1"
   },
   {
     "word": "zwijgen",
     "verledenTijd": "zweeg",
     "voltooidDeelwoord": "gezwegen",
     "tegenwoordigeTijd": "zwijgt",
-    "tegenwoordigDeelwoord": "zwijgend"
+    "tegenwoordigDeelwoord": "zwijgend",
+    "level": "B1"
   }
 ]

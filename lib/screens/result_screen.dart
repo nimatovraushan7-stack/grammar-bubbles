@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../services/localization_service.dart';
 import '../services/sound_service.dart';
+import '../widgets/responsive_text.dart';
 
 class ResultScreen extends StatefulWidget {
   final String category;
@@ -55,8 +57,11 @@ class _ResultScreenState extends State<ResultScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
-                  widget.category,
+                ResponsiveText(
+                  LocalizationService.categoryTitle(widget.category),
+                  textAlign: TextAlign.center,
+                  maxLines: 2,
+                  minFontSize: 20,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 28,
@@ -65,9 +70,12 @@ class _ResultScreenState extends State<ResultScreen> {
                   ),
                 ),
                 const SizedBox(height: 10),
-                const Text(
-                  'Resultaat',
-                  style: TextStyle(
+                ResponsiveText(
+                  LocalizationService.t('result'),
+                  textAlign: TextAlign.center,
+                  maxLines: 1,
+                  minFontSize: 14,
+                  style: const TextStyle(
                     color: Colors.white70,
                     fontSize: 18,
                   ),
@@ -130,21 +138,26 @@ class _ResultScreenState extends State<ResultScreen> {
                         borderRadius: BorderRadius.circular(20),
                       ),
                     ),
-                    child: const Row(
+                    child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.play_arrow_rounded,
                           color: Colors.white,
                           size: 26,
                         ),
-                        SizedBox(width: 8),
-                        Text(
-                          'Opnieuw spelen',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 18,
-                            fontWeight: FontWeight.w600,
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: ResponsiveText(
+                            LocalizationService.t('playAgain'),
+                            textAlign: TextAlign.center,
+                            maxLines: 2,
+                            minFontSize: 12,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
                         ),
                       ],
@@ -177,9 +190,12 @@ class _ResultScreenState extends State<ResultScreen> {
                         ),
                       ),
                     ),
-                    child: const Text(
-                      'Dashboard',
-                      style: TextStyle(
+                    child: ResponsiveText(
+                      LocalizationService.t('dashboard'),
+                      textAlign: TextAlign.center,
+                      maxLines: 2,
+                      minFontSize: 12,
+                      style: const TextStyle(
                         color: Colors.white,
                       ),
                     ),

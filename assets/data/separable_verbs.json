@@ -1,0 +1,434 @@
+[
+  {
+    "word": "aandoen",
+    "verledenTijd": "deed aan",
+    "voltooidDeelwoord": "aangedaan",
+    "tegenwoordigeTijd": "doet aan",
+    "tegenwoordigDeelwoord": "aandoend",
+    "level": "A1"
+  },
+  {
+    "word": "uitdoen",
+    "verledenTijd": "deed uit",
+    "voltooidDeelwoord": "uitgedaan",
+    "tegenwoordigeTijd": "doet uit",
+    "tegenwoordigDeelwoord": "uitdoend",
+    "level": "A1"
+  },
+  {
+    "word": "opstaan",
+    "verledenTijd": "stond op",
+    "voltooidDeelwoord": "opgestaan",
+    "tegenwoordigeTijd": "staat op",
+    "tegenwoordigDeelwoord": "opstaand",
+    "level": "A1"
+  },
+  {
+    "word": "ophalen",
+    "verledenTijd": "haalde op",
+    "voltooidDeelwoord": "opgehaald",
+    "tegenwoordigeTijd": "haalt op",
+    "tegenwoordigDeelwoord": "ophalend",
+    "level": "A1"
+  },
+  {
+    "word": "oppakken",
+    "verledenTijd": "pakte op",
+    "voltooidDeelwoord": "opgepakt",
+    "tegenwoordigeTijd": "pakt op",
+    "tegenwoordigDeelwoord": "oppakkend",
+    "level": "A1"
+  },
+  {
+    "word": "opruimen",
+    "verledenTijd": "ruimde op",
+    "voltooidDeelwoord": "opgeruimd",
+    "tegenwoordigeTijd": "ruimt op",
+    "tegenwoordigDeelwoord": "opruimend",
+    "level": "A1"
+  },
+  {
+    "word": "uitnodigen",
+    "verledenTijd": "nodigde uit",
+    "voltooidDeelwoord": "uitgenodigd",
+    "tegenwoordigeTijd": "nodigt uit",
+    "tegenwoordigDeelwoord": "uitnodigend",
+    "level": "A2"
+  },
+  {
+    "word": "meenemen",
+    "verledenTijd": "nam mee",
+    "voltooidDeelwoord": "meegenomen",
+    "tegenwoordigeTijd": "neemt mee",
+    "tegenwoordigDeelwoord": "meenemend",
+    "level": "A1"
+  },
+  {
+    "word": "meebrengen",
+    "verledenTijd": "bracht mee",
+    "voltooidDeelwoord": "meegebracht",
+    "tegenwoordigeTijd": "brengt mee",
+    "tegenwoordigDeelwoord": "meebrengend",
+    "level": "A1"
+  },
+  {
+    "word": "afwassen",
+    "verledenTijd": "waste af",
+    "voltooidDeelwoord": "afgewassen",
+    "tegenwoordigeTijd": "wast af",
+    "tegenwoordigDeelwoord": "afwassend",
+    "level": "A1"
+  },
+  {
+    "word": "weggaan",
+    "verledenTijd": "ging weg",
+    "voltooidDeelwoord": "weggegaan",
+    "tegenwoordigeTijd": "gaat weg",
+    "tegenwoordigDeelwoord": "weggaand",
+    "level": "A1"
+  },
+  {
+    "word": "terugkomen",
+    "verledenTijd": "kwam terug",
+    "voltooidDeelwoord": "teruggekomen",
+    "tegenwoordigeTijd": "komt terug",
+    "tegenwoordigDeelwoord": "terugkomend",
+    "level": "A1"
+  },
+  {
+    "word": "binnenkomen",
+    "verledenTijd": "kwam binnen",
+    "voltooidDeelwoord": "binnengekomen",
+    "tegenwoordigeTijd": "komt binnen",
+    "tegenwoordigDeelwoord": "binnenkomend",
+    "level": "A1"
+  },
+  {
+    "word": "uitgaan",
+    "verledenTijd": "ging uit",
+    "voltooidDeelwoord": "uitgegaan",
+    "tegenwoordigeTijd": "gaat uit",
+    "tegenwoordigDeelwoord": "uitgaand",
+    "level": "A1"
+  },
+  {
+    "word": "afspreken",
+    "verledenTijd": "sprak af",
+    "voltooidDeelwoord": "afgesproken",
+    "tegenwoordigeTijd": "spreekt af",
+    "tegenwoordigDeelwoord": "afsprekend",
+    "level": "A1"
+  },
+  {
+    "word": "terugbellen",
+    "verledenTijd": "belde terug",
+    "voltooidDeelwoord": "teruggebeld",
+    "tegenwoordigeTijd": "belt terug",
+    "tegenwoordigDeelwoord": "terugbellend",
+    "level": "A1"
+  },
+  {
+    "word": "invullen",
+    "verledenTijd": "vulde in",
+    "voltooidDeelwoord": "ingevuld",
+    "tegenwoordigeTijd": "vult in",
+    "tegenwoordigDeelwoord": "invullend",
+    "level": "A1"
+  },
+  {
+    "word": "uitzoeken",
+    "verledenTijd": "zocht uit",
+    "voltooidDeelwoord": "uitgezocht",
+    "tegenwoordigeTijd": "zoekt uit",
+    "tegenwoordigDeelwoord": "uitzoekend",
+    "level": "A2"
+  },
+  {
+    "word": "opzoeken",
+    "verledenTijd": "zocht op",
+    "voltooidDeelwoord": "opgezocht",
+    "tegenwoordigeTijd": "zoekt op",
+    "tegenwoordigDeelwoord": "opzoekend",
+    "level": "A1"
+  },
+  {
+    "word": "aanmelden",
+    "verledenTijd": "meldde aan",
+    "voltooidDeelwoord": "aangemeld",
+    "tegenwoordigeTijd": "meldt aan",
+    "tegenwoordigDeelwoord": "aanmeldend",
+    "level": "A2"
+  },
+  {
+    "word": "afmelden",
+    "verledenTijd": "meldde af",
+    "voltooidDeelwoord": "afgemeld",
+    "tegenwoordigeTijd": "meldt af",
+    "tegenwoordigDeelwoord": "afmeldend",
+    "level": "A2"
+  },
+  {
+    "word": "doorgeven",
+    "verledenTijd": "gaf door",
+    "voltooidDeelwoord": "doorgegeven",
+    "tegenwoordigeTijd": "geeft door",
+    "tegenwoordigDeelwoord": "doorgevend",
+    "level": "A2"
+  },
+  {
+    "word": "voorbereiden",
+    "verledenTijd": "bereidde voor",
+    "voltooidDeelwoord": "voorbereid",
+    "tegenwoordigeTijd": "bereidt voor",
+    "tegenwoordigDeelwoord": "voorbereidend",
+    "level": "B1"
+  },
+  {
+    "word": "tegenkomen",
+    "verledenTijd": "kwam tegen",
+    "voltooidDeelwoord": "tegengekomen",
+    "tegenwoordigeTijd": "komt tegen",
+    "tegenwoordigDeelwoord": "tegenkomend",
+    "level": "B1"
+  },
+  {
+    "word": "afmaken",
+    "verledenTijd": "maakte af",
+    "voltooidDeelwoord": "afgemaakt",
+    "tegenwoordigeTijd": "maakt af",
+    "tegenwoordigDeelwoord": "afmakend",
+    "level": "A1"
+  },
+  {
+    "word": "opbouwen",
+    "verledenTijd": "bouwde op",
+    "voltooidDeelwoord": "opgebouwd",
+    "tegenwoordigeTijd": "bouwt op",
+    "tegenwoordigDeelwoord": "opbouwend",
+    "level": "B2"
+  },
+  {
+    "word": "afbreken",
+    "verledenTijd": "brak af",
+    "voltooidDeelwoord": "afgebroken",
+    "tegenwoordigeTijd": "breekt af",
+    "tegenwoordigDeelwoord": "afbrekend",
+    "level": "B2"
+  },
+  {
+    "word": "uitstellen",
+    "verledenTijd": "stelde uit",
+    "voltooidDeelwoord": "uitgesteld",
+    "tegenwoordigeTijd": "stelt uit",
+    "tegenwoordigDeelwoord": "uitstellend",
+    "level": "B2"
+  },
+  {
+    "word": "omdraaien",
+    "verledenTijd": "draaide om",
+    "voltooidDeelwoord": "omgedraaid",
+    "tegenwoordigeTijd": "draait om",
+    "tegenwoordigDeelwoord": "omdraaiend",
+    "level": "A2"
+  },
+  {
+    "word": "terugvinden",
+    "verledenTijd": "vond terug",
+    "voltooidDeelwoord": "teruggevonden",
+    "tegenwoordigeTijd": "vindt terug",
+    "tegenwoordigDeelwoord": "terugvindend",
+    "level": "B1"
+  },
+  {
+    "word": "samenwerken",
+    "verledenTijd": "werkte samen",
+    "voltooidDeelwoord": "samengewerkt",
+    "tegenwoordigeTijd": "werkt samen",
+    "tegenwoordigDeelwoord": "samenwerkend",
+    "level": "B1"
+  },
+  {
+    "word": "aanzetten",
+    "verledenTijd": "zette aan",
+    "voltooidDeelwoord": "aangezet",
+    "tegenwoordigeTijd": "zet aan",
+    "tegenwoordigDeelwoord": "aanzettend",
+    "level": "A1"
+  },
+  {
+    "word": "uitzetten",
+    "verledenTijd": "zette uit",
+    "voltooidDeelwoord": "uitgezet",
+    "tegenwoordigeTijd": "zet uit",
+    "tegenwoordigDeelwoord": "uitzettend",
+    "level": "A1"
+  },
+  {
+    "word": "neerzetten",
+    "verledenTijd": "zette neer",
+    "voltooidDeelwoord": "neergezet",
+    "tegenwoordigeTijd": "zet neer",
+    "tegenwoordigDeelwoord": "neerzettend",
+    "level": "A1"
+  },
+  {
+    "word": "aantrekken",
+    "verledenTijd": "trok aan",
+    "voltooidDeelwoord": "aangetrokken",
+    "tegenwoordigeTijd": "trekt aan",
+    "tegenwoordigDeelwoord": "aantrekkend",
+    "level": "A1"
+  },
+  {
+    "word": "uittrekken",
+    "verledenTijd": "trok uit",
+    "voltooidDeelwoord": "uitgetrokken",
+    "tegenwoordigeTijd": "trekt uit",
+    "tegenwoordigDeelwoord": "uittrekkend",
+    "level": "A1"
+  },
+  {
+    "word": "schoonmaken",
+    "verledenTijd": "maakte schoon",
+    "voltooidDeelwoord": "schoongemaakt",
+    "tegenwoordigeTijd": "maakt schoon",
+    "tegenwoordigDeelwoord": "schoonmakend",
+    "level": "A1"
+  },
+  {
+    "word": "klaarmaken",
+    "verledenTijd": "maakte klaar",
+    "voltooidDeelwoord": "klaargemaakt",
+    "tegenwoordigeTijd": "maakt klaar",
+    "tegenwoordigDeelwoord": "klaarmakend",
+    "level": "A1"
+  },
+  {
+    "word": "openmaken",
+    "verledenTijd": "maakte open",
+    "voltooidDeelwoord": "opengemaakt",
+    "tegenwoordigeTijd": "maakt open",
+    "tegenwoordigDeelwoord": "openmakend",
+    "level": "A1"
+  },
+  {
+    "word": "dichtdoen",
+    "verledenTijd": "deed dicht",
+    "voltooidDeelwoord": "dichtgedaan",
+    "tegenwoordigeTijd": "doet dicht",
+    "tegenwoordigDeelwoord": "dichtdoend",
+    "level": "A1"
+  },
+  {
+    "word": "wegbrengen",
+    "verledenTijd": "bracht weg",
+    "voltooidDeelwoord": "weggebracht",
+    "tegenwoordigeTijd": "brengt weg",
+    "tegenwoordigDeelwoord": "wegbrengend",
+    "level": "A1"
+  },
+  {
+    "word": "terugbrengen",
+    "verledenTijd": "bracht terug",
+    "voltooidDeelwoord": "teruggebracht",
+    "tegenwoordigeTijd": "brengt terug",
+    "tegenwoordigDeelwoord": "terugbrengend",
+    "level": "A1"
+  },
+  {
+    "word": "loslaten",
+    "verledenTijd": "liet los",
+    "voltooidDeelwoord": "losgelaten",
+    "tegenwoordigeTijd": "laat los",
+    "tegenwoordigDeelwoord": "loslatend",
+    "level": "A2"
+  },
+  {
+    "word": "vasthouden",
+    "verledenTijd": "hield vast",
+    "voltooidDeelwoord": "vastgehouden",
+    "tegenwoordigeTijd": "houdt vast",
+    "tegenwoordigDeelwoord": "vasthoudend",
+    "level": "A2"
+  },
+  {
+    "word": "weggooien",
+    "verledenTijd": "gooide weg",
+    "voltooidDeelwoord": "weggegooid",
+    "tegenwoordigeTijd": "gooit weg",
+    "tegenwoordigDeelwoord": "weggooiend",
+    "level": "A1"
+  },
+  {
+    "word": "instappen",
+    "verledenTijd": "stapte in",
+    "voltooidDeelwoord": "ingestapt",
+    "tegenwoordigeTijd": "stapt in",
+    "tegenwoordigDeelwoord": "instappend",
+    "level": "A1"
+  },
+  {
+    "word": "uitstappen",
+    "verledenTijd": "stapte uit",
+    "voltooidDeelwoord": "uitgestapt",
+    "tegenwoordigeTijd": "stapt uit",
+    "tegenwoordigDeelwoord": "uitstappend",
+    "level": "A1"
+  },
+  {
+    "word": "overstappen",
+    "verledenTijd": "stapte over",
+    "voltooidDeelwoord": "overgestapt",
+    "tegenwoordigeTijd": "stapt over",
+    "tegenwoordigDeelwoord": "overstappend",
+    "level": "B1"
+  },
+  {
+    "word": "aankleden",
+    "verledenTijd": "kleedde aan",
+    "voltooidDeelwoord": "aangekleed",
+    "tegenwoordigeTijd": "kleedt aan",
+    "tegenwoordigDeelwoord": "aankledend",
+    "level": "A1"
+  },
+  {
+    "word": "uitkleden",
+    "verledenTijd": "kleedde uit",
+    "voltooidDeelwoord": "uitgekleed",
+    "tegenwoordigeTijd": "kleedt uit",
+    "tegenwoordigDeelwoord": "uitkledend",
+    "level": "A1"
+  },
+  {
+    "word": "opletten",
+    "verledenTijd": "lette op",
+    "voltooidDeelwoord": "opgelet",
+    "tegenwoordigeTijd": "let op",
+    "tegenwoordigDeelwoord": "oplettend",
+    "level": "A1"
+  },
+  {
+    "word": "nakijken",
+    "verledenTijd": "keek na",
+    "voltooidDeelwoord": "nagekeken",
+    "tegenwoordigeTijd": "kijkt na",
+    "tegenwoordigDeelwoord": "nakijkend",
+    "level": "B1"
+  },
+  {
+    "word": "opschrijven",
+    "verledenTijd": "schreef op",
+    "voltooidDeelwoord": "opgeschreven",
+    "tegenwoordigeTijd": "schrijft op",
+    "tegenwoordigDeelwoord": "opschrijvend",
+    "level": "A1"
+  },
+  {
+    "word": "voorlezen",
+    "verledenTijd": "las voor",
+    "voltooidDeelwoord": "voorgelezen",
+    "tegenwoordigeTijd": "leest voor",
+    "tegenwoordigDeelwoord": "voorlezend",
+    "level": "B1"
+  }
+]

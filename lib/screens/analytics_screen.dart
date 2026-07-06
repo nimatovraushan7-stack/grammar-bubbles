@@ -3,12 +3,16 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import '../models/quiz_result.dart';
 import '../services/analytics_service.dart';
+import '../services/localization_service.dart';
+import '../widgets/responsive_text.dart';
 
 class AnalyticsScreen extends StatelessWidget {
   const AnalyticsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final l = LocalizationService.t;
+
     return Scaffold(
       body: Stack(
         children: [
@@ -59,9 +63,11 @@ class AnalyticsScreen extends StatelessWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Text(
-                                'GRAMMAR ANALYTICS',
-                                style: TextStyle(
+                              ResponsiveText(
+                                l('grammarAnalytics').toUpperCase(),
+                                maxLines: 2,
+                                minFontSize: 20,
+                                style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 30,
                                   fontWeight: FontWeight.w800,
@@ -69,9 +75,11 @@ class AnalyticsScreen extends StatelessWidget {
                                 ),
                               ),
                               const SizedBox(height: 10),
-                              const Text(
-                                'Bekijk je voortgang en blijf dagelijks oefenen.',
-                                style: TextStyle(
+                              ResponsiveText(
+                                l('analyticsSubtitle'),
+                                maxLines: 3,
+                                minFontSize: 12,
+                                style: const TextStyle(
                                   color: Colors.white70,
                                   fontSize: 15,
                                 ),
@@ -84,25 +92,25 @@ class AnalyticsScreen extends StatelessWidget {
                                 runSpacing: 14,
                                 children: [
                                   _StatCard(
-                                    label: 'Gemiddelde',
+                                    label: l('average'),
                                     value: '$averageScore%',
                                     accent: const Color(0xFF78D8FF),
                                     icon: Icons.track_changes_rounded,
                                   ),
                                   _StatCard(
-                                    label: 'Beste',
+                                    label: l('best'),
                                     value: '$bestScore/15',
                                     accent: const Color(0xFFFFD25B),
                                     icon: Icons.emoji_events_rounded,
                                   ),
                                   _StatCard(
-                                    label: 'Gespeeld',
+                                    label: l('played'),
                                     value: '$totalPlayed',
                                     accent: const Color(0xFF6CFF8A),
                                     icon: Icons.bar_chart_rounded,
                                   ),
                                   _StatCard(
-                                    label: 'Goed',
+                                    label: l('good'),
                                     value: '$totalCorrect',
                                     accent: const Color(0xFF9A6CFF),
                                     icon: Icons.check_circle_rounded,
@@ -110,9 +118,11 @@ class AnalyticsScreen extends StatelessWidget {
                                 ],
                               ),
                               const SizedBox(height: 24),
-                              const Text(
-                                'Laatste 7 dagen',
-                                style: TextStyle(
+                              ResponsiveText(
+                                l('last7Days'),
+                                maxLines: 2,
+                                minFontSize: 15,
+                                style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
                                   fontWeight: FontWeight.w700,
@@ -121,9 +131,11 @@ class AnalyticsScreen extends StatelessWidget {
                               const SizedBox(height: 14),
                               _DailyPerformanceChart(weekly: weekly),
                               const SizedBox(height: 28),
-                              const Text(
-                                'Categorie prestaties',
-                                style: TextStyle(
+                              ResponsiveText(
+                                l('categoryPerformance'),
+                                maxLines: 2,
+                                minFontSize: 15,
+                                style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
                                   fontWeight: FontWeight.w700,
@@ -189,9 +201,11 @@ class _HeaderRow extends StatelessWidget {
             color: Colors.white.withOpacity(0.08),
             borderRadius: BorderRadius.circular(16),
           ),
-          child: const Text(
-            'Ocean Mode',
-            style: TextStyle(
+          child: ResponsiveText(
+            LocalizationService.t('oceanMode'),
+            maxLines: 1,
+            minFontSize: 10,
+            style: const TextStyle(
               color: Colors.white70,
               fontWeight: FontWeight.w600,
             ),
@@ -227,36 +241,44 @@ class _StreakCard extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Row(
-                children: [
-                  Icon(
-                    Icons.local_fire_department_rounded,
-                    color: Color(0xFF6CFF8A),
-                    size: 20,
-                  ),
-                  SizedBox(width: 8),
-                  Text(
-                    'Huidige streak',
-                    style: TextStyle(
-                      color: Colors.white70,
-                      fontSize: 16,
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    const Icon(
+                      Icons.local_fire_department_rounded,
+                      color: Color(0xFF6CFF8A),
+                      size: 20,
                     ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              Text(
-                '$streak dagen',
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  fontWeight: FontWeight.w800,
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: ResponsiveText(
+                        LocalizationService.t('currentStreak'),
+                        maxLines: 2,
+                        minFontSize: 12,
+                        style: const TextStyle(
+                          color: Colors.white70,
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
-            ],
+                const SizedBox(height: 10),
+                ResponsiveText(
+                  LocalizationService.days(streak),
+                  maxLines: 2,
+                  minFontSize: 20,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 30,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ],
+            ),
           ),
           Container(
             width: 72,
@@ -326,16 +348,20 @@ class _StatCard extends StatelessWidget {
               size: 24,
             ),
             const SizedBox(height: 14),
-            Text(
+            ResponsiveText(
               label,
+              maxLines: 2,
+              minFontSize: 10,
               style: const TextStyle(
                 color: Colors.white70,
                 fontSize: 14,
               ),
             ),
             const SizedBox(height: 8),
-            Text(
+            ResponsiveText(
               value,
+              maxLines: 1,
+              minFontSize: 20,
               style: TextStyle(
                 color: accent,
                 fontSize: 28,
@@ -439,8 +465,10 @@ class _CategoryPerformanceCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            category,
+          ResponsiveText(
+            LocalizationService.categoryTitle(category),
+            maxLines: 2,
+            minFontSize: 12,
             style: const TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -477,8 +505,10 @@ class _CategoryPerformanceCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 10),
-          Text(
+          ResponsiveText(
             '$percentage%',
+            maxLines: 1,
+            minFontSize: 10,
             style: const TextStyle(
               color: Colors.white70,
             ),
@@ -507,9 +537,11 @@ class _LastScoreCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'Laatste score',
-            style: TextStyle(
+          ResponsiveText(
+            LocalizationService.t('lastScore'),
+            maxLines: 2,
+            minFontSize: 12,
+            style: const TextStyle(
               color: Colors.white70,
               fontSize: 15,
             ),
@@ -518,16 +550,23 @@ class _LastScoreCard extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                lastResult.category,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w700,
+              Expanded(
+                child: ResponsiveText(
+                  LocalizationService.categoryTitle(lastResult.category),
+                  maxLines: 2,
+                  minFontSize: 12,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
-              Text(
+              const SizedBox(width: 12),
+              ResponsiveText(
                 '${lastResult.score}/${lastResult.total}',
+                maxLines: 1,
+                minFontSize: 12,
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 18,

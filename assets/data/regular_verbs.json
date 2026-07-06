@@ -4,916 +4,1047 @@
     "verledenTijd": "werkte",
     "voltooidDeelwoord": "gewerkt",
     "tegenwoordigeTijd": "werkt",
-    "tegenwoordigDeelwoord": "werkend"
+    "tegenwoordigDeelwoord": "werkend",
+    "level": "A1"
   },
   {
     "word": "leren",
     "verledenTijd": "leerde",
     "voltooidDeelwoord": "geleerd",
     "tegenwoordigeTijd": "leert",
-    "tegenwoordigDeelwoord": "lerend"
+    "tegenwoordigDeelwoord": "lerend",
+    "level": "A1"
   },
   {
     "word": "spelen",
     "verledenTijd": "speelde",
     "voltooidDeelwoord": "gespeeld",
     "tegenwoordigeTijd": "speelt",
-    "tegenwoordigDeelwoord": "spelend"
+    "tegenwoordigDeelwoord": "spelend",
+    "level": "A1"
   },
   {
     "word": "wonen",
     "verledenTijd": "woonde",
     "voltooidDeelwoord": "gewoond",
     "tegenwoordigeTijd": "woont",
-    "tegenwoordigDeelwoord": "wonend"
+    "tegenwoordigDeelwoord": "wonend",
+    "level": "A1"
   },
   {
     "word": "wandelen",
     "verledenTijd": "wandelde",
     "voltooidDeelwoord": "gewandeld",
     "tegenwoordigeTijd": "wandelt",
-    "tegenwoordigDeelwoord": "wandelend"
+    "tegenwoordigDeelwoord": "wandelend",
+    "level": "A1"
   },
   {
     "word": "fietsen",
     "verledenTijd": "fietste",
     "voltooidDeelwoord": "gefietst",
     "tegenwoordigeTijd": "fietst",
-    "tegenwoordigDeelwoord": "fietsend"
+    "tegenwoordigDeelwoord": "fietsend",
+    "level": "A1"
   },
   {
     "word": "koken",
     "verledenTijd": "kookte",
     "voltooidDeelwoord": "gekookt",
     "tegenwoordigeTijd": "kookt",
-    "tegenwoordigDeelwoord": "kokend"
+    "tegenwoordigDeelwoord": "kokend",
+    "level": "A1"
   },
   {
     "word": "maken",
     "verledenTijd": "maakte",
     "voltooidDeelwoord": "gemaakt",
     "tegenwoordigeTijd": "maakt",
-    "tegenwoordigDeelwoord": "makend"
+    "tegenwoordigDeelwoord": "makend",
+    "level": "A1"
   },
   {
     "word": "poetsen",
     "verledenTijd": "poetste",
     "voltooidDeelwoord": "gepoetst",
     "tegenwoordigeTijd": "poetst",
-    "tegenwoordigDeelwoord": "poetsend"
+    "tegenwoordigDeelwoord": "poetsend",
+    "level": "A1"
   },
   {
     "word": "tekenen",
     "verledenTijd": "tekende",
     "voltooidDeelwoord": "getekend",
     "tegenwoordigeTijd": "tekent",
-    "tegenwoordigDeelwoord": "tekenend"
+    "tegenwoordigDeelwoord": "tekenend",
+    "level": "A1"
   },
   {
     "word": "kleuren",
     "verledenTijd": "kleurde",
     "voltooidDeelwoord": "gekleurd",
     "tegenwoordigeTijd": "kleurt",
-    "tegenwoordigDeelwoord": "kleurend"
+    "tegenwoordigDeelwoord": "kleurend",
+    "level": "A1"
   },
   {
     "word": "rekenen",
     "verledenTijd": "rekende",
     "voltooidDeelwoord": "gerekend",
     "tegenwoordigeTijd": "rekent",
-    "tegenwoordigDeelwoord": "rekenend"
+    "tegenwoordigDeelwoord": "rekenend",
+    "level": "A1"
   },
   {
     "word": "luisteren",
     "verledenTijd": "luisterde",
     "voltooidDeelwoord": "geluisterd",
     "tegenwoordigeTijd": "luistert",
-    "tegenwoordigDeelwoord": "luisterend"
+    "tegenwoordigDeelwoord": "luisterend",
+    "level": "A1"
   },
   {
     "word": "praten",
     "verledenTijd": "praatte",
     "voltooidDeelwoord": "gepraat",
     "tegenwoordigeTijd": "praat",
-    "tegenwoordigDeelwoord": "pratend"
+    "tegenwoordigDeelwoord": "pratend",
+    "level": "A1"
   },
   {
     "word": "bellen",
     "verledenTijd": "belde",
     "voltooidDeelwoord": "gebeld",
     "tegenwoordigeTijd": "belt",
-    "tegenwoordigDeelwoord": "bellend"
+    "tegenwoordigDeelwoord": "bellend",
+    "level": "A1"
   },
   {
     "word": "mailen",
     "verledenTijd": "mailde",
     "voltooidDeelwoord": "gemaild",
     "tegenwoordigeTijd": "mailt",
-    "tegenwoordigDeelwoord": "mailend"
+    "tegenwoordigDeelwoord": "mailend",
+    "level": "A1"
   },
   {
     "word": "studeren",
     "verledenTijd": "studeerde",
     "voltooidDeelwoord": "gestudeerd",
     "tegenwoordigeTijd": "studeert",
-    "tegenwoordigDeelwoord": "studerend"
+    "tegenwoordigDeelwoord": "studerend",
+    "level": "A1"
   },
   {
     "word": "parkeren",
     "verledenTijd": "parkeerde",
     "voltooidDeelwoord": "geparkeerd",
     "tegenwoordigeTijd": "parkeert",
-    "tegenwoordigDeelwoord": "parkerend"
+    "tegenwoordigDeelwoord": "parkerend",
+    "level": "A1"
   },
   {
     "word": "rennen",
     "verledenTijd": "rende",
     "voltooidDeelwoord": "gerend",
     "tegenwoordigeTijd": "rent",
-    "tegenwoordigDeelwoord": "rennend"
+    "tegenwoordigDeelwoord": "rennend",
+    "level": "A1"
   },
   {
     "word": "dansen",
     "verledenTijd": "danste",
     "voltooidDeelwoord": "gedanst",
     "tegenwoordigeTijd": "danst",
-    "tegenwoordigDeelwoord": "dansend"
+    "tegenwoordigDeelwoord": "dansend",
+    "level": "A1"
   },
   {
     "word": "wachten",
     "verledenTijd": "wachtte",
     "voltooidDeelwoord": "gewacht",
     "tegenwoordigeTijd": "wacht",
-    "tegenwoordigDeelwoord": "wachtend"
+    "tegenwoordigDeelwoord": "wachtend",
+    "level": "A1"
   },
   {
     "word": "antwoorden",
     "verledenTijd": "antwoordde",
     "voltooidDeelwoord": "geantwoord",
     "tegenwoordigeTijd": "antwoordt",
-    "tegenwoordigDeelwoord": "antwoordend"
+    "tegenwoordigDeelwoord": "antwoordend",
+    "level": "A1"
   },
   {
     "word": "betalen",
     "verledenTijd": "betaalde",
     "voltooidDeelwoord": "betaald",
     "tegenwoordigeTijd": "betaalt",
-    "tegenwoordigDeelwoord": "betalend"
+    "tegenwoordigDeelwoord": "betalend",
+    "level": "A1"
   },
   {
     "word": "bewaren",
     "verledenTijd": "bewaarde",
     "voltooidDeelwoord": "bewaard",
     "tegenwoordigeTijd": "bewaart",
-    "tegenwoordigDeelwoord": "bewarend"
+    "tegenwoordigDeelwoord": "bewarend",
+    "level": "A1"
   },
   {
     "word": "bouwen",
     "verledenTijd": "bouwde",
     "voltooidDeelwoord": "gebouwd",
     "tegenwoordigeTijd": "bouwt",
-    "tegenwoordigDeelwoord": "bouwend"
+    "tegenwoordigDeelwoord": "bouwend",
+    "level": "A1"
   },
   {
     "word": "bestellen",
     "verledenTijd": "bestelde",
     "voltooidDeelwoord": "besteld",
     "tegenwoordigeTijd": "bestelt",
-    "tegenwoordigDeelwoord": "bestellend"
+    "tegenwoordigDeelwoord": "bestellend",
+    "level": "A1"
   },
   {
     "word": "controleren",
     "verledenTijd": "controleerde",
     "voltooidDeelwoord": "gecontroleerd",
     "tegenwoordigeTijd": "controleert",
-    "tegenwoordigDeelwoord": "controlerend"
+    "tegenwoordigDeelwoord": "controlerend",
+    "level": "A1"
   },
   {
     "word": "delen",
     "verledenTijd": "deelde",
     "voltooidDeelwoord": "gedeeld",
     "tegenwoordigeTijd": "deelt",
-    "tegenwoordigDeelwoord": "delend"
+    "tegenwoordigDeelwoord": "delend",
+    "level": "A1"
   },
   {
     "word": "douchen",
     "verledenTijd": "douchte",
     "voltooidDeelwoord": "gedoucht",
     "tegenwoordigeTijd": "doucht",
-    "tegenwoordigDeelwoord": "douchend"
+    "tegenwoordigDeelwoord": "douchend",
+    "level": "A1"
   },
   {
     "word": "drogen",
     "verledenTijd": "droogde",
     "voltooidDeelwoord": "gedroogd",
     "tegenwoordigeTijd": "droogt",
-    "tegenwoordigDeelwoord": "drogend"
+    "tegenwoordigDeelwoord": "drogend",
+    "level": "A1"
   },
   {
     "word": "eten",
     "verledenTijd": "at",
     "voltooidDeelwoord": "gegeten",
     "tegenwoordigeTijd": "eet",
-    "tegenwoordigDeelwoord": "etend"
+    "tegenwoordigDeelwoord": "etend",
+    "level": "A1"
   },
   {
     "word": "filmen",
     "verledenTijd": "filmde",
     "voltooidDeelwoord": "gefilmd",
     "tegenwoordigeTijd": "filmt",
-    "tegenwoordigDeelwoord": "filmend"
+    "tegenwoordigDeelwoord": "filmend",
+    "level": "A1"
   },
   {
     "word": "gebruiken",
     "verledenTijd": "gebruikte",
     "voltooidDeelwoord": "gebruikt",
     "tegenwoordigeTijd": "gebruikt",
-    "tegenwoordigDeelwoord": "gebruikend"
+    "tegenwoordigDeelwoord": "gebruikend",
+    "level": "A1"
   },
   {
     "word": "groeten",
     "verledenTijd": "groette",
     "voltooidDeelwoord": "gegroet",
     "tegenwoordigeTijd": "groet",
-    "tegenwoordigDeelwoord": "groetend"
+    "tegenwoordigDeelwoord": "groetend",
+    "level": "A1"
   },
   {
     "word": "halen",
     "verledenTijd": "haalde",
     "voltooidDeelwoord": "gehaald",
     "tegenwoordigeTijd": "haalt",
-    "tegenwoordigDeelwoord": "halend"
+    "tegenwoordigDeelwoord": "halend",
+    "level": "A1"
   },
   {
     "word": "herhalen",
     "verledenTijd": "herhaalde",
     "voltooidDeelwoord": "herhaald",
     "tegenwoordigeTijd": "herhaalt",
-    "tegenwoordigDeelwoord": "herhalend"
+    "tegenwoordigDeelwoord": "herhalend",
+    "level": "A2"
   },
   {
     "word": "herkennen",
     "verledenTijd": "herkende",
     "voltooidDeelwoord": "herkend",
     "tegenwoordigeTijd": "herkent",
-    "tegenwoordigDeelwoord": "herkennend"
+    "tegenwoordigDeelwoord": "herkennend",
+    "level": "A2"
   },
   {
     "word": "huren",
     "verledenTijd": "huurde",
     "voltooidDeelwoord": "gehuurd",
     "tegenwoordigeTijd": "huurt",
-    "tegenwoordigDeelwoord": "hurend"
+    "tegenwoordigDeelwoord": "hurend",
+    "level": "A1"
   },
   {
     "word": "kammen",
     "verledenTijd": "kamde",
     "voltooidDeelwoord": "gekamd",
     "tegenwoordigeTijd": "kamt",
-    "tegenwoordigDeelwoord": "kammend"
+    "tegenwoordigDeelwoord": "kammend",
+    "level": "A1"
   },
   {
     "word": "leven",
     "verledenTijd": "leefde",
     "voltooidDeelwoord": "geleefd",
     "tegenwoordigeTijd": "leeft",
-    "tegenwoordigDeelwoord": "levend"
+    "tegenwoordigDeelwoord": "levend",
+    "level": "A1"
   },
   {
     "word": "missen",
     "verledenTijd": "miste",
     "voltooidDeelwoord": "gemist",
     "tegenwoordigeTijd": "mist",
-    "tegenwoordigDeelwoord": "missend"
+    "tegenwoordigDeelwoord": "missend",
+    "level": "A1"
   },
   {
-    "word": "nodigen",
-    "verledenTijd": "nodigde",
-    "voltooidDeelwoord": "genodigd",
-    "tegenwoordigeTijd": "nodigt",
-    "tegenwoordigDeelwoord": "nodigend"
+    "word": "uitnodigen",
+    "verledenTijd": "uitnodigde",
+    "voltooidDeelwoord": "uitgenodigd",
+    "tegenwoordigeTijd": "uitnodigt",
+    "tegenwoordigDeelwoord": "uitnodigend",
+    "level": "A2"
   },
   {
     "word": "openen",
     "verledenTijd": "opende",
     "voltooidDeelwoord": "geopend",
     "tegenwoordigeTijd": "opent",
-    "tegenwoordigDeelwoord": "openend"
+    "tegenwoordigDeelwoord": "openend",
+    "level": "A1"
   },
   {
     "word": "pakken",
     "verledenTijd": "pakte",
     "voltooidDeelwoord": "gepakt",
     "tegenwoordigeTijd": "pakt",
-    "tegenwoordigDeelwoord": "pakkend"
+    "tegenwoordigDeelwoord": "pakkend",
+    "level": "A1"
   },
   {
     "word": "passen",
     "verledenTijd": "paste",
     "voltooidDeelwoord": "gepast",
     "tegenwoordigeTijd": "past",
-    "tegenwoordigDeelwoord": "passend"
+    "tegenwoordigDeelwoord": "passend",
+    "level": "A1"
   },
   {
     "word": "plakken",
     "verledenTijd": "plakte",
     "voltooidDeelwoord": "geplakt",
     "tegenwoordigeTijd": "plakt",
-    "tegenwoordigDeelwoord": "plakkend"
+    "tegenwoordigDeelwoord": "plakkend",
+    "level": "A1"
   },
   {
     "word": "planten",
     "verledenTijd": "plantte",
     "voltooidDeelwoord": "geplant",
     "tegenwoordigeTijd": "plant",
-    "tegenwoordigDeelwoord": "plantend"
+    "tegenwoordigDeelwoord": "plantend",
+    "level": "A1"
   },
   {
     "word": "proberen",
     "verledenTijd": "probeerde",
     "voltooidDeelwoord": "geprobeerd",
     "tegenwoordigeTijd": "probeert",
-    "tegenwoordigDeelwoord": "proberend"
+    "tegenwoordigDeelwoord": "proberend",
+    "level": "A1"
   },
   {
     "word": "reizen",
     "verledenTijd": "reisde",
     "voltooidDeelwoord": "gereisd",
     "tegenwoordigeTijd": "reist",
-    "tegenwoordigDeelwoord": "reizend"
+    "tegenwoordigDeelwoord": "reizend",
+    "level": "A1"
   },
   {
-    "word": "ruimen",
-    "verledenTijd": "ruimde",
-    "voltooidDeelwoord": "geruimd",
-    "tegenwoordigeTijd": "ruimt",
-    "tegenwoordigDeelwoord": "ruimend"
+    "word": "opruimen",
+    "verledenTijd": "opruimde",
+    "voltooidDeelwoord": "opgeruimd",
+    "tegenwoordigeTijd": "opruimt",
+    "tegenwoordigDeelwoord": "opruimend",
+    "level": "A2"
   },
   {
     "word": "sparen",
     "verledenTijd": "spaarde",
     "voltooidDeelwoord": "gespaard",
     "tegenwoordigeTijd": "spaart",
-    "tegenwoordigDeelwoord": "sparend"
+    "tegenwoordigDeelwoord": "sparend",
+    "level": "A1"
   },
   {
     "word": "stoppen",
     "verledenTijd": "stopte",
     "voltooidDeelwoord": "gestopt",
     "tegenwoordigeTijd": "stopt",
-    "tegenwoordigDeelwoord": "stoppend"
+    "tegenwoordigDeelwoord": "stoppend",
+    "level": "A1"
   },
   {
     "word": "trakteren",
     "verledenTijd": "trakteerde",
     "voltooidDeelwoord": "getrakteerd",
     "tegenwoordigeTijd": "trakteert",
-    "tegenwoordigDeelwoord": "trakterend"
+    "tegenwoordigDeelwoord": "trakterend",
+    "level": "A2"
   },
   {
     "word": "verhuizen",
     "verledenTijd": "verhuisde",
     "voltooidDeelwoord": "verhuisd",
     "tegenwoordigeTijd": "verhuist",
-    "tegenwoordigDeelwoord": "verhuizend"
+    "tegenwoordigDeelwoord": "verhuizend",
+    "level": "A2"
   },
   {
     "word": "verjaarden",
     "verledenTijd": "verjaarde",
     "voltooidDeelwoord": "verjaard",
     "tegenwoordigeTijd": "verjaart",
-    "tegenwoordigDeelwoord": "verjarend"
+    "tegenwoordigDeelwoord": "verjarend",
+    "level": "A2"
   },
   {
     "word": "accepteren",
     "verledenTijd": "accepteerde",
     "voltooidDeelwoord": "geaccepteerd",
     "tegenwoordigeTijd": "accepteert",
-    "tegenwoordigDeelwoord": "accepterend"
+    "tegenwoordigDeelwoord": "accepterend",
+    "level": "A2"
   },
   {
     "word": "adviseren",
     "verledenTijd": "adviseerde",
     "voltooidDeelwoord": "geadviseerd",
     "tegenwoordigeTijd": "adviseert",
-    "tegenwoordigDeelwoord": "adviserend"
+    "tegenwoordigDeelwoord": "adviserend",
+    "level": "A2"
   },
   {
     "word": "bedanken",
     "verledenTijd": "bedankte",
     "voltooidDeelwoord": "bedankt",
     "tegenwoordigeTijd": "bedankt",
-    "tegenwoordigDeelwoord": "bedankend"
+    "tegenwoordigDeelwoord": "bedankend",
+    "level": "A2"
   },
   {
     "word": "bedienen",
     "verledenTijd": "bediende",
     "voltooidDeelwoord": "bediend",
     "tegenwoordigeTijd": "bedient",
-    "tegenwoordigDeelwoord": "bedienend"
+    "tegenwoordigDeelwoord": "bedienend",
+    "level": "A2"
   },
   {
     "word": "behandelen",
     "verledenTijd": "behandelde",
     "voltooidDeelwoord": "behandeld",
     "tegenwoordigeTijd": "behandelt",
-    "tegenwoordigDeelwoord": "behandelend"
+    "tegenwoordigDeelwoord": "behandelend",
+    "level": "A2"
   },
   {
     "word": "beïnvloeden",
     "verledenTijd": "beïnvloedde",
     "voltooidDeelwoord": "beïnvloed",
     "tegenwoordigeTijd": "beïnvloedt",
-    "tegenwoordigDeelwoord": "beïnvloedend"
+    "tegenwoordigDeelwoord": "beïnvloedend",
+    "level": "B1"
   },
   {
     "word": "beoordelen",
     "verledenTijd": "beoordeelde",
     "voltooidDeelwoord": "beoordeeld",
     "tegenwoordigeTijd": "beoordeelt",
-    "tegenwoordigDeelwoord": "beoordelend"
+    "tegenwoordigDeelwoord": "beoordelend",
+    "level": "B1"
   },
   {
     "word": "beschermen",
     "verledenTijd": "beschermde",
     "voltooidDeelwoord": "beschermd",
     "tegenwoordigeTijd": "beschermt",
-    "tegenwoordigDeelwoord": "beschermend"
+    "tegenwoordigDeelwoord": "beschermend",
+    "level": "A2"
   },
   {
     "word": "bevestigen",
     "verledenTijd": "bevestigde",
     "voltooidDeelwoord": "bevestigd",
     "tegenwoordigeTijd": "bevestigt",
-    "tegenwoordigDeelwoord": "bevestigend"
+    "tegenwoordigDeelwoord": "bevestigend",
+    "level": "A2"
   },
   {
     "word": "bewonderen",
     "verledenTijd": "bewonderde",
     "voltooidDeelwoord": "bewonderd",
     "tegenwoordigeTijd": "bewondert",
-    "tegenwoordigDeelwoord": "bewonderend"
+    "tegenwoordigDeelwoord": "bewonderend",
+    "level": "B1"
   },
   {
     "word": "combineren",
     "verledenTijd": "combineerde",
     "voltooidDeelwoord": "gecombineerd",
     "tegenwoordigeTijd": "combineert",
-    "tegenwoordigDeelwoord": "combinerend"
+    "tegenwoordigDeelwoord": "combinerend",
+    "level": "A2"
   },
   {
     "word": "decoreren",
     "verledenTijd": "decoreerde",
     "voltooidDeelwoord": "gedecoreerd",
     "tegenwoordigeTijd": "decoreert",
-    "tegenwoordigDeelwoord": "decorerend"
+    "tegenwoordigDeelwoord": "decorerend",
+    "level": "B1"
   },
   {
     "word": "discussiëren",
     "verledenTijd": "discussieerde",
     "voltooidDeelwoord": "gediscussieerd",
     "tegenwoordigeTijd": "discussieert",
-    "tegenwoordigDeelwoord": "discussiërend"
+    "tegenwoordigDeelwoord": "discussiërend",
+    "level": "B1"
   },
   {
     "word": "documenteren",
     "verledenTijd": "documenteerde",
     "voltooidDeelwoord": "gedocumenteerd",
     "tegenwoordigeTijd": "documenteert",
-    "tegenwoordigDeelwoord": "documenterend"
+    "tegenwoordigDeelwoord": "documenterend",
+    "level": "B1"
   },
   {
     "word": "downloaden",
     "verledenTijd": "downloadde",
     "voltooidDeelwoord": "gedownload",
     "tegenwoordigeTijd": "downloadt",
-    "tegenwoordigDeelwoord": "downloadend"
+    "tegenwoordigDeelwoord": "downloadend",
+    "level": "A2"
   },
   {
     "word": "fantaseren",
     "verledenTijd": "fantaseerde",
     "voltooidDeelwoord": "gefantaseerd",
     "tegenwoordigeTijd": "fantaseert",
-    "tegenwoordigDeelwoord": "fantaserend"
+    "tegenwoordigDeelwoord": "fantaserend",
+    "level": "B1"
   },
   {
     "word": "fotograferen",
     "verledenTijd": "fotografeerde",
     "voltooidDeelwoord": "gefotografeerd",
     "tegenwoordigeTijd": "fotografeert",
-    "tegenwoordigDeelwoord": "fotograferend"
+    "tegenwoordigDeelwoord": "fotograferend",
+    "level": "B1"
   },
   {
     "word": "garanderen",
     "verledenTijd": "garandeerde",
     "voltooidDeelwoord": "gegarandeerd",
     "tegenwoordigeTijd": "garandeert",
-    "tegenwoordigDeelwoord": "garanderend"
+    "tegenwoordigDeelwoord": "garanderend",
+    "level": "B1"
   },
   {
     "word": "geloven",
     "verledenTijd": "geloofde",
     "voltooidDeelwoord": "geloofd",
     "tegenwoordigeTijd": "gelooft",
-    "tegenwoordigDeelwoord": "gelovend"
+    "tegenwoordigDeelwoord": "gelovend",
+    "level": "A2"
   },
   {
     "word": "herinneren",
     "verledenTijd": "herinnerde",
     "voltooidDeelwoord": "herinnerd",
     "tegenwoordigeTijd": "herinnert",
-    "tegenwoordigDeelwoord": "herinnerend"
+    "tegenwoordigDeelwoord": "herinnerend",
+    "level": "A2"
   },
   {
     "word": "informeren",
     "verledenTijd": "informeerde",
     "voltooidDeelwoord": "geïnformeerd",
     "tegenwoordigeTijd": "informeert",
-    "tegenwoordigDeelwoord": "informerend"
+    "tegenwoordigDeelwoord": "informerend",
+    "level": "A2"
   },
   {
     "word": "introduceren",
     "verledenTijd": "introduceerde",
     "voltooidDeelwoord": "geïntroduceerd",
     "tegenwoordigeTijd": "introduceert",
-    "tegenwoordigDeelwoord": "introducerend"
+    "tegenwoordigDeelwoord": "introducerend",
+    "level": "A2"
   },
   {
     "word": "organiseren",
     "verledenTijd": "organiseerde",
     "voltooidDeelwoord": "georganiseerd",
     "tegenwoordigeTijd": "organiseert",
-    "tegenwoordigDeelwoord": "organiserend"
+    "tegenwoordigDeelwoord": "organiserend",
+    "level": "A2"
   },
   {
     "word": "oefenen",
     "verledenTijd": "oefende",
     "voltooidDeelwoord": "geoefend",
     "tegenwoordigeTijd": "oefent",
-    "tegenwoordigDeelwoord": "oefenend"
+    "tegenwoordigDeelwoord": "oefenend",
+    "level": "A1"
   },
   {
     "word": "overnachten",
     "verledenTijd": "overnachtte",
     "voltooidDeelwoord": "overnacht",
     "tegenwoordigeTijd": "overnacht",
-    "tegenwoordigDeelwoord": "overnachtend"
+    "tegenwoordigDeelwoord": "overnachtend",
+    "level": "A2"
   },
   {
     "word": "ontdekken",
     "verledenTijd": "ontdekte",
     "voltooidDeelwoord": "ontdekt",
     "tegenwoordigeTijd": "ontdekt",
-    "tegenwoordigDeelwoord": "ontdekkend"
+    "tegenwoordigDeelwoord": "ontdekkend",
+    "level": "A2"
   },
   {
     "word": "ontwikkelen",
     "verledenTijd": "ontwikkelde",
     "voltooidDeelwoord": "ontwikkeld",
     "tegenwoordigeTijd": "ontwikkelt",
-    "tegenwoordigDeelwoord": "ontwikkelend"
+    "tegenwoordigDeelwoord": "ontwikkelend",
+    "level": "B1"
   },
   {
     "word": "plannen",
     "verledenTijd": "plande",
     "voltooidDeelwoord": "gepland",
     "tegenwoordigeTijd": "plant",
-    "tegenwoordigDeelwoord": "plannend"
+    "tegenwoordigDeelwoord": "plannend",
+    "level": "A2"
   },
   {
     "word": "produceren",
     "verledenTijd": "produceerde",
     "voltooidDeelwoord": "geproduceerd",
     "tegenwoordigeTijd": "produceert",
-    "tegenwoordigDeelwoord": "producerend"
+    "tegenwoordigDeelwoord": "producerend",
+    "level": "B1"
   },
   {
     "word": "profiteren",
     "verledenTijd": "profiteerde",
     "voltooidDeelwoord": "geprofiteerd",
     "tegenwoordigeTijd": "profiteert",
-    "tegenwoordigDeelwoord": "profiterend"
+    "tegenwoordigDeelwoord": "profiterend",
+    "level": "B1"
   },
   {
     "word": "publiceren",
     "verledenTijd": "publiceerde",
     "voltooidDeelwoord": "gepubliceerd",
     "tegenwoordigeTijd": "publiceert",
-    "tegenwoordigDeelwoord": "publicerend"
+    "tegenwoordigDeelwoord": "publicerend",
+    "level": "B1"
   },
   {
     "word": "reageren",
     "verledenTijd": "reageerde",
     "voltooidDeelwoord": "gereageerd",
     "tegenwoordigeTijd": "reageert",
-    "tegenwoordigDeelwoord": "reagerend"
+    "tegenwoordigDeelwoord": "reagerend",
+    "level": "A2"
   },
   {
     "word": "registreren",
     "verledenTijd": "registreerde",
     "voltooidDeelwoord": "geregistreerd",
     "tegenwoordigeTijd": "registreert",
-    "tegenwoordigDeelwoord": "registrerend"
+    "tegenwoordigDeelwoord": "registrerend",
+    "level": "B1"
   },
   {
     "word": "repareren",
     "verledenTijd": "repareerde",
     "voltooidDeelwoord": "gerepareerd",
     "tegenwoordigeTijd": "repareert",
-    "tegenwoordigDeelwoord": "reparerend"
+    "tegenwoordigDeelwoord": "reparerend",
+    "level": "A2"
   },
   {
     "word": "reserveren",
     "verledenTijd": "reserveerde",
     "voltooidDeelwoord": "gereserveerd",
     "tegenwoordigeTijd": "reserveert",
-    "tegenwoordigDeelwoord": "reserverend"
+    "tegenwoordigDeelwoord": "reserverend",
+    "level": "A2"
   },
   {
     "word": "respecteren",
     "verledenTijd": "respecteerde",
     "voltooidDeelwoord": "gerespecteerd",
     "tegenwoordigeTijd": "respecteert",
-    "tegenwoordigDeelwoord": "respecterend"
+    "tegenwoordigDeelwoord": "respecterend",
+    "level": "A2"
   },
   {
     "word": "serveren",
     "verledenTijd": "serveerde",
     "voltooidDeelwoord": "geserveerd",
     "tegenwoordigeTijd": "serveert",
-    "tegenwoordigDeelwoord": "serverend"
+    "tegenwoordigDeelwoord": "serverend",
+    "level": "A2"
   },
   {
     "word": "signaleren",
     "verledenTijd": "signaleerde",
     "voltooidDeelwoord": "gesignaleerd",
     "tegenwoordigeTijd": "signaleert",
-    "tegenwoordigDeelwoord": "signalerend"
+    "tegenwoordigDeelwoord": "signalerend",
+    "level": "B1"
   },
   {
     "word": "solliciteren",
     "verledenTijd": "solliciteerde",
     "voltooidDeelwoord": "gesolliciteerd",
     "tegenwoordigeTijd": "solliciteert",
-    "tegenwoordigDeelwoord": "solliciterend"
+    "tegenwoordigDeelwoord": "solliciterend",
+    "level": "B1"
   },
   {
     "word": "sorteren",
     "verledenTijd": "sorteerde",
     "voltooidDeelwoord": "gesorteerd",
     "tegenwoordigeTijd": "sorteert",
-    "tegenwoordigDeelwoord": "sorterend"
+    "tegenwoordigDeelwoord": "sorterend",
+    "level": "A2"
   },
   {
     "word": "telefoneren",
     "verledenTijd": "telefoneerde",
     "voltooidDeelwoord": "getelefoneerd",
     "tegenwoordigeTijd": "telefoneert",
-    "tegenwoordigDeelwoord": "telefonerend"
+    "tegenwoordigDeelwoord": "telefonerend",
+    "level": "A1"
   },
   {
     "word": "trainen",
     "verledenTijd": "trainde",
     "voltooidDeelwoord": "getraind",
     "tegenwoordigeTijd": "traint",
-    "tegenwoordigDeelwoord": "trainend"
+    "tegenwoordigDeelwoord": "trainend",
+    "level": "A2"
   },
   {
     "word": "transporteren",
     "verledenTijd": "transporteerde",
     "voltooidDeelwoord": "getransporteerd",
     "tegenwoordigeTijd": "transporteert",
-    "tegenwoordigDeelwoord": "transporterend"
+    "tegenwoordigDeelwoord": "transporterend",
+    "level": "B1"
   },
   {
     "word": "veranderen",
     "verledenTijd": "veranderde",
     "voltooidDeelwoord": "veranderd",
     "tegenwoordigeTijd": "verandert",
-    "tegenwoordigDeelwoord": "veranderend"
+    "tegenwoordigDeelwoord": "veranderend",
+    "level": "A2"
   },
   {
     "word": "verbeteren",
     "verledenTijd": "verbeterde",
     "voltooidDeelwoord": "verbeterd",
     "tegenwoordigeTijd": "verbetert",
-    "tegenwoordigDeelwoord": "verbeterend"
+    "tegenwoordigDeelwoord": "verbeterend",
+    "level": "A2"
   },
   {
     "word": "verklaren",
     "verledenTijd": "verklaarde",
     "voltooidDeelwoord": "verklaard",
     "tegenwoordigeTijd": "verklaart",
-    "tegenwoordigDeelwoord": "verklarend"
+    "tegenwoordigDeelwoord": "verklarend",
+    "level": "A2"
   },
   {
     "word": "verplaatsen",
     "verledenTijd": "verplaatste",
     "voltooidDeelwoord": "verplaatst",
     "tegenwoordigeTijd": "verplaatst",
-    "tegenwoordigDeelwoord": "verplaatsend"
+    "tegenwoordigDeelwoord": "verplaatsend",
+    "level": "A2"
   },
   {
     "word": "vertalen",
     "verledenTijd": "vertaalde",
     "voltooidDeelwoord": "vertaald",
     "tegenwoordigeTijd": "vertaalt",
-    "tegenwoordigDeelwoord": "vertalend"
+    "tegenwoordigDeelwoord": "vertalend",
+    "level": "A2"
   },
   {
     "word": "verwelkomen",
     "verledenTijd": "verwelkomde",
     "voltooidDeelwoord": "verwelkomd",
     "tegenwoordigeTijd": "verwelkomt",
-    "tegenwoordigDeelwoord": "verwelkomend"
+    "tegenwoordigDeelwoord": "verwelkomend",
+    "level": "A2"
   },
   {
     "word": "winkelen",
     "verledenTijd": "winkelde",
     "voltooidDeelwoord": "gewinkeld",
     "tegenwoordigeTijd": "winkelt",
-    "tegenwoordigDeelwoord": "winkelend"
+    "tegenwoordigDeelwoord": "winkelend",
+    "level": "A1"
   },
   {
     "word": "zweten",
     "verledenTijd": "zweette",
     "voltooidDeelwoord": "gezweet",
     "tegenwoordigeTijd": "zweet",
-    "tegenwoordigDeelwoord": "zwetend"
+    "tegenwoordigDeelwoord": "zwetend",
+    "level": "B1"
   },
   {
     "word": "analyseren",
     "verledenTijd": "analyseerde",
     "voltooidDeelwoord": "geanalyseerd",
     "tegenwoordigeTijd": "analyseert",
-    "tegenwoordigDeelwoord": "analyserend"
+    "tegenwoordigDeelwoord": "analyserend",
+    "level": "B1"
   },
   {
     "word": "assisteren",
     "verledenTijd": "assisteerde",
     "voltooidDeelwoord": "geassisteerd",
     "tegenwoordigeTijd": "assisteert",
-    "tegenwoordigDeelwoord": "assisterend"
+    "tegenwoordigDeelwoord": "assisterend",
+    "level": "B1"
   },
   {
     "word": "calculeren",
     "verledenTijd": "calculeerde",
     "voltooidDeelwoord": "gecalculeerd",
     "tegenwoordigeTijd": "calculeert",
-    "tegenwoordigDeelwoord": "calculerend"
+    "tegenwoordigDeelwoord": "calculerend",
+    "level": "B2"
   },
   {
     "word": "communiceren",
     "verledenTijd": "communiceerde",
     "voltooidDeelwoord": "gecommuniceerd",
     "tegenwoordigeTijd": "communiceert",
-    "tegenwoordigDeelwoord": "communicerend"
+    "tegenwoordigDeelwoord": "communicerend",
+    "level": "B1"
   },
   {
     "word": "concentreren",
     "verledenTijd": "concentreerde",
     "voltooidDeelwoord": "geconcentreerd",
     "tegenwoordigeTijd": "concentreert",
-    "tegenwoordigDeelwoord": "concentrerend"
+    "tegenwoordigDeelwoord": "concentrerend",
+    "level": "B1"
   },
   {
     "word": "concluderen",
     "verledenTijd": "concludeerde",
     "voltooidDeelwoord": "geconcludeerd",
     "tegenwoordigeTijd": "concludeert",
-    "tegenwoordigDeelwoord": "concluderend"
+    "tegenwoordigDeelwoord": "concluderend",
+    "level": "B2"
   },
   {
     "word": "configureren",
     "verledenTijd": "configureerde",
     "voltooidDeelwoord": "geconfigureerd",
     "tegenwoordigeTijd": "configureert",
-    "tegenwoordigDeelwoord": "configurerend"
+    "tegenwoordigDeelwoord": "configurerend",
+    "level": "B2"
   },
   {
     "word": "consulteren",
     "verledenTijd": "consulteerde",
     "voltooidDeelwoord": "geconsulteerd",
     "tegenwoordigeTijd": "consulteert",
-    "tegenwoordigDeelwoord": "consulterend"
+    "tegenwoordigDeelwoord": "consulterend",
+    "level": "B2"
   },
   {
     "word": "corrigeren",
     "verledenTijd": "corrigeerde",
     "voltooidDeelwoord": "gecorrigeerd",
     "tegenwoordigeTijd": "corrigeert",
-    "tegenwoordigDeelwoord": "corrigerend"
+    "tegenwoordigDeelwoord": "corrigerend",
+    "level": "B1"
   },
   {
     "word": "creëren",
     "verledenTijd": "creëerde",
     "voltooidDeelwoord": "gecreëerd",
     "tegenwoordigeTijd": "creëert",
-    "tegenwoordigDeelwoord": "creërend"
+    "tegenwoordigDeelwoord": "creërend",
+    "level": "B1"
   },
   {
     "word": "definiëren",
     "verledenTijd": "definieerde",
     "voltooidDeelwoord": "gedefinieerd",
     "tegenwoordigeTijd": "definieert",
-    "tegenwoordigDeelwoord": "definiërend"
+    "tegenwoordigDeelwoord": "definiërend",
+    "level": "B2"
   },
   {
     "word": "demonstreren",
     "verledenTijd": "demonstreerde",
     "voltooidDeelwoord": "gedemonstreerd",
     "tegenwoordigeTijd": "demonstreert",
-    "tegenwoordigDeelwoord": "demonstrerend"
+    "tegenwoordigDeelwoord": "demonstrerend",
+    "level": "B1"
   },
   {
     "word": "distribueren",
     "verledenTijd": "distribueerde",
     "voltooidDeelwoord": "gedistribueerd",
     "tegenwoordigeTijd": "distribueert",
-    "tegenwoordigDeelwoord": "distribuerend"
+    "tegenwoordigDeelwoord": "distribuerend",
+    "level": "B2"
   },
   {
     "word": "evalueren",
     "verledenTijd": "evalueerde",
     "voltooidDeelwoord": "geëvalueerd",
     "tegenwoordigeTijd": "evalueert",
-    "tegenwoordigDeelwoord": "evaluerend"
+    "tegenwoordigDeelwoord": "evaluerend",
+    "level": "B1"
   },
   {
     "word": "experimenteren",
     "verledenTijd": "experimenteerde",
     "voltooidDeelwoord": "geëxperimenteerd",
     "tegenwoordigeTijd": "experimenteert",
-    "tegenwoordigDeelwoord": "experimenterend"
+    "tegenwoordigDeelwoord": "experimenterend",
+    "level": "B2"
   },
   {
     "word": "functioneren",
     "verledenTijd": "functioneerde",
     "voltooidDeelwoord": "gefunctioneerd",
     "tegenwoordigeTijd": "functioneert",
-    "tegenwoordigDeelwoord": "functionerend"
+    "tegenwoordigDeelwoord": "functionerend",
+    "level": "B1"
   },
   {
     "word": "identificeren",
     "verledenTijd": "identificeerde",
     "voltooidDeelwoord": "geïdentificeerd",
     "tegenwoordigeTijd": "identificeert",
-    "tegenwoordigDeelwoord": "identificerend"
+    "tegenwoordigDeelwoord": "identificerend",
+    "level": "B2"
   },
   {
     "word": "implementeren",
     "verledenTijd": "implementeerde",
     "voltooidDeelwoord": "geïmplementeerd",
     "tegenwoordigeTijd": "implementeert",
-    "tegenwoordigDeelwoord": "implementerend"
+    "tegenwoordigDeelwoord": "implementerend",
+    "level": "B2"
   },
   {
     "word": "improviseren",
     "verledenTijd": "improviseerde",
     "voltooidDeelwoord": "geïmproviseerd",
     "tegenwoordigeTijd": "improviseert",
-    "tegenwoordigDeelwoord": "improviserend"
+    "tegenwoordigDeelwoord": "improviserend",
+    "level": "B2"
   },
   {
     "word": "installeren",
     "verledenTijd": "installeerde",
     "voltooidDeelwoord": "geïnstalleerd",
     "tegenwoordigeTijd": "installeert",
-    "tegenwoordigDeelwoord": "installerend"
+    "tegenwoordigDeelwoord": "installerend",
+    "level": "B1"
   },
   {
     "word": "integreren",
     "verledenTijd": "integreerde",
     "voltooidDeelwoord": "geïntegreerd",
     "tegenwoordigeTijd": "integreert",
-    "tegenwoordigDeelwoord": "integrerend"
+    "tegenwoordigDeelwoord": "integrerend",
+    "level": "B2"
   },
   {
     "word": "investeren",
     "verledenTijd": "investeerde",
     "voltooidDeelwoord": "geïnvesteerd",
     "tegenwoordigeTijd": "investeert",
-    "tegenwoordigDeelwoord": "investerend"
+    "tegenwoordigDeelwoord": "investerend",
+    "level": "B1"
   },
   {
     "word": "motiveren",
     "verledenTijd": "motiveerde",
     "voltooidDeelwoord": "gemotiveerd",
     "tegenwoordigeTijd": "motiveert",
-    "tegenwoordigDeelwoord": "motiverend"
+    "tegenwoordigDeelwoord": "motiverend",
+    "level": "B1"
   },
   {
     "word": "observeren",
     "verledenTijd": "observeerde",
     "voltooidDeelwoord": "geobserveerd",
     "tegenwoordigeTijd": "observeert",
-    "tegenwoordigDeelwoord": "observerend"
+    "tegenwoordigDeelwoord": "observerend",
+    "level": "B1"
   },
   {
     "word": "optimaliseren",
     "verledenTijd": "optimaliseerde",
     "voltooidDeelwoord": "geoptimaliseerd",
     "tegenwoordigeTijd": "optimaliseert",
-    "tegenwoordigDeelwoord": "optimaliserend"
+    "tegenwoordigDeelwoord": "optimaliserend",
+    "level": "B2"
   }
 ]

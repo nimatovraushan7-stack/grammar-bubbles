@@ -9,8 +9,8 @@ class VerledenTijdCategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const GrammarModeCategoryScreen(
-      title: 'Verleden Tijd',
-      instruction: 'Zoek de verleden tijd van:',
+      titleKey: 'pastTense',
+      instructionKey: 'instructionPastTense',
       irregularMode: GrammarModeConfig(
         gameTitle: 'Verleden Tijd - Onregelmatig',
         bestScoreCategories: [
@@ -26,6 +26,14 @@ class VerledenTijdCategoryScreen extends StatelessWidget {
         ],
         questionsLoader:
             QuestionGenerator.generateRegelmatigeVerledenTijdQuestions,
+      ),
+      separableMode: GrammarModeConfig(
+        gameTitle: 'Verleden Tijd - Scheidbaar',
+        bestScoreCategories: [
+          'Verleden Tijd - Scheidbaar',
+        ],
+        questionsLoader:
+            QuestionGenerator.generateScheidbareVerledenTijdQuestions,
       ),
       mixedMode: GrammarModeConfig(
         gameTitle: 'Verleden Tijd - Gemengd',

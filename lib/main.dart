@@ -5,7 +5,11 @@ import 'services/analytics_service.dart';
 import 'services/sound_service.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'services/hash_service.dart';
+import 'services/learning_level_service.dart';
+import 'services/localization_service.dart';
 import 'services/premium_service.dart';
+import 'services/settings_service.dart';
+import 'services/translation_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,6 +21,10 @@ void main() async {
 
   await Hive.initFlutter();
   await Hive.openBox('premiumBox');
+  await SettingsService.initialize();
+  await LearningLevelService.initialize();
+  await LocalizationService.initialize();
+  await TranslationService.initialize();
 
   await PremiumService.initialize();
 
@@ -24,6 +32,7 @@ void main() async {
     const GrammarBubblesApp(),
   );
 }
+
 class GrammarBubblesApp extends StatelessWidget {
   const GrammarBubblesApp({super.key});
 
@@ -31,7 +40,7 @@ class GrammarBubblesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Grammar Bubbles',
+      title: LocalizationService.t('appTitle'),
       theme: ThemeData(
         useMaterial3: true,
       ),
