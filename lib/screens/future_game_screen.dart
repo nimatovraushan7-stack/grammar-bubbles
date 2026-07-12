@@ -7,13 +7,21 @@ class FutureGameScreen extends StatefulWidget {
   final String title;
   final String instruction;
   final Future<List<GrammarQuestion>> Function() questionsLoader;
+  final String categoryId;
+  final String categoryTitle;
+  final String exerciseId;
+  final String exerciseTitle;
 
   const FutureGameScreen({
     super.key,
     required this.title,
     required this.instruction,
     required this.questionsLoader,
-  });
+    this.categoryId = 'general',
+    this.categoryTitle = 'Grammar',
+    this.exerciseId = 'exercise',
+    String? exerciseTitle,
+  }) : exerciseTitle = exerciseTitle ?? title;
 
   @override
   State<FutureGameScreen> createState() => _FutureGameScreenState();
@@ -44,6 +52,10 @@ class _FutureGameScreenState extends State<FutureGameScreen> {
           title: widget.title,
           instruction: widget.instruction,
           questions: questions,
+          categoryId: widget.categoryId,
+          categoryTitle: widget.categoryTitle,
+          exerciseId: widget.exerciseId,
+          exerciseTitle: widget.exerciseTitle,
         );
       },
     );

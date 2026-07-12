@@ -13,6 +13,7 @@ class VerledenTijdCategoryScreen extends StatelessWidget {
       instructionKey: 'instructionPastTense',
       irregularMode: GrammarModeConfig(
         gameTitle: 'Verleden Tijd - Onregelmatig',
+        exerciseId: 'past_tense_irregular',
         bestScoreCategories: [
           'Verleden Tijd - Onregelmatig',
         ],
@@ -21,6 +22,7 @@ class VerledenTijdCategoryScreen extends StatelessWidget {
       ),
       regularMode: GrammarModeConfig(
         gameTitle: 'Verleden Tijd - Regelmatig',
+        exerciseId: 'past_tense_regular',
         bestScoreCategories: [
           'Verleden Tijd - Regelmatig',
         ],
@@ -29,6 +31,7 @@ class VerledenTijdCategoryScreen extends StatelessWidget {
       ),
       separableMode: GrammarModeConfig(
         gameTitle: 'Verleden Tijd - Scheidbaar',
+        exerciseId: 'past_tense_separable',
         bestScoreCategories: [
           'Verleden Tijd - Scheidbaar',
         ],
@@ -37,6 +40,7 @@ class VerledenTijdCategoryScreen extends StatelessWidget {
       ),
       mixedMode: GrammarModeConfig(
         gameTitle: 'Verleden Tijd - Gemengd',
+        exerciseId: 'past_tense_mixed',
         bestScoreCategories: [
           'Verleden Tijd',
           'Verleden Tijd - Gemengd',

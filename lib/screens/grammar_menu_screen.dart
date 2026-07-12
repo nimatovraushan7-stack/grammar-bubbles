@@ -61,8 +61,8 @@ class GrammarMenuScreen extends StatelessWidget {
                             ResponsiveText(
                               title,
                               textAlign: TextAlign.center,
-                              maxLines: 2,
-                              minFontSize: 24,
+                              maxLines: 1,
+                              minFontSize: 16,
                               style: const TextStyle(
                                 color: Colors.white,
                                 fontSize: 36,
@@ -81,8 +81,8 @@ class GrammarMenuScreen extends StatelessWidget {
                             ResponsiveText(
                               subtitle,
                               textAlign: TextAlign.center,
-                              maxLines: 2,
-                              minFontSize: 12,
+                              maxLines: 1,
+                              minFontSize: 10,
                               style: const TextStyle(
                                 color: Colors.white70,
                                 fontSize: 16,

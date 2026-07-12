@@ -65,8 +65,8 @@ class AnalyticsScreen extends StatelessWidget {
                             children: [
                               ResponsiveText(
                                 l('grammarAnalytics').toUpperCase(),
-                                maxLines: 2,
-                                minFontSize: 20,
+                                maxLines: 1,
+                                minFontSize: 14,
                                 style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 30,
@@ -120,8 +120,8 @@ class AnalyticsScreen extends StatelessWidget {
                               const SizedBox(height: 24),
                               ResponsiveText(
                                 l('last7Days'),
-                                maxLines: 2,
-                                minFontSize: 15,
+                                maxLines: 1,
+                                minFontSize: 12,
                                 style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -133,8 +133,8 @@ class AnalyticsScreen extends StatelessWidget {
                               const SizedBox(height: 28),
                               ResponsiveText(
                                 l('categoryPerformance'),
-                                maxLines: 2,
-                                minFontSize: 15,
+                                maxLines: 1,
+                                minFontSize: 12,
                                 style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -256,8 +256,8 @@ class _StreakCard extends StatelessWidget {
                     Expanded(
                       child: ResponsiveText(
                         LocalizationService.t('currentStreak'),
-                        maxLines: 2,
-                        minFontSize: 12,
+                        maxLines: 1,
+                        minFontSize: 10,
                         style: const TextStyle(
                           color: Colors.white70,
                           fontSize: 16,
@@ -269,8 +269,8 @@ class _StreakCard extends StatelessWidget {
                 const SizedBox(height: 10),
                 ResponsiveText(
                   LocalizationService.days(streak),
-                  maxLines: 2,
-                  minFontSize: 20,
+                  maxLines: 1,
+                  minFontSize: 14,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 30,
@@ -350,8 +350,8 @@ class _StatCard extends StatelessWidget {
             const SizedBox(height: 14),
             ResponsiveText(
               label,
-              maxLines: 2,
-              minFontSize: 10,
+              maxLines: 1,
+              minFontSize: 9,
               style: const TextStyle(
                 color: Colors.white70,
                 fontSize: 14,
@@ -391,8 +391,10 @@ class _DailyPerformanceChart extends StatelessWidget {
             children: [
               SizedBox(
                 width: 30,
-                child: Text(
+                child: ResponsiveText(
                   performance.label,
+                  maxLines: 1,
+                  minFontSize: 9,
                   style: const TextStyle(
                     color: Colors.white70,
                     fontSize: 14,
@@ -426,11 +428,17 @@ class _DailyPerformanceChart extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 12),
-              Text(
-                '${performance.percentage}%',
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w700,
+              SizedBox(
+                width: 42,
+                child: ResponsiveText(
+                  '${performance.percentage}%',
+                  textAlign: TextAlign.end,
+                  maxLines: 1,
+                  minFontSize: 9,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
             ],
@@ -467,8 +475,8 @@ class _CategoryPerformanceCard extends StatelessWidget {
         children: [
           ResponsiveText(
             LocalizationService.categoryTitle(category),
-            maxLines: 2,
-            minFontSize: 12,
+            maxLines: 1,
+            minFontSize: 10,
             style: const TextStyle(
               color: Colors.white,
               fontSize: 16,
@@ -539,8 +547,8 @@ class _LastScoreCard extends StatelessWidget {
         children: [
           ResponsiveText(
             LocalizationService.t('lastScore'),
-            maxLines: 2,
-            minFontSize: 12,
+            maxLines: 1,
+            minFontSize: 10,
             style: const TextStyle(
               color: Colors.white70,
               fontSize: 15,
@@ -553,8 +561,8 @@ class _LastScoreCard extends StatelessWidget {
               Expanded(
                 child: ResponsiveText(
                   LocalizationService.categoryTitle(lastResult.category),
-                  maxLines: 2,
-                  minFontSize: 12,
+                  maxLines: 1,
+                  minFontSize: 10,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 18,
@@ -576,8 +584,10 @@ class _LastScoreCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 8),
-          Text(
+          ResponsiveText(
             lastResult.isoDate,
+            maxLines: 1,
+            minFontSize: 9,
             style: const TextStyle(
               color: Colors.white54,
               fontSize: 13,

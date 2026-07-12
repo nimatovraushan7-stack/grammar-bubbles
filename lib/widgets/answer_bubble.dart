@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'responsive_text.dart';
+
 class AnswerBubble extends StatelessWidget {
   final String text;
   final VoidCallback onTap;
@@ -35,24 +37,25 @@ class AnswerBubble extends StatelessWidget {
                 child: Transform.translate(
                   offset: const Offset(0, -1),
                   child: Padding(
-  padding: const EdgeInsets.symmetric(horizontal: 12),
-  child: SizedBox(
-    width: 90,
-    height: 50,
-    child: FittedBox(
-      fit: BoxFit.scaleDown,
-      child: Text(
-        text,
-        textAlign: TextAlign.center,
-        style: const TextStyle(
-          color: Colors.white,
-          fontSize: 21,
-          fontWeight: FontWeight.w600,
-        ),
-      ),
-    ),
-  ),
-),
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: SizedBox(
+                      width: 90,
+                      height: 50,
+                      child: Center(
+                        child: ResponsiveText(
+                          text,
+                          textAlign: TextAlign.center,
+                          maxLines: 1,
+                          minFontSize: 9,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 21,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ),

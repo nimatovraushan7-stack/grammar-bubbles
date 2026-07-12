@@ -10,11 +10,13 @@ import 'game_screen.dart';
 
 class GrammarModeConfig {
   final String gameTitle;
+  final String exerciseId;
   final List<String> bestScoreCategories;
   final Future<List<GrammarQuestion>> Function() questionsLoader;
 
   const GrammarModeConfig({
     required this.gameTitle,
+    required this.exerciseId,
     required this.bestScoreCategories,
     required this.questionsLoader,
   });
@@ -197,6 +199,10 @@ class GrammarModeCategoryScreen extends StatelessWidget {
           title: mode.gameTitle,
           instruction: instructionKey,
           questions: questions,
+          categoryId: 'verbs',
+          categoryTitle: 'Werkwoorden',
+          exerciseId: mode.exerciseId,
+          exerciseTitle: mode.gameTitle,
         ),
       ),
     );
@@ -273,8 +279,8 @@ class _CategoryHeader extends StatelessWidget {
         ResponsiveText(
           title,
           textAlign: TextAlign.center,
-          maxLines: 2,
-          minFontSize: 22,
+          maxLines: 1,
+          minFontSize: 16,
           style: const TextStyle(
             color: Colors.white,
             fontSize: 34,
@@ -293,8 +299,8 @@ class _CategoryHeader extends StatelessWidget {
         ResponsiveText(
           LocalizationService.t('choosePracticeMode'),
           textAlign: TextAlign.center,
-          maxLines: 2,
-          minFontSize: 12,
+          maxLines: 1,
+          minFontSize: 10,
           style: const TextStyle(
             color: Colors.white70,
             fontSize: 16,
@@ -405,8 +411,8 @@ class _PracticeModeCardState extends State<_PracticeModeCard> {
                     children: [
                       ResponsiveText(
                         widget.title,
-                        maxLines: 2,
-                        minFontSize: 13,
+                        maxLines: 1,
+                        minFontSize: 10,
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 18,
@@ -429,8 +435,8 @@ class _PracticeModeCardState extends State<_PracticeModeCard> {
                                 widget.bestScore,
                                 widget.total,
                               ),
-                              maxLines: 2,
-                              minFontSize: 10,
+                              maxLines: 1,
+                              minFontSize: 9,
                               style: const TextStyle(
                                 color: Colors.white60,
                                 fontSize: 13,

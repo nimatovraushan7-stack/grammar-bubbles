@@ -13,6 +13,7 @@ class VoltooidDeelwoordCategoryScreen extends StatelessWidget {
       instructionKey: 'instructionPastParticiple',
       irregularMode: GrammarModeConfig(
         gameTitle: 'Voltooid Deelwoord - Onregelmatig',
+        exerciseId: 'past_participle_irregular',
         bestScoreCategories: [
           'Voltooid Deelwoord - Onregelmatig',
         ],
@@ -21,6 +22,7 @@ class VoltooidDeelwoordCategoryScreen extends StatelessWidget {
       ),
       regularMode: GrammarModeConfig(
         gameTitle: 'Voltooid Deelwoord - Regelmatig',
+        exerciseId: 'past_participle_regular',
         bestScoreCategories: [
           'Voltooid Deelwoord - Regelmatig',
         ],
@@ -29,6 +31,7 @@ class VoltooidDeelwoordCategoryScreen extends StatelessWidget {
       ),
       separableMode: GrammarModeConfig(
         gameTitle: 'Voltooid Deelwoord - Scheidbaar',
+        exerciseId: 'past_participle_separable',
         bestScoreCategories: [
           'Voltooid Deelwoord - Scheidbaar',
         ],
@@ -37,6 +40,7 @@ class VoltooidDeelwoordCategoryScreen extends StatelessWidget {
       ),
       mixedMode: GrammarModeConfig(
         gameTitle: 'Voltooid Deelwoord - Gemengd',
+        exerciseId: 'past_participle_mixed',
         bestScoreCategories: [
           'Voltooid Deelwoord',
           'Voltooid Deelwoord - Gemengd',

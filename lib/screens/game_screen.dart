@@ -1,12 +1,13 @@
 import 'dart:async';
-import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../models/grammar_question.dart';
+import '../models/quiz_review_item.dart';
 import '../services/analytics_service.dart';
+import '../services/favorite_service.dart';
 import '../services/learning_level_service.dart';
 import '../services/localization_service.dart';
 import '../services/premium_service.dart';
@@ -23,13 +24,21 @@ class GameScreen extends StatefulWidget {
   final String title;
   final String instruction;
   final List<GrammarQuestion> questions;
+  final String categoryId;
+  final String categoryTitle;
+  final String exerciseId;
+  final String exerciseTitle;
 
   const GameScreen({
     super.key,
     required this.title,
     required this.instruction,
     required this.questions,
-  });
+    this.categoryId = 'general',
+    this.categoryTitle = 'Grammar',
+    this.exerciseId = 'exercise',
+    String? exerciseTitle,
+  }) : exerciseTitle = exerciseTitle ?? title;
 
   @override
   State<GameScreen> createState() => _GameScreenState();
@@ -70,6 +79,8 @@ class _GameScreenState extends State<GameScreen>
   String correctAnswer = '';
   bool showTranslation = false;
   String? translationText;
+  final List<QuizReviewItem> reviewItems = [];
+  final Set<int> recordedReviewIndexes = {};
 
   @override
   void initState() {
@@ -84,7 +95,17 @@ class _GameScreenState extends State<GameScreen>
         curve: Curves.easeOutBack,
       ),
     );
-    gameQuestions = List.from(widget.questions);
+    gameQuestions = widget.questions
+        .map(
+          (question) => question.copyWith(
+            instructionKey: question.instructionKey ?? widget.instruction,
+            category: question.category ?? widget.categoryId,
+            categoryTitle: question.categoryTitle ?? widget.categoryTitle,
+            exercise: question.exercise ?? widget.exerciseId,
+            exerciseTitle: question.exerciseTitle ?? widget.exerciseTitle,
+          ),
+        )
+        .toList();
     gameQuestions.shuffle();
     if (gameQuestions.length > 15) {
       gameQuestions = gameQuestions.take(15).toList();
@@ -146,6 +167,11 @@ class _GameScreenState extends State<GameScreen>
     timer?.cancel();
     setState(() => timeLeft = maxTime);
     timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (!mounted) {
+        timer.cancel();
+        return;
+      }
+
       if (timeLeft > 0) {
         setState(() => timeLeft--);
       } else {
@@ -157,6 +183,11 @@ class _GameScreenState extends State<GameScreen>
           answerWasCorrect = false;
           correctAnswer = gameQuestions[currentQuestion].correctAnswer;
         });
+        recordReviewAnswer(
+          questionIndex: currentQuestion,
+          selectedAnswer: null,
+          isCorrect: false,
+        );
         feedbackController.reset();
         feedbackController.forward();
       }
@@ -164,14 +195,8 @@ class _GameScreenState extends State<GameScreen>
   }
 
   Future<void> nextQuestion() async {
-    final hasPremium = await PremiumService.isPremium();
-
     if (!mounted) return;
 
-    if (!hasPremium && currentQuestion >= 9) {
-      showPremiumPopup();
-      return;
-    }
     if (currentQuestion < gameQuestions.length - 1) {
       setState(() {
         currentQuestion++;
@@ -203,6 +228,7 @@ class _GameScreenState extends State<GameScreen>
             category: widget.title,
             score: score,
             totalQuestions: gameQuestions.length,
+            reviewItems: List.unmodifiable(reviewItems),
           ),
         ),
       );
@@ -245,8 +271,8 @@ class _GameScreenState extends State<GameScreen>
                 Expanded(
                   child: ResponsiveText(
                     text,
-                    maxLines: 2,
-                    minFontSize: 13,
+                    maxLines: 1,
+                    minFontSize: 10,
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 17,
@@ -304,8 +330,8 @@ class _GameScreenState extends State<GameScreen>
                     child: ResponsiveText(
                       label,
                       textAlign: TextAlign.center,
-                      maxLines: 2,
-                      minFontSize: 11,
+                      maxLines: 1,
+                      minFontSize: 9,
                       style: TextStyle(
                         color: primary ? const Color(0xFF05212A) : Colors.white,
                         fontSize: 15,
@@ -340,8 +366,8 @@ class _GameScreenState extends State<GameScreen>
             child: ResponsiveText(
               label,
               textAlign: TextAlign.center,
-              maxLines: 2,
-              minFontSize: 11,
+              maxLines: 1,
+              minFontSize: 9,
             ),
           );
         }
@@ -432,8 +458,8 @@ class _GameScreenState extends State<GameScreen>
                           ResponsiveText(
                             l('premiumAccess').toUpperCase(),
                             textAlign: TextAlign.center,
-                            maxLines: 2,
-                            minFontSize: 22,
+                            maxLines: 1,
+                            minFontSize: 16,
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 30,
@@ -445,8 +471,8 @@ class _GameScreenState extends State<GameScreen>
                           ResponsiveText(
                             l('premiumSubtitle'),
                             textAlign: TextAlign.center,
-                            maxLines: 2,
-                            minFontSize: 13,
+                            maxLines: 1,
+                            minFontSize: 10,
                             style: TextStyle(
                               color: Colors.white.withOpacity(0.76),
                               fontSize: 17,
@@ -531,8 +557,8 @@ class _GameScreenState extends State<GameScreen>
                             child: ResponsiveText(
                               l('maybeLater').toUpperCase(),
                               textAlign: TextAlign.center,
-                              maxLines: 2,
-                              minFontSize: 11,
+                              maxLines: 1,
+                              minFontSize: 9,
                               style: TextStyle(
                                 color: Colors.white.withOpacity(0.68),
                                 fontSize: 14,
@@ -644,8 +670,8 @@ class _GameScreenState extends State<GameScreen>
                     children: [
                       ResponsiveText(
                         l('enterCode'),
-                        maxLines: 2,
-                        minFontSize: 20,
+                        maxLines: 1,
+                        minFontSize: 14,
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 28,
@@ -755,8 +781,10 @@ class _GameScreenState extends State<GameScreen>
                                   if (!isValidCode) {
                                     ScaffoldMessenger.of(context).showSnackBar(
                                       SnackBar(
-                                        content: Text(
+                                        content: ResponsiveText(
                                           l('invalidCode'),
+                                          maxLines: 1,
+                                          minFontSize: 11,
                                         ),
                                       ),
                                     );
@@ -773,8 +801,10 @@ class _GameScreenState extends State<GameScreen>
 
                                   ScaffoldMessenger.of(context).showSnackBar(
                                     SnackBar(
-                                      content: Text(
+                                      content: ResponsiveText(
                                         l('premiumActivated'),
+                                        maxLines: 1,
+                                        minFontSize: 11,
                                       ),
                                     ),
                                   );
@@ -828,9 +858,16 @@ class _GameScreenState extends State<GameScreen>
   }
 
   void checkAnswer(String answer) {
+    if (selectedAnswer != null || showFeedback) return;
+
     timeRanOut = false;
     timer?.cancel();
     final isCorrect = answer == gameQuestions[currentQuestion].correctAnswer;
+    recordReviewAnswer(
+      questionIndex: currentQuestion,
+      selectedAnswer: answer,
+      isCorrect: isCorrect,
+    );
     setState(() {
       selectedAnswer = answer;
       selectedAnswerCorrect = isCorrect;
@@ -856,29 +893,67 @@ class _GameScreenState extends State<GameScreen>
   }
 
   List<BubblePosition> generatePositions() {
-    final positions = <BubblePosition>[];
-    for (int i = 0; i < 5; i++) {
-      bool validPosition = false;
-      while (!validPosition) {
-        final x = Random().nextDouble() * 220;
-        final y = Random().nextDouble() * 350;
-        validPosition = true;
-        for (final position in positions) {
-          final dx = position.x - x;
-          final dy = position.y - y;
-          if (sqrt(dx * dx + dy * dy) < 120) {
-            validPosition = false;
-            break;
-          }
-        }
-        if (validPosition) positions.add(BubblePosition(x, y));
-      }
-    }
+    final positions = <BubblePosition>[
+      BubblePosition(8, 18),
+      BubblePosition(186, 34),
+      BubblePosition(46, 168),
+      BubblePosition(188, 222),
+      BubblePosition(92, 334),
+    ]..shuffle();
+
     return positions;
   }
 
   void generateBubblePositions() {
     bubblePositions = generatePositions();
+  }
+
+  void recordReviewAnswer({
+    required int questionIndex,
+    required String? selectedAnswer,
+    required bool isCorrect,
+  }) {
+    if (recordedReviewIndexes.contains(questionIndex)) return;
+
+    recordedReviewIndexes.add(questionIndex);
+    reviewItems.add(
+      QuizReviewItem(
+        question: gameQuestions[questionIndex],
+        selectedAnswer: selectedAnswer,
+        isCorrect: isCorrect,
+      ),
+    );
+  }
+
+  Future<void> toggleFavorite(GrammarQuestion question) async {
+    await SoundService.playClick();
+
+    final added = await FavoriteService.toggleFavorite(
+      question: question,
+      category: question.category ?? widget.categoryId,
+      categoryTitle: question.categoryTitle ?? widget.categoryTitle,
+      exercise: question.exercise ?? widget.exerciseId,
+      exerciseTitle: question.exerciseTitle ?? widget.exerciseTitle,
+      instruction: question.instructionKey ?? widget.instruction,
+    );
+
+    if (!mounted) return;
+
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(
+        SnackBar(
+          behavior: SnackBarBehavior.floating,
+          backgroundColor: const Color(0xFF061B2A),
+          content: ResponsiveText(
+            LocalizationService.t(
+              added ? 'addedToFavorites' : 'removedFromFavorites',
+            ),
+            maxLines: 1,
+            minFontSize: 11,
+          ),
+        ),
+      );
   }
 
   @override
@@ -936,8 +1011,10 @@ class _GameScreenState extends State<GameScreen>
                                       fontWeight: FontWeight.w600,
                                     ),
                                   ),
-                                  Text(
+                                  ResponsiveText(
                                     '$score',
+                                    maxLines: 1,
+                                    minFontSize: 14,
                                     style: const TextStyle(
                                       fontSize: 22,
                                       fontWeight: FontWeight.bold,
@@ -1014,63 +1091,108 @@ class _GameScreenState extends State<GameScreen>
                         question.instructionKey ?? widget.instruction,
                       ),
                       textAlign: TextAlign.center,
-                      maxLines: 2,
-                      minFontSize: 13,
+                      maxLines: 1,
+                      minFontSize: 10,
                       style: const TextStyle(
                         color: Colors.white70,
                         fontSize: 18,
                       ),
                     ),
                     const SizedBox(height: 10),
-                    GestureDetector(
-                      behavior: HitTestBehavior.opaque,
-                      onTap: () => toggleTranslation(question.word),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          AnimatedSwitcher(
-                            duration: const Duration(milliseconds: 220),
-                            switchInCurve: Curves.easeOut,
-                            switchOutCurve: Curves.easeOut,
-                            transitionBuilder: (child, animation) {
-                              final scaleAnimation = Tween<double>(
-                                begin: 0.96,
-                                end: 1,
-                              ).animate(animation);
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            const SizedBox(width: 44),
+                            Flexible(
+                              child: GestureDetector(
+                                behavior: HitTestBehavior.opaque,
+                                onTap: () => toggleTranslation(question.word),
+                                child: AnimatedSwitcher(
+                                  duration: const Duration(milliseconds: 220),
+                                  switchInCurve: Curves.easeOut,
+                                  switchOutCurve: Curves.easeOut,
+                                  transitionBuilder: (child, animation) {
+                                    final scaleAnimation = Tween<double>(
+                                      begin: 0.96,
+                                      end: 1,
+                                    ).animate(animation);
 
-                              return FadeTransition(
-                                opacity: animation,
-                                child: ScaleTransition(
-                                  scale: scaleAnimation,
-                                  child: child,
-                                ),
-                              );
-                            },
-                            child: ResponsiveText(
-                              showTranslation && translationText != null
-                                  ? translationText!.toUpperCase()
-                                  : question.word.toUpperCase(),
-                              key: ValueKey(
-                                showTranslation && translationText != null
-                                    ? 'translation-${question.word}-$translationText'
-                                    : 'word-${question.word}',
-                              ),
-                              textAlign: TextAlign.center,
-                              maxLines: 2,
-                              minFontSize: 26,
-                              style: TextStyle(
-                                color:
+                                    return FadeTransition(
+                                      opacity: animation,
+                                      child: ScaleTransition(
+                                        scale: scaleAnimation,
+                                        child: child,
+                                      ),
+                                    );
+                                  },
+                                  child: ResponsiveText(
                                     showTranslation && translationText != null
-                                        ? const Color(0xFF45D7FF)
-                                        : Colors.white,
-                                fontSize: 42,
-                                fontWeight: FontWeight.w700,
-                                letterSpacing: 1.5,
+                                        ? translationText!.toUpperCase()
+                                        : question.word.toUpperCase(),
+                                    key: ValueKey(
+                                      showTranslation && translationText != null
+                                          ? 'translation-${question.word}-$translationText'
+                                          : 'word-${question.word}',
+                                    ),
+                                    textAlign: TextAlign.center,
+                                    maxLines: 1,
+                                    minFontSize: 18,
+                                    style: TextStyle(
+                                      color: showTranslation &&
+                                              translationText != null
+                                          ? const Color(0xFF45D7FF)
+                                          : Colors.white,
+                                      fontSize: 42,
+                                      fontWeight: FontWeight.w700,
+                                      letterSpacing: 1.5,
+                                    ),
+                                  ),
+                                ),
                               ),
                             ),
-                          ),
-                          const SizedBox(height: 4),
-                          SizedBox(
+                            SizedBox(
+                              width: 44,
+                              height: 44,
+                              child: ValueListenableBuilder(
+                                valueListenable: FavoriteService.listenable(),
+                                builder: (context, _, __) {
+                                  final isFavorite = FavoriteService.isFavorite(
+                                    question: question,
+                                    category:
+                                        question.category ?? widget.categoryId,
+                                    exercise:
+                                        question.exercise ?? widget.exerciseId,
+                                  );
+
+                                  return IconButton(
+                                    tooltip: LocalizationService.t(
+                                      isFavorite
+                                          ? 'removeFavorite'
+                                          : 'addFavorite',
+                                    ),
+                                    onPressed: () => toggleFavorite(question),
+                                    icon: Icon(
+                                      isFavorite
+                                          ? Icons.star_rounded
+                                          : Icons.star_outline_rounded,
+                                      color: isFavorite
+                                          ? const Color(0xFFFFD25B)
+                                          : Colors.white.withOpacity(0.78),
+                                    ),
+                                  );
+                                },
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 4),
+                        GestureDetector(
+                          behavior: HitTestBehavior.opaque,
+                          onTap: () => toggleTranslation(question.word),
+                          child: SizedBox(
                             height: 24,
                             child: Center(
                               child: ResponsiveText(
@@ -1086,8 +1208,8 @@ class _GameScreenState extends State<GameScreen>
                               ),
                             ),
                           ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     const SizedBox(height: 10),
                     Expanded(
@@ -1227,8 +1349,8 @@ class _GameScreenState extends State<GameScreen>
                                         ? l('correct').toUpperCase()
                                         : l('incorrect').toUpperCase(),
                                 textAlign: TextAlign.center,
-                                maxLines: 2,
-                                minFontSize: 22,
+                                maxLines: 1,
+                                minFontSize: 18,
                                 style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 34,
@@ -1244,8 +1366,8 @@ class _GameScreenState extends State<GameScreen>
                                         ? l('wellDone')
                                         : l('correctAnswerWas'),
                                 textAlign: TextAlign.center,
-                                maxLines: 2,
-                                minFontSize: 13,
+                                maxLines: 1,
+                                minFontSize: 10,
                                 style: TextStyle(
                                   color: Colors.white70.withOpacity(0.95),
                                   fontSize: 18,
@@ -1265,8 +1387,11 @@ class _GameScreenState extends State<GameScreen>
                                       color: Colors.white.withOpacity(0.14),
                                     ),
                                   ),
-                                  child: Text(
+                                  child: ResponsiveText(
                                     correctAnswer,
+                                    textAlign: TextAlign.center,
+                                    maxLines: 1,
+                                    minFontSize: 12,
                                     style: const TextStyle(
                                       color: Colors.white,
                                       fontSize: 22,
@@ -1278,8 +1403,8 @@ class _GameScreenState extends State<GameScreen>
                                 ResponsiveText(
                                   l('tapAnywhereToContinue'),
                                   textAlign: TextAlign.center,
-                                  maxLines: 2,
-                                  minFontSize: 11,
+                                  maxLines: 1,
+                                  minFontSize: 9,
                                   style: const TextStyle(
                                     color: Colors.white54,
                                     fontSize: 15,

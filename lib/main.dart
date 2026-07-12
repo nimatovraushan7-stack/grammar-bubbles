@@ -5,6 +5,7 @@ import 'services/analytics_service.dart';
 import 'services/sound_service.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'services/hash_service.dart';
+import 'services/favorite_service.dart';
 import 'services/learning_level_service.dart';
 import 'services/localization_service.dart';
 import 'services/premium_service.dart';
@@ -22,6 +23,7 @@ void main() async {
   await Hive.initFlutter();
   await Hive.openBox('premiumBox');
   await SettingsService.initialize();
+  await FavoriteService.initialize();
   await LearningLevelService.initialize();
   await LocalizationService.initialize();
   await TranslationService.initialize();

@@ -94,8 +94,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             children: [
                               ResponsiveText(
                                 l('settings'),
-                                maxLines: 2,
-                                minFontSize: 22,
+                                maxLines: 1,
+                                minFontSize: 16,
                                 style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 34,
@@ -106,8 +106,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                               const SizedBox(height: 4),
                               ResponsiveText(
                                 l('settingsSubtitle'),
-                                maxLines: 2,
-                                minFontSize: 12,
+                                maxLines: 1,
+                                minFontSize: 10,
                                 style: const TextStyle(
                                   color: Colors.white70,
                                   fontSize: 15,
@@ -131,8 +131,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         children: [
                           ResponsiveText(
                             l('questionTime'),
-                            maxLines: 2,
-                            minFontSize: 16,
+                            maxLines: 1,
+                            minFontSize: 13,
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 22,
@@ -189,8 +189,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         children: [
                           ResponsiveText(
                             l('learningLevel'),
-                            maxLines: 2,
-                            minFontSize: 16,
+                            maxLines: 1,
+                            minFontSize: 13,
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 22,
@@ -255,8 +255,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         children: [
                           ResponsiveText(
                             l('nativeLanguage'),
-                            maxLines: 2,
-                            minFontSize: 16,
+                            maxLines: 1,
+                            minFontSize: 13,
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 22,
@@ -388,8 +388,8 @@ class _LearningLevelTile extends StatelessWidget {
                   children: [
                     ResponsiveText(
                       title,
-                      maxLines: 2,
-                      minFontSize: 13,
+                      maxLines: 1,
+                      minFontSize: 11,
                       style: const TextStyle(
                         color: Colors.white,
                         fontSize: 17,
@@ -399,8 +399,8 @@ class _LearningLevelTile extends StatelessWidget {
                     const SizedBox(height: 2),
                     ResponsiveText(
                       subtitle,
-                      maxLines: 2,
-                      minFontSize: 11,
+                      maxLines: 1,
+                      minFontSize: 9,
                       style: const TextStyle(
                         color: Colors.white60,
                         fontSize: 13,
@@ -480,8 +480,8 @@ class _SectionLabel extends StatelessWidget {
         Expanded(
           child: ResponsiveText(
             title.toUpperCase(),
-            maxLines: 2,
-            minFontSize: 10,
+            maxLines: 1,
+            minFontSize: 8,
             style: const TextStyle(
               color: Colors.white70,
               fontSize: 13,
@@ -550,8 +550,8 @@ class _LanguageTile extends StatelessWidget {
                   children: [
                     ResponsiveText(
                       name,
-                      maxLines: 2,
-                      minFontSize: 13,
+                      maxLines: 1,
+                      minFontSize: 11,
                       style: const TextStyle(
                         color: Colors.white,
                         fontSize: 17,

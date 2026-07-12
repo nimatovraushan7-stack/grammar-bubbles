@@ -62,11 +62,13 @@ class ResponsiveText extends StatelessWidget {
     TextDirection textDirection,
     double fontSize,
   ) {
+    final singleLine = maxLines == 1;
+
     return Text(
       data,
       textAlign: textAlign,
       maxLines: maxLines,
-      softWrap: true,
+      softWrap: !singleLine,
       overflow: overflow,
       textDirection: textDirection,
       style: effectiveStyle.copyWith(fontSize: fontSize),

@@ -104,8 +104,8 @@ class _GrammarMenuCardState extends State<GrammarMenuCard> {
                       children: [
                         ResponsiveText(
                           widget.title,
-                          maxLines: 2,
-                          minFontSize: 14,
+                          maxLines: 1,
+                          minFontSize: 11,
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 19,
@@ -115,8 +115,8 @@ class _GrammarMenuCardState extends State<GrammarMenuCard> {
                         const SizedBox(height: 4),
                         ResponsiveText(
                           widget.description,
-                          maxLines: 2,
-                          minFontSize: 10,
+                          maxLines: 1,
+                          minFontSize: 9,
                           style: const TextStyle(
                             color: Colors.white60,
                             fontSize: 13,

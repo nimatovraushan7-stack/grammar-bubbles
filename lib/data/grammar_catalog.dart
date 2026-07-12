@@ -51,6 +51,9 @@ class GrammarCatalog {
         title: 'Scheidbare Werkwoorden',
         instruction: 'instructionSeparableVerb',
         questionsLoader: QuestionGenerator.generateSeparableVerbQuestions,
+        categoryId: 'verbs',
+        categoryTitle: 'Werkwoorden',
+        exerciseId: 'separable_verbs',
       ),
     ),
     GrammarExercise(
@@ -62,6 +65,9 @@ class GrammarCatalog {
         title: 'Werkwoorden - Gemengd',
         instruction: 'instructionPastParticiple',
         questionsLoader: QuestionGenerator.generateMixedVerbQuestions,
+        categoryId: 'verbs',
+        categoryTitle: 'Werkwoorden',
+        exerciseId: 'mixed_verbs',
       ),
     ),
   ];
@@ -76,6 +82,9 @@ class GrammarCatalog {
         title: 'De / Het',
         instruction: 'instructionDeHet',
         questionsLoader: ArticleQuestionGenerator.generateDeHetQuestions,
+        categoryId: 'articles',
+        categoryTitle: 'Lidwoorden',
+        exerciseId: 'de_het',
       ),
     ),
     const GrammarExercise(

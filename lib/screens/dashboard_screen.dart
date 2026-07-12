@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../data/grammar_catalog.dart';
 import '../models/grammar_navigation.dart';
+import '../services/favorite_service.dart';
 import '../services/localization_service.dart';
 import '../services/sound_service.dart';
 import '../widgets/grammar_menu_card.dart';
 import '../widgets/responsive_text.dart';
 import 'analytics_screen.dart';
+import 'favorites_home_screen.dart';
 import 'grammar_menu_screen.dart';
 import 'settings_screen.dart';
 
@@ -91,6 +93,35 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 const SizedBox(height: 20),
                               ],
                             ),
+                            ValueListenableBuilder(
+                              valueListenable: FavoriteService.listenable(),
+                              builder: (context, _, __) {
+                                return GrammarMenuCard(
+                                  title: l('favorites'),
+                                  description: l('savedWordsCount').replaceAll(
+                                    '{count}',
+                                    '${FavoriteService.count}',
+                                  ),
+                                  icon: Icons.star_rounded,
+                                  glowColor: const Color(0xFFFFD25B),
+                                  onTap: () async {
+                                    await SoundService.playClick();
+                                    if (!context.mounted) return;
+
+                                    await Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (_) =>
+                                            const FavoritesHomeScreen(),
+                                      ),
+                                    );
+                                    if (!context.mounted) return;
+                                    setState(() {});
+                                  },
+                                );
+                              },
+                            ),
+                            const SizedBox(height: 20),
                             const SizedBox(height: 10),
                             GrammarMenuCard(
                               title: l('settingsButton'),
