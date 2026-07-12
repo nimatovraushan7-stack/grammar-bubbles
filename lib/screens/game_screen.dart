@@ -195,7 +195,14 @@ class _GameScreenState extends State<GameScreen>
   }
 
   Future<void> nextQuestion() async {
+    final hasPremium = await PremiumService.isPremium();
+
     if (!mounted) return;
+
+    if (!hasPremium && currentQuestion >= 9) {
+      showPremiumPopup();
+      return;
+    }
 
     if (currentQuestion < gameQuestions.length - 1) {
       setState(() {
