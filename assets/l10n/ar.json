@@ -19,7 +19,7 @@
   "second": "{count} ثانية",
   "seconds": "{count} ثوانٍ",
   "pastParticiple": "اسم المفعول",
-  "pastTense": "الفعل الماضي",
+  "pastTense": "الماضي",
   "regularIrregularMixed": "منتظم • غير منتظم • مختلط",
   "viewProgress": "اعرض تقدمك وإنجازاتك",
   "myGrowth": "تقدمي",
@@ -129,5 +129,16 @@
   "incorrectAnswers": "الإجابات الخاطئة",
   "correctAnswers": "الإجابات الصحيحة",
   "yourAnswer": "إجابتك",
-  "correctAnswer": "الإجابة الصحيحة"
+  "correctAnswer": "الإجابة الصحيحة",
+  "dictionary": "القاموس",
+  "dictionarySubtitle": "ابحث عن الكلمات الهولندية",
+  "searchDutchWords": "ابحث عن كلمات هولندية...",
+  "dictionaryHint": "اكتب كلمة هولندية للبحث.",
+  "noDictionaryResults": "لم يتم العثور على كلمات.",
+  "presentTense": "المضارع",
+  "presentParticiple": "اسم الفاعل",
+  "article": "أداة التعريف",
+  "demonstrative": "اسم الإشارة",
+  "dictionarySource": "المصدر",
+  "dictionaryLoadFailed": "تعذر تحميل القاموس."
 }

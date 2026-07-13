@@ -129,5 +129,16 @@
   "incorrectAnswers": "Incorrect Answers",
   "correctAnswers": "Correct Answers",
   "yourAnswer": "Your answer",
-  "correctAnswer": "Correct answer"
+  "correctAnswer": "Correct answer",
+  "dictionary": "Dictionary",
+  "dictionarySubtitle": "Search Dutch words",
+  "searchDutchWords": "Search Dutch words...",
+  "dictionaryHint": "Type a Dutch word to search.",
+  "noDictionaryResults": "No words found.",
+  "presentTense": "Present Tense",
+  "presentParticiple": "Present Participle",
+  "article": "Article",
+  "demonstrative": "Demonstrative",
+  "dictionarySource": "Source",
+  "dictionaryLoadFailed": "Dictionary could not load."
 }

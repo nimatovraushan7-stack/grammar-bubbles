@@ -1,3 +1,6 @@
+import 'dart:async';
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 import 'screens/dashboard_screen.dart';
@@ -6,33 +9,63 @@ import 'services/sound_service.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'services/hash_service.dart';
 import 'services/favorite_service.dart';
+import 'services/dictionary_service.dart';
 import 'services/learning_level_service.dart';
 import 'services/localization_service.dart';
 import 'services/premium_service.dart';
 import 'services/settings_service.dart';
 import 'services/translation_service.dart';
+import 'utils/dictionary_debug.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  runZonedGuarded(() async {
+    WidgetsFlutterBinding.ensureInitialized();
 
-  print(HashService.generateHash('TEST123'));
+    FlutterError.onError = (details) {
+      DictionaryDebug.error(
+        'FlutterError.onError',
+        details.exception,
+        details.stack ?? StackTrace.current,
+        context: details.context?.toDescription(),
+      );
+      FlutterError.presentError(details);
+    };
 
-  await AnalyticsService.init();
-  await SoundService.initialize();
+    PlatformDispatcher.instance.onError = (error, stackTrace) {
+      DictionaryDebug.error(
+        'PlatformDispatcher.onError',
+        error,
+        stackTrace,
+      );
+      return false;
+    };
 
-  await Hive.initFlutter();
-  await Hive.openBox('premiumBox');
-  await SettingsService.initialize();
-  await FavoriteService.initialize();
-  await LearningLevelService.initialize();
-  await LocalizationService.initialize();
-  await TranslationService.initialize();
+    print(HashService.generateHash('TEST123'));
 
-  await PremiumService.initialize();
+    await AnalyticsService.init();
+    await SoundService.initialize();
 
-  runApp(
-    const GrammarBubblesApp(),
-  );
+    await Hive.initFlutter();
+    await Hive.openBox('premiumBox');
+    await SettingsService.initialize();
+    await FavoriteService.initialize();
+    await DictionaryService.initialize();
+    await LearningLevelService.initialize();
+    await LocalizationService.initialize();
+    await TranslationService.initialize();
+
+    await PremiumService.initialize();
+
+    runApp(
+      const GrammarBubblesApp(),
+    );
+  }, (error, stackTrace) {
+    DictionaryDebug.error(
+      'runZonedGuarded',
+      error,
+      stackTrace,
+    );
+  });
 }
 
 class GrammarBubblesApp extends StatelessWidget {

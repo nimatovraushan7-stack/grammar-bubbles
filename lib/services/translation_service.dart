@@ -30,12 +30,17 @@ class TranslationService {
     final cachedTranslation = box.get(cacheKey);
     final unavailableText = LocalizationService.t('translationUnavailable');
 
-    if (cachedTranslation != null && cachedTranslation != unavailableText) {
-      return cachedTranslation;
+    final translations = await _loadTranslations(normalizedLanguage);
+    final assetTranslation = translations[normalizedWord];
+    if (assetTranslation != null) {
+      if (cachedTranslation != assetTranslation) {
+        await box.put(cacheKey, assetTranslation);
+      }
+
+      return assetTranslation;
     }
 
-    final translations = await _loadTranslations(normalizedLanguage);
-    final translation = translations[normalizedWord] ?? unavailableText;
+    final translation = unavailableText;
 
     await box.put(cacheKey, translation);
     return translation;

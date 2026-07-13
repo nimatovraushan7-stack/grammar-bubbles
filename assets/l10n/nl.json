@@ -129,5 +129,16 @@
   "incorrectAnswers": "Foute antwoorden",
   "correctAnswers": "Correcte antwoorden",
   "yourAnswer": "Jouw antwoord",
-  "correctAnswer": "Juiste antwoord"
+  "correctAnswer": "Juiste antwoord",
+  "dictionary": "Woordenboek",
+  "dictionarySubtitle": "Zoek Nederlandse woorden",
+  "searchDutchWords": "Zoek Nederlandse woorden...",
+  "dictionaryHint": "Typ een Nederlands woord om te zoeken.",
+  "noDictionaryResults": "Geen woorden gevonden.",
+  "presentTense": "Tegenwoordige tijd",
+  "presentParticiple": "Tegenwoordig deelwoord",
+  "article": "Lidwoord",
+  "demonstrative": "Aanwijzend woord",
+  "dictionarySource": "Bron",
+  "dictionaryLoadFailed": "Woordenboek kon niet laden."
 }

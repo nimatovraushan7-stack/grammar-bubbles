@@ -129,5 +129,16 @@
   "incorrectAnswers": "Неправильні відповіді",
   "correctAnswers": "Правильні відповіді",
   "yourAnswer": "Ваша відповідь",
-  "correctAnswer": "Правильна відповідь"
+  "correctAnswer": "Правильна відповідь",
+  "dictionary": "Словник",
+  "dictionarySubtitle": "Шукайте нідерландські слова",
+  "searchDutchWords": "Шукати нідерландські слова...",
+  "dictionaryHint": "Введіть нідерландське слово для пошуку.",
+  "noDictionaryResults": "Слів не знайдено.",
+  "presentTense": "Теперішній час",
+  "presentParticiple": "Дієприкметник теперішнього часу",
+  "article": "Артикль",
+  "demonstrative": "Вказівне слово",
+  "dictionarySource": "Джерело",
+  "dictionaryLoadFailed": "Не вдалося завантажити словник."
 }

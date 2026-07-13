@@ -18,8 +18,8 @@
   "comingSoon": "Yakında",
   "second": "{count} saniye",
   "seconds": "{count} saniye",
-  "pastParticiple": "Geçmiş Ortaç",
-  "pastTense": "Geçmiş Zaman",
+  "pastParticiple": "Geçmiş ortaç",
+  "pastTense": "Geçmiş zaman",
   "regularIrregularMixed": "Düzenli • Düzensiz • Karışık",
   "viewProgress": "İlerlemeni ve başarılarını gör",
   "myGrowth": "Gelişimim",
@@ -129,5 +129,16 @@
   "incorrectAnswers": "Yanlış cevaplar",
   "correctAnswers": "Doğru cevaplar",
   "yourAnswer": "Cevabın",
-  "correctAnswer": "Doğru cevap"
+  "correctAnswer": "Doğru cevap",
+  "dictionary": "Sözlük",
+  "dictionarySubtitle": "Felemenkçe kelimeleri ara",
+  "searchDutchWords": "Felemenkçe kelime ara...",
+  "dictionaryHint": "Aramak için Felemenkçe bir kelime yaz.",
+  "noDictionaryResults": "Kelime bulunamadı.",
+  "presentTense": "Şimdiki zaman",
+  "presentParticiple": "Şimdiki ortaç",
+  "article": "Artikel",
+  "demonstrative": "İşaret sözcüğü",
+  "dictionarySource": "Kaynak",
+  "dictionaryLoadFailed": "Sözlük yüklenemedi."
 }

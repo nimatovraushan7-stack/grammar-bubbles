@@ -5,9 +5,11 @@ import '../models/grammar_navigation.dart';
 import '../services/favorite_service.dart';
 import '../services/localization_service.dart';
 import '../services/sound_service.dart';
+import '../utils/dictionary_debug.dart';
 import '../widgets/grammar_menu_card.dart';
 import '../widgets/responsive_text.dart';
 import 'analytics_screen.dart';
+import 'dictionary_screen.dart';
 import 'favorites_home_screen.dart';
 import 'grammar_menu_screen.dart';
 import 'settings_screen.dart';
@@ -118,6 +120,32 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                     if (!context.mounted) return;
                                     setState(() {});
                                   },
+                                );
+                              },
+                            ),
+                            const SizedBox(height: 20),
+                            GrammarMenuCard(
+                              title: l('dictionary'),
+                              description: l('dictionarySubtitle'),
+                              icon: Icons.menu_book_rounded,
+                              glowColor: const Color(0xFF2FD4FF),
+                              onTap: () async {
+                                DictionaryDebug.log(
+                                  'DashboardScreen',
+                                  'Dictionary card tapped',
+                                );
+                                await SoundService.playClick();
+                                if (!context.mounted) return;
+
+                                DictionaryDebug.log(
+                                  'DashboardScreen',
+                                  'Navigator.push DictionaryScreen',
+                                );
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (_) => const DictionaryScreen(),
+                                  ),
                                 );
                               },
                             ),
