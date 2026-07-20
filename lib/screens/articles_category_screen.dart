@@ -10,8 +10,8 @@ class ArticlesCategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GrammarMenuScreen(
-      title: LocalizationService.t('articles'),
-      subtitle: LocalizationService.t('articlesSubtitle'),
+      title: LocalizationService.t('grammar'),
+      subtitle: LocalizationService.t('grammarSubtitle'),
       exercises: GrammarCatalog.articleExercises,
     );
   }

@@ -6,6 +6,7 @@ import '../models/dictionary_entry.dart';
 import '../services/dictionary_service.dart';
 import '../services/localization_service.dart';
 import '../services/sound_service.dart';
+import '../services/translation_service.dart';
 import '../utils/dictionary_debug.dart';
 import '../widgets/grammar_menu_card.dart';
 import '../widgets/responsive_text.dart';
@@ -23,6 +24,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
   final FocusNode _searchFocusNode = FocusNode();
   late final int _debugId;
   List<DictionaryEntry> _results = const [];
+  final Map<String, Future<String>> _englishTranslationFutures = {};
   Timer? _searchDebounceTimer;
   int _searchGeneration = 0;
   bool _isLoading = true;
@@ -312,18 +314,63 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
       separatorBuilder: (_, __) => const SizedBox(height: 12),
       itemBuilder: (context, index) {
         final entry = _results[index];
-        return GrammarMenuCard(
-          title: entry.word,
-          description: LocalizationService.t(entry.typeLabelKey),
-          icon: entry.type == DictionaryEntryType.article
-              ? Icons.article_rounded
-              : Icons.menu_book_rounded,
-          glowColor: entry.type == DictionaryEntryType.article
-              ? const Color(0xFF4CFF6B)
-              : const Color(0xFF2FD4FF),
+        return _DictionaryResultCard(
+          entry: entry,
+          title: _resultTitle(entry),
+          description: _resultDescription(entry),
           onTap: () => unawaited(_openEntry(context, entry)),
         );
       },
+    );
+  }
+
+  String _resultTitle(DictionaryEntry entry) {
+    if (entry.type != DictionaryEntryType.article) return entry.word;
+
+    final article = entry.article?.trim();
+    if (article == null || article.isEmpty) return entry.word;
+
+    return '$article ${entry.word}';
+  }
+
+  Widget _resultDescription(DictionaryEntry entry) {
+    if (entry.type != DictionaryEntryType.verb) {
+      return ResponsiveText(
+        LocalizationService.t(entry.typeLabelKey),
+        maxLines: 1,
+        minFontSize: 9,
+        style: const TextStyle(
+          color: Colors.white60,
+          fontSize: 13,
+        ),
+      );
+    }
+
+    return FutureBuilder<String>(
+      future: _englishTranslationFor(entry.word),
+      builder: (context, snapshot) {
+        final translation = snapshot.data;
+        final text = translation == null || translation.trim().isEmpty
+            ? LocalizationService.t(entry.typeLabelKey)
+            : translation;
+
+        return ResponsiveText(
+          text,
+          maxLines: 1,
+          minFontSize: 9,
+          style: const TextStyle(
+            color: Colors.white60,
+            fontSize: 13,
+          ),
+        );
+      },
+    );
+  }
+
+  Future<String> _englishTranslationFor(String word) {
+    return _englishTranslationFutures.putIfAbsent(
+      word,
+      () => TranslationService.getTranslation(word, languageCode: 'en'),
     );
   }
 
@@ -372,6 +419,38 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
       error,
       stackTrace,
       context: message,
+    );
+  }
+}
+
+class _DictionaryResultCard extends StatelessWidget {
+  final DictionaryEntry entry;
+  final String title;
+  final Widget description;
+  final VoidCallback onTap;
+
+  const _DictionaryResultCard({
+    required this.entry,
+    required this.title,
+    required this.description,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final glowColor = entry.type == DictionaryEntryType.article
+        ? const Color(0xFF4CFF6B)
+        : const Color(0xFF2FD4FF);
+
+    return GrammarMenuCard(
+      title: title,
+      descriptionWidget: description,
+      description: LocalizationService.t(entry.typeLabelKey),
+      icon: entry.type == DictionaryEntryType.article
+          ? Icons.article_rounded
+          : Icons.menu_book_rounded,
+      glowColor: glowColor,
+      onTap: onTap,
     );
   }
 }

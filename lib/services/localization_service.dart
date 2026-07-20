@@ -66,9 +66,17 @@ class LocalizationService {
         return t('instructionSeparableVerb');
       case 'Kies het juiste lidwoord:':
         return t('instructionDeHet');
+      case 'Kies deze of dit:':
+        return t('instructionDezeDit');
+      case 'Kies die of dat:':
+        return t('instructionDieDat');
+      case 'Kies het juiste bezittelijke voornaamwoord:':
+        return t('instructionPossessivePronouns');
+      case 'Kies het juiste persoonlijke voornaamwoord:':
+        return t('instructionPersonalPronouns');
     }
 
-    return dutchInstruction;
+    return t(dutchInstruction);
   }
 
   static String categoryTitle(String title) {
@@ -97,9 +105,21 @@ class LocalizationService {
         return t('separableVerbs');
       case 'Werkwoorden - Gemengd':
         return t('mixedVerbs');
+      case 'De / Het':
+        return t('deHet');
+      case 'Deze / Dit':
+        return t('dezeDit');
+      case 'Die / Dat':
+        return t('dieDat');
+      case 'Possessive Pronouns':
+        return t('possessivePronouns');
+      case 'Personal Pronouns':
+        return t('personalPronouns');
+      case 'Mixed Mode':
+        return t('mixedMode');
     }
 
-    return title;
+    return t(title);
   }
 
   static Future<void> _loadLanguage(String languageCode) async {

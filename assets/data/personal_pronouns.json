@@ -1,0 +1,1952 @@
+[
+  {
+    "word": "Ik wacht bij de balie. De medewerker helpt ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik fiets langzaam. De agent ziet ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik stel een vraag. De docent hoort ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik kom te laat. De chauffeur wacht op ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik doe mee. De trainer kiest ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "ons",
+      "jullie",
+      "hen",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik sta buiten. Mijn vriend roept ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "jullie",
+      "hen",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik maak een fout. De leraar corrigeert ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "hen",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik zoek informatie. De assistent informeert ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik bel morgen. De manager verwacht ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik meld mij aan. De organisatie registreert ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik kom binnen. De receptionist begroet ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik lever het formulier in. De medewerker controleert ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "ons",
+      "jullie",
+      "hen",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik schrijf een verslag. De docent begeleidt ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "jullie",
+      "hen",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik vraag advies. De dokter adviseert ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "hen",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik doe onderzoek. De professor ondersteunt ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik twijfel over het besluit. De raad hoort ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik dien een klacht in. De commissie benadert ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik vraag toestemming. De gemeente informeert ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik neem contact op. De organisatie belt ___ terug.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "ons",
+      "jullie",
+      "hen",
+      "jou"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Jij staat vooraan. De docent kiest ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "jullie",
+      "hen",
+      "mij",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij belt aan. Ik hoor ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "hen",
+      "mij",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij zoekt hulp. De buurman helpt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "mij",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij komt morgen. Wij verwachten ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij vraagt iets. De medewerker begrijpt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij loopt langzaam. De groep wacht op ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij meldt je aan. De club registreert ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij schrijft goed. De leraar prijst ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "jullie",
+      "hen",
+      "mij",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij komt binnen. Sara begroet ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "hen",
+      "mij",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jij maakt een afspraak. De dokter ziet ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "mij",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jij hebt gelijk. De manager steunt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jij legt het uit. De klas hoort ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jij vraagt korting. De verkoper helpt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jij levert het verslag in. De docent beoordeelt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jij start het project. Het team volgt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "jullie",
+      "hen",
+      "mij",
+      "u"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jij presenteert duidelijk. De commissie waardeert ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "hen",
+      "mij",
+      "u",
+      "hem"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jij verdedigt het voorstel. De raad hoort ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "mij",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jij meldt het probleem. De organisatie informeert ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jij vraagt advies. De specialist begeleidt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "U wacht hier. De arts roept ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U stelt een vraag. Ik help ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U komt binnen. De receptionist begroet ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U belt morgen. Wij verwachten ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "hen",
+      "mij",
+      "jou",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U vraagt informatie. De medewerker informeert ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "mij",
+      "jou",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U toont uw paspoort. De agent controleert ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "jou",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U vult het formulier in. Wij registreren ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U zoekt de uitgang. Ik begeleid ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U maakt een afspraak. De dokter ziet ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "U meldt een probleem. De klantenservice helpt ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "U dient een aanvraag in. De gemeente benadert ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "hen",
+      "mij",
+      "jou",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "U vraagt toestemming. De afdeling informeert ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "mij",
+      "jou",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "U bezoekt het kantoor. De manager ontvangt ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "jou",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "U levert documenten in. De medewerker controleert ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "U bespreekt het contract. De adviseur begeleidt ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "U spreekt op de vergadering. De commissie hoort ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "U vraagt om uitleg. De specialist informeert ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "U dient bezwaar in. De raad hoort ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "hen",
+      "mij",
+      "jou",
+      "hem"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "U meldt zich online aan. Het systeem registreert ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "mij",
+      "jou",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Tom komt binnen. De receptionist begroet ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "jou",
+      "u",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De jongen valt. Zijn vader helpt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "u",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Peter belt later. Sara belt ___ terug.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De klant wacht. De verkoper helpt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Mijn broer zoekt werk. Het bedrijf nodigt ___ uit.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De studente stelt een vraag. De docent begrijpt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De chauffeur stopt. De agent controleert ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "mij",
+      "jou",
+      "u",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De patiënte wacht. De dokter onderzoekt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "jou",
+      "u",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De speler rent vrij. De trainer ziet ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "u",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De buurman klopt aan. Wij horen ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De teamleider spreekt zacht. De collega verstaat ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De cursist twijfelt. De leraar begeleidt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De sollicitante komt op tijd. De commissie ontvangt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De onderzoekster presenteert. Het publiek hoort ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "mij",
+      "jou",
+      "u",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De minister spreekt duidelijk. De journalist citeert ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "jou",
+      "u",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De getuige antwoordt rustig. De rechter gelooft ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "u",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De directrice wacht buiten. De raad roept ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "haar",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De klant stuurt een klacht. De organisatie informeert ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "ons",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De schrijver publiceert een boek. De krant interviewt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Sara komt binnen. De receptionist begroet ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Het meisje huilt. Haar moeder troost ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Fatima belt later. Peter belt ___ terug.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jou",
+      "u",
+      "hem",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De vrouw wacht bij de kassa. De verkoper helpt ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "u",
+      "hem",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Mijn zus zoekt werk. Het bedrijf nodigt ___ uit.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "hem",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De verpleegkundige loopt langs. De arts ziet ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De speelster rent vrij. De trainer ziet ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De buurvrouw belt aan. Wij horen ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jou",
+      "u",
+      "hem",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De schrijfster publiceert een boek. De krant interviewt ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "hem",
+      "ons",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Wij wachten buiten. De gids roept ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "haar",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij stellen een vraag. De docent helpt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij komen te vroeg. De receptionist ziet ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij melden een probleem. De manager belt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij zoeken de zaal. De medewerker begeleidt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij doen mee. De trainer kiest ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "u",
+      "hem",
+      "haar",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij vragen informatie. De balie informeert ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "hem",
+      "haar",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij leveren het verslag in. De docent beoordeelt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "haar",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij bezoeken de arts. De dokter onderzoekt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij staan in de rij. De agent controleert ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij organiseren het feest. De buurt steunt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij presenteren het plan. De commissie hoort ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij vragen toestemming. De gemeente informeert ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "u",
+      "hem",
+      "haar",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij dienen een aanvraag in. De afdeling benadert ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "hem",
+      "haar",
+      "jullie",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij voeren overleg. De adviseur begeleidt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "haar",
+      "jullie",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij verdedigen het voorstel. De raad hoort ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij melden schade. De verzekering helpt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij doen onderzoek. De professor ondersteunt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij starten een project. De organisatie volgt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Jullie zitten naast elkaar. De fotograaf ziet ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie praten zacht. De docent hoort ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hem",
+      "haar",
+      "ons",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie komen met de trein. Ik haal ___ op.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "haar",
+      "ons",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie zoeken lokaal acht. De conciërge wijst ___ de weg.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "ons",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie bestellen koffie. De ober bedient ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie spelen goed. De trainer prijst ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie sturen een bericht. De manager belt ___ terug.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie maken de opdracht. De docent begeleidt ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie staan bij de ingang. De portier laat ___ binnen.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hem",
+      "haar",
+      "ons",
+      "hen"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie kopen tickets. De medewerker controleert ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "haar",
+      "ons",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie organiseren een excursie. De school steunt ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "ons",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie presenteren de resultaten. Het publiek luistert naar ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie vragen uitleg. De gemeente informeert ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie leveren de formulieren in. De afdeling registreert ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie bespreken het contract. De jurist adviseert ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie verdedigen het plan. De commissie ondervraagt ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hem",
+      "haar",
+      "ons",
+      "hen"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie melden schade. De verzekeraar belt ___ terug.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "haar",
+      "ons",
+      "hen",
+      "mij"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie onderzoeken het probleem. De professor begeleidt ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "ons",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie werken samen. De coach observeert ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "De kinderen spelen buiten. Hun vader roept ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De studenten wachten in de hal. De docent helpt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De reizigers stappen uit. De conducteur controleert ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De klanten zoeken de kassa. De medewerker wijst ___ de weg.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De bezoekers komen binnen. De gids verwelkomt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "haar",
+      "ons",
+      "jullie",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De spelers trainen hard. De coach prijst ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "ons",
+      "jullie",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De bewoners sturen een klacht. De gemeente belt ___ terug.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "jullie",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De leerlingen maken een toets. De docent beoordeelt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De patiënten zitten in de wachtkamer. De arts onderzoekt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De automobilisten rijden te snel. De agent stopt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De vrijwilligers helpen mee. De buurt bedankt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "hem",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De onderzoekers tonen cijfers. De commissie hoort ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "haar",
+      "ons",
+      "jullie",
+      "mij"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De ondernemers vragen advies. De adviseur informeert ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "ons",
+      "jullie",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De organisaties dienen plannen in. De afdeling vergelijkt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "jullie",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De partijen onderhandelen. De mediator begeleidt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "mij",
+      "jou",
+      "u",
+      "hem"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De leden stellen vragen. De voorzitter hoort ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "jou",
+      "u",
+      "hem",
+      "haar"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De bewoners melden schade. De verzekering helpt ___.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "u",
+      "hem",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik zit achteraan. De spreker ziet ___.",
+    "correctAnswer": "mij",
+    "options": [
+      "mij",
+      "ons",
+      "jullie",
+      "hen",
+      "jou"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jij wacht bij de ingang. De gids zoekt ___.",
+    "correctAnswer": "jou",
+    "options": [
+      "jou",
+      "jullie",
+      "hen",
+      "mij",
+      "u"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U staat op de lijst. De portier verwacht ___.",
+    "correctAnswer": "u",
+    "options": [
+      "u",
+      "hen",
+      "mij",
+      "jou",
+      "hem"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De monteur komt later. De klant belt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "mij",
+      "jou",
+      "u",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De verkoopster is ziek. De manager vervangt ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jou",
+      "u",
+      "hem",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij zitten in zaal drie. De docent vindt ___.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "u",
+      "hem",
+      "haar",
+      "jullie"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie oefenen in duo’s. De coach observeert ___.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hem",
+      "haar",
+      "ons",
+      "hen"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De cursisten wachten online. De docent laat ___ binnen.",
+    "correctAnswer": "hen",
+    "options": [
+      "hen",
+      "haar",
+      "ons",
+      "jullie",
+      "mij"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De kandidaat legt het uit. De commissie ondervraagt ___.",
+    "correctAnswer": "hem",
+    "options": [
+      "hem",
+      "jullie",
+      "hen",
+      "mij",
+      "jou"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "De woordvoerder arriveert. De journalisten omringen ___.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "hen",
+      "mij",
+      "jou",
+      "u"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  }
+]

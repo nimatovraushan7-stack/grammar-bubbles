@@ -5,6 +5,7 @@ import 'responsive_text.dart';
 class GrammarMenuCard extends StatefulWidget {
   final String title;
   final String description;
+  final Widget? descriptionWidget;
   final IconData icon;
   final Color glowColor;
   final bool comingSoon;
@@ -14,6 +15,7 @@ class GrammarMenuCard extends StatefulWidget {
     super.key,
     required this.title,
     required this.description,
+    this.descriptionWidget,
     required this.icon,
     required this.glowColor,
     required this.onTap,
@@ -113,15 +115,16 @@ class _GrammarMenuCardState extends State<GrammarMenuCard> {
                           ),
                         ),
                         const SizedBox(height: 4),
-                        ResponsiveText(
-                          widget.description,
-                          maxLines: 1,
-                          minFontSize: 9,
-                          style: const TextStyle(
-                            color: Colors.white60,
-                            fontSize: 13,
-                          ),
-                        ),
+                        widget.descriptionWidget ??
+                            ResponsiveText(
+                              widget.description,
+                              maxLines: 1,
+                              minFontSize: 9,
+                              style: const TextStyle(
+                                color: Colors.white60,
+                                fontSize: 13,
+                              ),
+                            ),
                       ],
                     ),
                   ),

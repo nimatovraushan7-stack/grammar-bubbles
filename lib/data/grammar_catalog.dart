@@ -7,6 +7,7 @@ import '../screens/verbs_category_screen.dart';
 import '../screens/verleden_tijd_category_screen.dart';
 import '../screens/voltooid_deelwoord_category_screen.dart';
 import '../services/article_question_generator.dart';
+import '../services/pronoun_question_generator.dart';
 import '../services/question_generator.dart';
 
 class GrammarCatalog {
@@ -19,8 +20,8 @@ class GrammarCatalog {
       destinationBuilder: (_) => const VerbsCategoryScreen(),
     ),
     GrammarCategory(
-      title: 'Lidwoorden',
-      description: 'Oefen de, het en andere lidwoordpatronen',
+      title: 'grammar',
+      description: 'grammarSubtitle',
       icon: Icons.article_rounded,
       glowColor: const Color(0xFF4CFF6B),
       destinationBuilder: (_) => const ArticlesCategoryScreen(),
@@ -74,8 +75,8 @@ class GrammarCatalog {
 
   static final List<GrammarExercise> articleExercises = [
     GrammarExercise(
-      title: 'De / Het',
-      description: 'Kies het juiste Nederlandse lidwoord',
+      title: 'deHet',
+      description: 'deHetDescription',
       icon: Icons.article_rounded,
       glowColor: const Color(0xFF2FD4FF),
       destinationBuilder: (_) => const FutureGameScreen(
@@ -87,47 +88,77 @@ class GrammarCatalog {
         exerciseId: 'de_het',
       ),
     ),
-    const GrammarExercise(
-      title: 'Deze / Dit',
-      description: 'Binnenkort',
+    GrammarExercise(
+      title: 'dezeDit',
+      description: 'dezeDitDescription',
       icon: Icons.touch_app_rounded,
-      glowColor: Color(0xFF4CFF6B),
-      comingSoon: true,
+      glowColor: const Color(0xFF4CFF6B),
+      destinationBuilder: (_) => const FutureGameScreen(
+        title: 'Deze / Dit',
+        instruction: 'instructionDezeDit',
+        questionsLoader: ArticleQuestionGenerator.generateDezeDitQuestions,
+        categoryId: 'articles',
+        categoryTitle: 'Lidwoorden',
+        exerciseId: 'deze_dit',
+      ),
     ),
-    const GrammarExercise(
-      title: 'Die / Dat',
-      description: 'Binnenkort',
+    GrammarExercise(
+      title: 'dieDat',
+      description: 'dieDatDescription',
       icon: Icons.near_me_rounded,
-      glowColor: Color(0xFFFFD25B),
-      comingSoon: true,
+      glowColor: const Color(0xFFFFD25B),
+      destinationBuilder: (_) => const FutureGameScreen(
+        title: 'Die / Dat',
+        instruction: 'instructionDieDat',
+        questionsLoader: ArticleQuestionGenerator.generateDieDatQuestions,
+        categoryId: 'articles',
+        categoryTitle: 'Lidwoorden',
+        exerciseId: 'die_dat',
+      ),
     ),
-    const GrammarExercise(
-      title: 'Mijn / Mij',
-      description: 'Binnenkort',
+    GrammarExercise(
+      title: 'possessivePronouns',
+      description: 'possessivePronounsDescription',
       icon: Icons.person_rounded,
-      glowColor: Color(0xFFB56CFF),
-      comingSoon: true,
+      glowColor: const Color(0xFFB56CFF),
+      destinationBuilder: (_) => const FutureGameScreen(
+        title: 'Possessive Pronouns',
+        instruction: 'instructionPossessivePronouns',
+        questionsLoader:
+            PronounQuestionGenerator.generatePossessivePronounQuestions,
+        categoryId: 'pronouns',
+        categoryTitle: 'Voornaamwoorden',
+        exerciseId: 'possessive_pronouns',
+      ),
     ),
-    const GrammarExercise(
-      title: 'Hem / Zijn',
-      description: 'Binnenkort',
+    GrammarExercise(
+      title: 'personalPronouns',
+      description: 'personalPronounsDescription',
       icon: Icons.face_rounded,
-      glowColor: Color(0xFF2FD4FF),
-      comingSoon: true,
+      glowColor: const Color(0xFF2FD4FF),
+      destinationBuilder: (_) => const FutureGameScreen(
+        title: 'Personal Pronouns',
+        instruction: 'instructionPersonalPronouns',
+        questionsLoader:
+            PronounQuestionGenerator.generatePersonalPronounQuestions,
+        categoryId: 'pronouns',
+        categoryTitle: 'Voornaamwoorden',
+        exerciseId: 'personal_pronouns',
+      ),
     ),
-    const GrammarExercise(
-      title: 'Haar / Zijn',
-      description: 'Binnenkort',
-      icon: Icons.face_3_rounded,
-      glowColor: Color(0xFF4CFF6B),
-      comingSoon: true,
-    ),
-    const GrammarExercise(
-      title: 'Gemengd',
-      description: 'Binnenkort',
+    GrammarExercise(
+      title: 'mixedMode',
+      description: 'mixedModeDescription',
       icon: Icons.shuffle_rounded,
-      glowColor: Color(0xFFB56CFF),
-      comingSoon: true,
+      glowColor: const Color(0xFFB56CFF),
+      destinationBuilder: (_) => const FutureGameScreen(
+        title: 'Mixed Mode',
+        instruction: 'instructionMixedGrammar',
+        questionsLoader: ArticleQuestionGenerator.generateMixedGrammarQuestions,
+        categoryId: 'grammar',
+        categoryTitle: 'Grammatica',
+        exerciseId: 'mixed_grammar',
+      ),
     ),
   ];
 }

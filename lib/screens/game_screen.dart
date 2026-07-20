@@ -1137,24 +1137,24 @@ class _GameScreenState extends State<GameScreen>
                                   },
                                   child: ResponsiveText(
                                     showTranslation && translationText != null
-                                        ? translationText!.toUpperCase()
-                                        : question.word.toUpperCase(),
+                                        ? translationText!
+                                        : question.word,
                                     key: ValueKey(
                                       showTranslation && translationText != null
                                           ? 'translation-${question.word}-$translationText'
                                           : 'word-${question.word}',
                                     ),
                                     textAlign: TextAlign.center,
-                                    maxLines: 1,
-                                    minFontSize: 18,
+                                    maxLines: 2,
+                                    minFontSize: 24,
                                     style: TextStyle(
                                       color: showTranslation &&
                                               translationText != null
                                           ? const Color(0xFF45D7FF)
                                           : Colors.white,
-                                      fontSize: 42,
+                                      fontSize: 40,
                                       fontWeight: FontWeight.w700,
-                                      letterSpacing: 1.5,
+                                      letterSpacing: 0,
                                     ),
                                   ),
                                 ),

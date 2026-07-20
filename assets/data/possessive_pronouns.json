@@ -1,0 +1,1952 @@
+[
+  {
+    "word": "Ik zoek ___ sleutels.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik zet ___ fiets in de schuur.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik pak ___ jas van de kapstok.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik lees ___ boek in de trein.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik bel ___ moeder na school.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik betaal ___ rekening vandaag.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "onze",
+      "jullie",
+      "hun",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik neem ___ tas mee naar kantoor.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "jullie",
+      "hun",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik vergeet ___ telefoon bijna.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "hun",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik schrijf ___ naam op het formulier.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik open ___ laptop voor de les.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik controleer ___ agenda morgen.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik parkeer ___ auto achter het huis.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik draag ___ schoenen naar het feest.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik bewaar ___ paspoort in de la.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "onze",
+      "jullie",
+      "hun",
+      "jouw"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik maak ___ ontbijt vroeg klaar.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "jullie",
+      "hun",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik ruim ___ kamer voor het bezoek op.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "hun",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Ik stuur ___ verslag naar de docent.",
+    "correctAnswer": "mijn",
+    "options": [
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Waar ligt ___ jas?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Neem jij ___ tas mee?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik zie ___ fiets buiten staan.",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Vergeet jij ___ boek niet?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Mag ik ___ telefoon even lenen?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Staat ___ naam op de lijst?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "jullie",
+      "hun",
+      "mijn",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Is ___ broer al thuis?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "hun",
+      "mijn",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Zet jij ___ schoenen bij de deur?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "mijn",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik heb ___ bericht gelezen.",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Waar is ___ paspoort gebleven?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Breng jij ___ laptop morgen mee?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik ken ___ mening over dit plan.",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Leg jij ___ sleutel op tafel?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Krijgt ___ hond genoeg water?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "jullie",
+      "hun",
+      "mijn",
+      "uw"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Is ___ afspraak al bevestigd?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "hun",
+      "mijn",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Waarom staat ___ auto daar?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "mijn",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wanneer begint ___ cursus?",
+    "correctAnswer": "jouw",
+    "options": [
+      "jouw",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Kunt u ___ paspoort tonen?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wilt u ___ naam hier invullen?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Mag ik ___ ticket controleren?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Is dit ___ telefoonnummer?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Neem gerust ___ jas mee naar binnen.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "U kunt ___ auto daar parkeren.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "hun",
+      "mijn",
+      "jouw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Vergeet u ___ afspraak niet.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "mijn",
+      "jouw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik noteer ___ adres in het systeem.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "jouw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wilt u ___ formulier ondertekenen?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij behandelen ___ aanvraag vandaag.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Heeft u ___ verzekeringspas bij u?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik controleer ___ gegevens meteen.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Zal ik ___ rekening printen?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "U mag ___ bagage hier neerzetten.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "hun",
+      "mijn",
+      "jouw",
+      "zijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij beantwoorden ___ vraag zo snel mogelijk.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "mijn",
+      "jouw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Kunt u ___ klacht kort toelichten?",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "jouw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De medewerker verwerkt ___ verzoek.",
+    "correctAnswer": "uw",
+    "options": [
+      "uw",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Hij verkoopt ___ fiets.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De jongen zoekt ___ bal.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Mijn vader leest ___ krant.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De leraar opent ___ lokaal.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De buurman wast ___ auto.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Tom draagt ___ jas naar buiten.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "mijn",
+      "jouw",
+      "uw",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De dokter pakt ___ agenda.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "jouw",
+      "uw",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De kok proeft ___ soep.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "uw",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De student levert ___ verslag in.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De manager bespreekt ___ plan.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De chauffeur sluit ___ deur.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De klant vergeet ___ bon.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De schilder pakt ___ kwast.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De minister verdedigt ___ besluit.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "mijn",
+      "jouw",
+      "uw",
+      "haar"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De rechter leest ___ oordeel voor.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "jouw",
+      "uw",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De directeur presenteert ___ voorstel.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "uw",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De onderzoeker publiceert ___ resultaat.",
+    "correctAnswer": "zijn",
+    "options": [
+      "zijn",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Zij leest ___ boek.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Mijn zus zoekt ___ sleutels.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De vrouw pakt ___ jas.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Sara belt ___ moeder.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De docent opent ___ agenda.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De buurvrouw sluit ___ raam.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jouw",
+      "uw",
+      "zijn",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De dokter controleert ___ planning.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "uw",
+      "zijn",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Fatima zet ___ fiets op slot.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "zijn",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De klant bewaart ___ bon.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De student schrijft ___ verslag.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De manager bespreekt ___ keuze.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De verpleegkundige wast ___ handen.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De minister licht ___ beslissing toe.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De schrijfster presenteert ___ roman.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "jouw",
+      "uw",
+      "zijn",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De onderzoeker verklaart ___ methode.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "uw",
+      "zijn",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De rechter formuleert ___ vraag zorgvuldig.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "zijn",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De organisatie publiceert ___ visie.",
+    "correctAnswer": "haar",
+    "options": [
+      "haar",
+      "ons",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Wij maken ___ huiswerk.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij delen ___ brood met de buren.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij openen ___ restaurant morgen.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij vieren ___ feest thuis.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij controleren ___ antwoord samen.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij bezoeken ___ kantoor later.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "uw",
+      "zijn",
+      "haar",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij parkeren ___ voertuig buiten.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "zijn",
+      "haar",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij bespreken ___ probleem rustig.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "haar",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij lezen ___ rapport voor de vergadering.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij verbeteren ___ Nederlands elke dag.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij beschermen ___ milieu beter.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij presenteren ___ project vrijdag.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij bewaren ___ bewijs zorgvuldig.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij tekenen ___ contract vandaag.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "uw",
+      "zijn",
+      "haar",
+      "onze"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij volgen ___ programma online.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "zijn",
+      "haar",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij evalueren ___ beleid elk kwartaal.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "haar",
+      "onze",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij verdedigen ___ standpunt duidelijk.",
+    "correctAnswer": "ons",
+    "options": [
+      "ons",
+      "onze",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Wij plannen ___ vakantie.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij wassen ___ auto.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij sluiten ___ deur.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij kiezen ___ stoelen bij het raam.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij nodigen ___ vrienden uit.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij nemen ___ fietsen mee.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "zijn",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij bezoeken ___ familie zondag.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "haar",
+      "ons",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij verkopen ___ oude tafel.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "ons",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wij vergelijken ___ antwoorden.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij verbeteren ___ presentatie.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij ontvangen ___ klanten vriendelijk.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij bespreken ___ afspraken morgen.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Wij volgen ___ opleiding samen.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij delen ___ verantwoordelijkheid.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "zijn",
+      "haar",
+      "ons",
+      "jullie"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij vernieuwen ___ vergunning.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "haar",
+      "ons",
+      "jullie",
+      "hun"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij analyseren ___ investering.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "ons",
+      "jullie",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Wij publiceren ___ aanbeveling.",
+    "correctAnswer": "onze",
+    "options": [
+      "onze",
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "Jullie nemen ___ tassen mee.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Waar staan ___ fietsen?",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie vergeten ___ boeken niet.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Is ___ klas al begonnen?",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik hoor ___ stemmen in de gang.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie sluiten ___ deur straks.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "haar",
+      "ons",
+      "onze",
+      "hun"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Wanneer begint ___ les?",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "ons",
+      "onze",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Jullie wassen ___ handen voor het eten.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "onze",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Ik bekijk ___ antwoorden na de pauze.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie bespreken ___ plannen samen.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Waar ligt ___ materiaal?",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Jullie ontvangen ___ tickets per mail.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "Ik controleer ___ formulier morgen.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie verbeteren ___ presentatie nog.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "haar",
+      "ons",
+      "onze",
+      "hun"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie verdedigen ___ keuze duidelijk.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "ons",
+      "onze",
+      "hun",
+      "mijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Waar staan ___ argumenten in het verslag?",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "onze",
+      "hun",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "Jullie evalueren ___ samenwerking later.",
+    "correctAnswer": "jullie",
+    "options": [
+      "jullie",
+      "hun",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "hard",
+    "level": "B2"
+  },
+  {
+    "word": "De kinderen pakken ___ jassen.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De studenten openen ___ boeken.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "Mijn ouders verkopen ___ huis.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De buren wassen ___ auto.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De collega’s bespreken ___ planning.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De reizigers tonen ___ tickets.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "ons",
+      "onze",
+      "jullie",
+      "mijn"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De klanten betalen ___ rekening.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "onze",
+      "jullie",
+      "mijn",
+      "jouw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De spelers zoeken ___ kleedkamer.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "jullie",
+      "mijn",
+      "jouw",
+      "uw"
+    ],
+    "difficulty": "easy",
+    "level": "A1"
+  },
+  {
+    "word": "De leerlingen maken ___ huiswerk.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "mijn",
+      "jouw",
+      "uw",
+      "zijn"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De artsen controleren ___ agenda.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "jouw",
+      "uw",
+      "zijn",
+      "haar"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De bewoners sluiten ___ ramen.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "uw",
+      "zijn",
+      "haar",
+      "ons"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De managers presenteren ___ voorstel.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "zijn",
+      "haar",
+      "ons",
+      "onze"
+    ],
+    "difficulty": "easy",
+    "level": "A2"
+  },
+  {
+    "word": "De onderzoekers delen ___ resultaat.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "haar",
+      "ons",
+      "onze",
+      "jullie"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  },
+  {
+    "word": "De leden verdedigen ___ standpunt.",
+    "correctAnswer": "hun",
+    "options": [
+      "hun",
+      "ons",
+      "onze",
+      "jullie",
+      "mijn"
+    ],
+    "difficulty": "medium",
+    "level": "B1"
+  }
+]
